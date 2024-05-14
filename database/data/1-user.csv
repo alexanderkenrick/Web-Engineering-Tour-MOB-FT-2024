@@ -1,0 +1,7 @@
+id,username,password,name,group,role,current_pos,created_at,updated_at
+1,acara,$2a$04$Lp38V6rmEzE1M/qyZc5v5eif4c2eap0B5WpGgr8r5qC2VBZdwpvai,ED,null,Admin,null,now,now
+2,itd,$2a$04$Lp38V6rmEzE1M/qyZc5v5eif4c2eap0B5WpGgr8r5qC2VBZdwpvai,SI,null,Admin,null,now,now
+3,david,$2a$04$Lp38V6rmEzE1M/qyZc5v5eif4c2eap0B5WpGgr8r5qC2VBZdwpvai,David,Grup A,Student,1,null,null
+4,rony,$2a$04$Lp38V6rmEzE1M/qyZc5v5eif4c2eap0B5WpGgr8r5qC2VBZdwpvai,Rony,Grup A,Student,1,null,null
+5,kenrick,$2a$04$Lp38V6rmEzE1M/qyZc5v5eif4c2eap0B5WpGgr8r5qC2VBZdwpvai,Kenrick,Grup B,Student,null,now,now
+6,ryan,$2a$04$Lp38V6rmEzE1M/qyZc5v5eif4c2eap0B5WpGgr8r5qC2VBZdwpvai,Ryan,Grup C,Student,null,now,now

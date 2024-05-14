@@ -1,0 +1,314 @@
+body {
+    background: #40128b;
+}
+.title-depan {
+    font-family: '04b', sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    text-shadow: -3px 3px #dd58d6;
+}
+
+.title-depan {
+    font-family: '04b', sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    text-shadow: -3px 3px #dd58d6;
+}
+
+
+.space{
+    position: relative;
+}
+
+#spacecraft{
+    width: 130px;
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    z-index: 5;
+    filter: drop-shadow(0px 0px 5px #fff);
+}
+
+.rotate-phone-text {
+    font-family: 'Broken Console', sans-serif;
+}
+
+.rotate-phone-text {
+    font-family: 'Broken Console', sans-serif;
+}
+
+.map-container {
+    text-align: center;
+    position: relative;
+    width: 400px;
+    height: auto;
+    background-color: #40128b;
+    z-index: 0;
+    overflow-x: auto;
+}
+
+.map_image {
+    width: 450px;
+    height: auto;
+}
+
+.point {
+    position: absolute;
+}
+
+#ta-bw {
+    width: 52px;
+    height: auto;
+    bottom: 74px;
+    left: 188px;
+}
+
+#tb-bw {
+    width: 58px;
+    height: auto;
+    bottom: 96px;
+    left: 232px;
+}
+
+#tc-bw {
+    width: 95px;
+    height: auto;
+    top: 98px;
+    left: 297px;
+}
+
+#td-bw {
+    width: 44px;
+    height: auto;
+    top: 92px;
+    left: 312px;
+    /* z-index: 1; */
+}
+
+#te-bw {
+    width: 73px;
+    height: auto;
+    top: 75px;
+    left: 203px;
+    z-index: 1;
+}
+
+#tf-bw {
+    width: 95px;
+    height: auto;
+    bottom: 116px;
+    left: 123px;
+}
+
+#tg-bw {
+    width: 80px;
+    height: auto;
+    top: 0px;
+    left: 225px;
+}
+
+#checkpoint{
+    position: absolute;
+    width: 25px;
+    z-index: 3;
+    filter: drop-shadow(0px 0px 2px #FFFFFF);
+}
+
+.check-ta{
+    top: 171px;
+    left: 191px;
+}
+.check-tb{
+    top: 125px;
+    left: 243px;
+}
+.check-tc{
+    top: 118px;
+    left: 304px;
+}
+.check-td{
+    top: 75px;
+    left: 328px;
+}
+.check-te{
+    top: 59px;
+    left: 224px;
+}
+.check-tf{
+    top: 177px;
+    left: 131px;
+}
+.check-tg{
+    top: 2px;
+    left: 276px;
+}
+
+.blocker {
+    display: none;
+}
+
+.broken-console {
+    font-family: 'Broken Console', sans-serif !important;
+}
+
+.dialog-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nes-input {
+    width: 200px;
+    border-image-repeat: stretch !important;
+    background-clip: unset !important;
+    border-width: 6px !important;
+    height: 30px;
+
+}
+
+.nes-dialog.is-rounded,
+.nes-btn,
+.nes-textarea {
+    border-image-repeat: stretch !important;
+}
+
+.nes-btn {
+    font-family: 'Broken Console', sans-serif !important;
+    height: 30px;
+    font-size: 14px;
+    padding: 0 6px;
+}
+
+#dialog-rounded {
+    height: 400px;
+    overflow-y: auto;
+    min-width: 400px;
+    max-width: 700px;
+    overflow-y: auto;
+}
+
+#answer {
+    height: 80px;
+}
+
+#awan-1 {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 20px;
+    left: 60px;
+    z-index: -1;
+    animation: awan1 2s infinite ease-in-out;
+}
+
+#awan-3 {
+    position: absolute;
+    width: 180px;
+    height: auto;
+    top: 50px;
+    right: 60px;
+    z-index: -1;
+    animation: awan1 2s infinite ease-in-out;
+}
+
+#awan-5 {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    top: 50px;
+    left: 40px;
+    z-index: 2;
+    animation: awan1 2s infinite ease-in-out;
+}
+
+#bird-1 {
+    position: absolute;
+    width: 50px;
+    top: 20px;
+    left: -20px;
+    transform: translateX(-30px);
+    animation: angrybird 2s infinite linear;
+    z-index: -2;
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes awan1 {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 5px);
+    }
+
+    100% {
+        transform: translateY(0, -0px);
+    }
+}
+
+@keyframes angrybird {
+
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    25% {
+        transform: translate(30px, 15px);
+    }
+
+    50% {
+        transform: translate(60px, 0px);
+    }
+
+    75% {
+        transform: translate(90px, 15px);
+    }
+
+    100% {
+        transform: translate(120px, -0px);
+    }
+}
+
+@media screen and (orientation: portrait) {
+    #bird-1 {
+        display: none
+    }
+
+    #awan-1 {
+        top: 30px
+    }
+
+    #awan-3 {
+        top: 60px
+    }
+
+    #awan-5 {
+        width: 60px;
+        top: 95px;
+    }
+
+    .title {
+        margin-top: 20px;
+    }
+
+
+    .nes-input {
+        width: 100%
+    }
+
+    .space{
+        position: relative;
+    }
+
+    #spacecraft{
+        width: 130px;
+        position: absolute;
+        top: 70px;
+        left: 10px;
+        z-index: 5;
+    }
+}

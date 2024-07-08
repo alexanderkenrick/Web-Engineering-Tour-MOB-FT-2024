@@ -219,7 +219,7 @@
             current += 1
             $('#answer').val(answers[current])
             $('#titles').text(pos + " (" + (current + 1) + ")")
-            $('#quest').text(questions[current])
+            $('#quest').text(questions[current]['question'])
 
             if (current == questions.length - 1) {
                 $('#next').addClass("hidden")
@@ -240,7 +240,7 @@
             current -= 1
             $('#answer').val(answers[current])
             $('#titles').text(pos + " (" + (current + 1) + ")")
-            $('#quest').text(questions[current])
+            $('#quest').text(questions[current]['question'])
 
             if (current != (questions.length)) {
                 $('#next').removeClass("hidden")

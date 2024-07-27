@@ -1,0 +1,198 @@
+id;questions_id;option_text;isCorrect
+1;1;A. TA lantai 1 sebelah TU;1
+2;1;B. TA lantai 2;0
+3;1;C. TA lantai 1 sebelah meja warna-warni;0
+4;1;D. TA 200;0
+5;2;A. Ruang menunggu jadwal istirahat dan diskusi dosen;0
+6;2;B. Ruang diskusi mahasiswa ITDD dan menunggu jadwal kuliah;1
+7;2;C. Ruang diskusi mahasiswa TI dan menunggu jadwal kuliah;0
+8;2;D. Ruang diskusi mahasiswa ITDD dengan dosen pembimbing;0
+9;3;A. TA 2.1;1
+10;3;B. TA 1.1;0
+11;3;C. TA 1.2;0
+12;3;D. TA 2.2;0
+13;4;A. mengurus segala bentuk perancangan administrasi;0
+14;4;B. pengurusan absensi;0
+15;4;C. peminjaman ruangan;0
+16;4;D. membayar UPP;1
+17;5;A. Dekan dan para Kaprodi;0
+18;5;B. Wakil Dekan dan Wakil Rektor;0
+19;5;C. Dekan dan Wakil Dekan;1
+20;5;D. Rektor dan Wakil Rektor;0
+21;6;A. mengurus surat-menyurat yang berhubungan dengan kegiatan kemahasiswaan;1
+22;6;B. mengurus tanda tangan untuk pembayaran UPP;0
+23;6;C. mengurus surat-menyurat yang berhubungan dengan kegiatan pribadi;0
+24;6;D. mengurus surat BSS/MSS;0
+25;7;A. Dr. Ir. Susila Candra, IPM;0
+26;7;B. Hendi Wicaksono Agung Darminto, Ph.D.;0
+27;7;C. Dr. Joko Siswantoro S.Si., M.Si.;0
+28;7;D. Ir. Eric Wibisono, Ph.D., IPU;1
+29;8;A. Teknik Elektro, lantai 2;1
+30;8;B. Teknik Informatika, lantai 1;0
+31;8;C. Teknik Mesin dan Manufaktur, lantai 2;0
+32;8;D. Teknik Kimia, lantai 1;0
+33;9;A. Dr. Yenny Sari, S.T., M.Sc., CQE.;0
+34;9;B. Lucia Diah Sawitri, S.Sos.;0
+35;9;C. Theresia Septiriana Ivanka, S. Tr. T;1
+36;9;D. Hendi Wicaksono Agung Darminto, Ph.D.;0
+37;10;A. Lantai 2;0
+38;10;B. Lantai 3;1
+39;10;C. Lantai 4;0
+40;10;D. Lantai 1;0
+41;11;A. Gunawan Ph.D.;0
+42;11;B. Esti Dwi Rinawiyanti, S.T., MBA., Ph.D.;0
+43;11;C. Dr. Joko Siswantoro S.Si., M.Si.;0
+44;11;D. Hendi Wicaksono Agung Darminto, Ph.D.;1
+45;12;A. Lab. Mikrotik;0
+46;12;B. Lab. Biomedis;0
+47;12;C. Lab. DKE;1
+48;12;D. Lab. Komputer;0
+49;13;A. TB 3.3;1
+50;13;B. TB 3.4;0
+51;13;C. TB 3.1;0
+52;13;D. TB 3.2;0
+53;14;A. Laboratorium yang berisi peralatan Biomedis yang akan digunakan mahasiswa peminatan Biomedical Engineering, seperti EKG, ECG, Patient Monitor, bed pasien, dll;0
+54;14;B. Ruangan khusus sebagai fasilitas untuk mahasiswa tingkat akhir dalam mengerjakan skripsi. Terdapat beberapa alat yang dapat digunakan oleh mahasiswa, seperti Oscilloscope, Power Supply, dll;0
+55;14;C. Laboratorium yang berisi router-router untuk mendukung perkuliahan peminatan Internet and Computer Technology;0
+56;14;D. Ruangan khusus mahasiswa anggota tim Robot untuk mempersiapkan lomba dan inovasi-inovasi bagi Teknik Elektro UBAYA;1
+57;15;A. Lab Komputasi, Lab. DKE;1
+58;15;B. Lab Komputasi, Lab. Energi;0
+59;15;C. Lab. Elektronika, Lab. DKE;0
+60;15;D. Lab. PLC, Lab. Elektronika;0
+61;16;A. Dr. Joko Siswantoro S.Si., M.Si.;1
+62;16;B. Ir. Hudiyo Firmanto, M.Sc., Ph.D;0
+63;16;C. Gunawan Ph.D.;0
+64;16;D. Dr. Aloysius Yuli Widianto S.T., M.Sc.;0
+65;17;A. Teknik Elektro;0
+66;17;B. Teknik Industri;0
+67;17;C. Teknik Informatika;0
+68;17;D. Teknik Kimia;1
+69;18;A. Fenny Irawati, S.Si., M.Si. & Donny Irnawan, S.Kom.;0
+70;18;B. Donny Irnawan, S.Kom. & Anang Wahyudi, A.Md;1
+71;18;C. Thomas Widyamoko, S.T. & Anang Wahyudi, A.Md;0
+72;18;D. Naimah Kusuma Asri, S. Pd. & Thomas Widyamoko, S.T.;0
+73;19;A. lantai 3;0
+74;19;B. lantai 1;0
+75;19;C. lantai 4;0
+76;19;D. lantai 2;1
+77;20;A. TC 3.6;0
+78;20;B. TC 3.5;1
+79;20;C. TC 3.4;0
+80;20;D. TC 3.1;0
+81;21;A. 3 lantai;0
+82;21;B. 5 lantai;0
+83;21;C. 4 lantai;1
+84;21;D. 2 lantai;0
+85;22;A. Teknik Kimia;0
+86;22;B. Teknik Mesin dan Manufaktur;1
+87;22;C. Teknik Informatika;0
+88;22;D. Teknik Industri;0
+89;23;A. TD1.1;1
+90;23;B. TD2.1;0
+91;23;C. TD1.2;0
+92;23;D. TD2.2;0
+93;24;A. Surface Roughness Test;0
+94;24;B. Micro meter inside/outside;0
+95;24;C. Height gauge;0
+96;24;D. Oscilloscope;1
+97;25;A. Ir. Hudiyo Firmanto, M.Sc., Ph.D;1
+98;25;B. Misdi, S.T.;0
+99;25;C. Thomas Widyamoko, S.T.;0
+100;25;D. Dr. Aloysius Yuli Widianto S.T., M.Sc.;0
+101;26;A. Computer Network Communication;0
+102;26;B. Common Network Configuration;0
+103;26;C. Computer Numerical Control;1
+104;26;D. Centralized Network Control;0
+105;27;A. Ruang Praktikum Metrologi Industri;0
+106;27;B. Ruang Praktikum Proses Manufaktur;1
+107;27;C. Lab CAD/CAM/CAE;0
+108;27;D. Lab CNC;0
+109;28;A. TD2.1;1
+110;28;B. TD1.1;0
+111;28;C. TD2.2;0
+112;28;D. TD1.3;0
+113;29;A. Laboratorium Sistem & Teknologi Manufaktur;0
+114;29;B. Laboratorium Desain Kerja Ergonomi;0
+115;29;C. Laboratorium Satuan Operasi & Teknologi Proses Kimia;1
+116;29;D. Laboratorium Komputasi;0
+117;30;A. Ruang pembuatan alat;1
+118;30;B. Ruang Diskusi;0
+119;30;C. Ruangan Laboran;0
+120;30;D. Ruang utama untuk praktikum;0
+121;31;A. Teknik Industri;0
+122;31;B. Teknik Kimia;1
+123;31;C. Teknik Elektro;0
+124;31;D. Teknik Informatika;0
+125;32;A. 1 Lantai;0
+126;32;B. 3 Lantai;0
+127;32;C. 4 Lantai;0
+128;32;D. 2 Lantai;1
+129;33;A. Prof. Putu Doddy Sutrisna, Ph.D.;1
+130;33;B. Gunawan Ph.D.;0
+131;33;C. Sunardi Tjandra, S.T., M.T.;0
+132;33;D. Prof. Ir. Lieke Riadi Ph.D;0
+133;34;A. Praktikum Unit Operasi I Dan II;0
+134;34;B. Demonstrasi Pada Anak SMA;0
+135;34;C. Penelitian Dosen Dan Mahasiswa;0
+136;34;D. Praktikum Ergonomi;1
+137;35;A. Sukris Purwanti, S.Si;1
+138;35;B. Kristina Puji Setiawan;0
+139;35;C. Sunardi Tjandra, S.T., M.T.;0
+140;35;D. Dyah Ayu Ambarsari, S.T.;0
+141;36;A. 4 Lantai & 11 Kelas;0
+142;36;B. 3 Lantai & 12 Kelas;0
+143;36;C. 4 Lantai & 12 Kelas;1
+144;36;D. 4 Lantai & 13 Kelas;0
+145;37;A. KSM Teknik Industri;0
+146;37;B. KSM Teknik Informatika;0
+147;37;C. KSM Teknik Elektro;0
+148;37;D. Semua jawaban diatas benar;1
+149;38;A. TF 01.08;0
+150;38;B. TF 04.10;0
+151;38;C. TF 04.04;1
+152;38;D. TF 02.12;0
+153;39;A. Kegiatan Perkuliahan;0
+154;39;B. Kegiatan Rapat;0
+155;39;C. Kegiatan Praktikum;1
+156;39;D. Kegiatan Belajar Mengajar;0
+157;40;A. Hendi Wicaksono Agung Darminto, Ph.D;0
+158;40;B. Gunawan Ph.D.;1
+159;40;C. Dr. Joko Siswantoro S.Si., M.Si.;0
+160;40;D. Dr. Aloysius Yuli Widianto;0
+161;41;A. Teknik Industri & Teknik Informatika;0
+162;41;B. Teknik Kimia & Teknik Informatika;0
+163;41;C. Teknik Industri;1
+164;41;D. Teknik Kimia;0
+165;42;A. TF 01.01;0
+166;42;B. TF 01.06;0
+167;42;C. TF 01.10;0
+168;42;D. TF 01.08;1
+169;43;A. Laboratorium Fisika;0
+170;43;B. Laboratorium Simulasi Dan Pemodelan;0
+171;43;C. Laboratorium SOTPK;1
+172;43;D. Laboratorium TRK;0
+173;44;A. KSM Teknik Kimia & KSM Teknik Mesin & Manufaktur;1
+174;44;B. KSM Teknik Mesin & Manufaktur & KSM Teknik Informatika;0
+175;44;C. KSM Teknik Informatika & KSM Teknik Kimia;0
+176;44;D. KSM Teknik Industri & KSM Teknik Mesin & Manufaktur;0
+177;45;A. PAJ Teknik Kimia & PAJ Teknik Informatika;0
+178;45;B. PAJ Teknik Industri & PAJ Teknik Kimia;0
+179;45;C. PAJ Teknik Informatika & PAJ Teknik Industri;0
+180;45;D. PAJ Teknik Mesin & Manufaktur & PAJ Teknik Kimia;1
+181;46;A. Berfungsi untuk kegiatan praktikum;0
+182;46;"B. Berfungsi untuk mereparasi apabila saat praktikum ada barang yang terbuat dari sejenis gelas
+ atau kaca retak";1
+183;46;C. Berfungsi sebagai tempat penelitian mahasiswa & dosen;0
+184;46;D. Berfungsi untuk perkuliahan;0
+185;47;A. Gedung TG adalah gedung tertua di antara gedung teknik yang lain;0
+186;47;B. Gedung TG adalah gedung tertinggi di antara gedung teknik yang lain;0
+187;47;C. Gedung TG adalah gedung terbaru di antara gedung teknik yang lain;1
+188;47;D. Gedung TG adalah gedung yang memiliki ruangan paling sedikit di antara gedung teknik yang lain;0
+189;48;A. Pusat Studi Lingkungan Dan Energi Terbarukan;1
+190;48;B. Pusat Science Lingkungan Dan Energi Terbarukan;0
+191;48;C. Pusat Studi Luar Dan Energi Terbarukan;0
+192;48;D. Pusat Studi Lingkungan Dan Energi;0
+193;49;A. Teknik Kimia;0
+194;49;B. Teknik Informatika;0
+195;49;C. Teknik Mesin & Manufaktur;1
+196;49;D. Teknik Industri;0

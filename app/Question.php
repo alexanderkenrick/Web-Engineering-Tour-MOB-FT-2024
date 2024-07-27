@@ -13,9 +13,13 @@ class Question extends Model
         return $this->belongsTo(Pos::class,'pos_id', 'id');
     }
 
-    public function answers()
+    public function option()
     {
-        return $this->belongsToMany(User::class, 'answers', 'question_id', 'user_id')
-            ->withPivot(['pos_id', 'answer']);
+        return $this->hasMany(Option::class,'questions_id', 'id');
+    }
+
+    public function user_answers()
+    {
+        return $this->hasMany(UserAnswer::class,'questions_id', 'id');
     }
 }

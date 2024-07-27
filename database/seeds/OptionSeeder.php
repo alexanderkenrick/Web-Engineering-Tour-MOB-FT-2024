@@ -1,9 +1,12 @@
 <?php
 
-use App\Question;
+namespace Database\Seeders;
+
+use App\Option;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
-class QuestionSeeder extends Seeder
+class OptionSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -12,7 +15,7 @@ class QuestionSeeder extends Seeder
      */
     public function run()
     {
-        $csvFile = fopen(base_path("database/data/3-question1.csv"), "r");
+        $csvFile = fopen(base_path("database/data/4-option.csv"), "r");
 
         $firstline = true;
 
@@ -31,7 +34,7 @@ class QuestionSeeder extends Seeder
                 $arrCreate[$namaColumn] = $data[$idx] == 'null' ? null : $data[$idx];
             }
 
-            Question::create($arrCreate);
+            Option::create($arrCreate);
         }
 
         fclose($csvFile);

@@ -7,6 +7,7 @@ use App\Question;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
 
 class TourController extends Controller
@@ -15,13 +16,13 @@ class TourController extends Controller
     {
         $user_id = Auth::user()->id;
         $pos = [10];
-        
-        $answers = DB::table('answers')->where('user_id', $user_id)->orderBy('pos_id','desc')->get();
+
+        $answers = DB::table('user_answers')->where('users_id', $user_id)->orderBy('pos_id','desc')->get();
         foreach ($answers as $value) {
             array_push($pos, $value->pos_id);
         }
 
-        $temp = DB::table('answers')->selectRaw('COUNT(answer), pos_id')->where('user_id', $user_id)->groupBy('pos_id')->get();
+        $temp = DB::table('user_answers')->selectRaw('COUNT(question_id), pos_id')->where('users_id', $user_id)->groupBy('pos_id')->get();
         $count = $temp->count();
         $current_pos = Auth::user()->current_pos;
         return view('dashboard', compact('pos', 'count', 'current_pos'));
@@ -46,7 +47,7 @@ class TourController extends Controller
         return view('rekap', compact('groups','students'));
     }
 
-    
+
 
     function checkPass(Request $request) {
         $pass = $request->pass;
@@ -55,17 +56,27 @@ class TourController extends Controller
         $questions = [];
         $name = "";
         if($pos != null){
-            $answers = DB::table('answers')->where('user_id', $user_id)->where('pos_id', $pos->id)->get();
-            if(count($answers) == 0){
-                $msg = "GET";
-                $res = Question::where('pos_id', $pos->id)->get('question');
-                foreach ($res as $value) {
-                    array_push($questions, $value->question);
-                }
-                $name = $pos->name;
-            }else{
-                $msg = "INVALID";
-            }
+//            $answers = DB::table('answers')->where('user_id', $user_id)->where('pos_id', $pos->id)->get();
+//            if(count($answers) == 0){
+//                $msg = "GET";
+//                $res = Question::where('pos_id', $pos->id)->get('question');
+//                foreach ($res as $value) {
+//                    array_push($questions, $value->question);
+//                }
+//                $name = $pos->name;
+//            }else{
+//                $msg = "INVALID";
+//            }
+
+            $msg = "GET";
+            $cacheDuration = 300;
+            $cacheKey = 'question_pos_' . $pos->id;
+            $question = Cache::remember($cacheKey, $cacheDuration, function () use ($pos) {
+                return Question::with('option')->where('pos_id', $pos->id)->get();
+            });
+            // Question::with('option')->where('pos_id', 1)->get();
+            array_push($questions, $question);
+            $name = $pos->name;
         }else{
             $msg = "FALSE";
         }
@@ -116,7 +127,7 @@ class TourController extends Controller
     function changeGroup(Request $request) {
         $group = $request->group;
         $students = User::where('role','Student')->where('group',$group)->get();
-        
+
         return response()->json(array(
             'students' => $students
         ), 200);

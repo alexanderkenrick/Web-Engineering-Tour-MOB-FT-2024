@@ -191,10 +191,13 @@
                         current = 0
                         pos = data.pos
                         alert("You are in " + pos)
+                        console.log(data)
                         document.getElementById('dialog-question').showModal()
                         $('#titles').text(pos + " (" + (current + 1) + ")")
-                        questions = data.questions
-                        $('#quest').text(questions[current])
+                        console.log(data.questions)
+                        questions = data.questions[0]
+                        console.log(questions[current])
+                        $('#quest').text(questions[current]['question'])
                         $('#answer').focus()
                     } else if (data.msg == "INVALID") {
                         $('#input-password').val("")
@@ -216,7 +219,7 @@
             current += 1
             $('#answer').val(answers[current])
             $('#titles').text(pos + " (" + (current + 1) + ")")
-            $('#quest').text(questions[current])
+            $('#quest').text(questions[current]['question'])
 
             if (current == questions.length - 1) {
                 $('#next').addClass("hidden")
@@ -237,7 +240,7 @@
             current -= 1
             $('#answer').val(answers[current])
             $('#titles').text(pos + " (" + (current + 1) + ")")
-            $('#quest').text(questions[current])
+            $('#quest').text(questions[current]['question'])
 
             if (current != (questions.length)) {
                 $('#next').removeClass("hidden")

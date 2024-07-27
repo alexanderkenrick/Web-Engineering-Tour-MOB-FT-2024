@@ -13,9 +13,9 @@ class CreateAnswersTable extends Migration
      */
     public function up()
     {
-        Schema::create('answers', function (Blueprint $table) {
-            $table->foreignId('user_id');
-            $table->foreign('user_id')->references('id')->on('users')->onUpdate('cascade')->onDelete('cascade');
+        Schema::create('user_answers', function (Blueprint $table) {
+            $table->foreignId('users_id');
+            $table->foreign('users_id')->references('id')->on('users');
 
             $table->foreignId('question_id');
             $table->foreign('question_id')->references('id')->on('questions')->onUpdate('cascade')->onDelete('cascade');
@@ -23,7 +23,8 @@ class CreateAnswersTable extends Migration
             $table->foreignId('pos_id');
             $table->foreign('pos_id')->references('pos_id')->on('questions')->onUpdate('cascade')->onDelete('cascade');
 
-            $table->longText('answer');
+            $table->foreignId('options_id');
+            $table->foreign('options_id')->references('id')->on('options')->onUpdate('cascade')->onDelete('cascade');
         });
     }
 

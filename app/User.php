@@ -39,7 +39,6 @@ class User extends Authenticatable
 
     public function answers()
     {
-        return $this->belongsToMany(Question::class, 'answers', 'user_id', 'question_id')
-            ->withPivot(['pos_id', 'answer'])->orderBy('pivot_question_id');
+        return $this->hasMany(UserAnswer::class, 'user_answers', 'users_id', 'id');
     }
 }

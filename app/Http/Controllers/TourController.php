@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Option;
 use App\Pos;
 use App\Question;
 use App\User;
@@ -48,7 +49,6 @@ class TourController extends Controller
     }
 
 
-
     function checkPass(Request $request) {
         $pass = $request->pass;
         $user_id = Auth::user()->id;
@@ -73,10 +73,13 @@ class TourController extends Controller
             $cacheKey = 'question_pos_' . $pos->id;
             $question = Cache::remember($cacheKey, $cacheDuration, function () use ($pos) {
                 return Question::with('option')->where('pos_id', $pos->id)->get();
+            $options=[];
             });
+            
             // Question::with('option')->where('pos_id', 1)->get();
             array_push($questions, $question);
             $name = $pos->name;
+
         }else{
             $msg = "FALSE";
         }
@@ -88,6 +91,9 @@ class TourController extends Controller
         ), 200);
     }
 
+    function showOptions(){
+
+    } 
     function submitAnswers(Request $request){
         $user = Auth::user();
         $pass = $request->pass;

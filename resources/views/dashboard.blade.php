@@ -154,19 +154,97 @@
             <dialog class="nes-dialog is-rounded" id="dialog-question">
                 {{-- <form method="dialog"> --}}
                 <p class="title" id="titles">Ini Judul</p>
-                <p id="quest">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, soluta eaque? Vero
-                    quis aut
-                    voluptate. Architecto sequi tempore quos, dolore delectus ipsa unde vel voluptates voluptatem
-                    dolor? Corrupti, magni expedita.</p>
-                <textarea id="answer" class="nes-textarea"></textarea>
-                {{-- <input type="radio" name="options" id="option1" value="">
-                <label for="option1" id="labelOption1"></label><br>
-                <input type="radio" name="options" id="option2" value="">
-                <label for="option2" id="labelOption2"></label><br>
-                <input type="radio" name="options" id="option3" value="">
-                <label for="option3" id="labelOption3"></label><br>
-                <input type="radio" name="options" id="option4" value="">
-                <label for="option4" id="labelOption4"></label><br> --}}
+                <!-- Question 1 -->
+                <p id="quest-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Delectus, soluta eaque? Vero quis aut voluptate. Architecto sequi tempore quos, 
+                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</p>
+                <input type="radio" name="options-1" id="option1-1" value="">
+                <label for="option1-1" id="labelOption1-1">option1</label><br>
+                <input type="radio" name="options-1" id="option1-2" value="">
+                <label for="option1-2" id="labelOption1-2">option2</label><br>
+                <input type="radio" name="options-1" id="option1-3" value="">
+                <label for="option1-3" id="labelOption1-3">option3</label><br>
+                <input type="radio" name="options-1" id="option1-4" value="">
+                <label for="option1-4" id="labelOption1-4">option4</label><br>
+
+                <!-- Question 2 -->
+                <p id="quest-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Delectus, soluta eaque? Vero quis aut voluptate. Architecto sequi tempore quos, 
+                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</p>
+                <input type="radio" name="options-2" id="option2-1" value="">
+                <label for="option2-1" id="labelOption2-1">option1</label><br>
+                <input type="radio" name="options-2" id="option2-2" value="">
+                <label for="option2-2" id="labelOption2-2">option2</label><br>
+                <input type="radio" name="options-2" id="option2-3" value="">
+                <label for="option2-3" id="labelOption2-3">option3</label><br>
+                <input type="radio" name="options-2" id="option2-4" value="">
+                <label for="option2-4" id="labelOption2-4">option4</label><br>
+
+                <!-- Question 3 -->
+                <p id="quest-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Delectus, soluta eaque? Vero quis aut voluptate. Architecto sequi tempore quos, 
+                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</p>
+                <input type="radio" name="options-3" id="option3-1" value="">
+                <label for="option3-1" id="labelOption3-1">option1</label><br>
+                <input type="radio" name="options-3" id="option3-2" value="">
+                <label for="option3-2" id="labelOption3-2">option2</label><br>
+                <input type="radio" name="options-3" id="option3-3" value="">
+                <label for="option3-3" id="labelOption3-3">option3</label><br>
+                <input type="radio" name="options-3" id="option3-4" value="">
+                <label for="option3-4" id="labelOption3-4">option4</label><br>
+
+                <!-- Question 4 -->
+                <p id="quest-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Delectus, soluta eaque? Vero quis aut voluptate. Architecto sequi tempore quos, 
+                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</p>
+                <input type="radio" name="options-4" id="option4-1" value="">
+                <label for="option4-1" id="labelOption4-1">option1</label><br>
+                <input type="radio" name="options-4" id="option4-2" value="">
+                <label for="option4-2" id="labelOption4-2">option2</label><br>
+                <input type="radio" name="options-4" id="option4-3" value="">
+                <label for="option4-3" id="labelOption4-3">option3</label><br>
+                <input type="radio" name="options-4" id="option4-4" value="">
+                <label for="option4-4" id="labelOption4-4">option4</label><br>
+
+                <!-- Question 5 -->
+                <p id="quest-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Delectus, soluta eaque? Vero quis aut voluptate. Architecto sequi tempore quos, 
+                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</p>
+                <input type="radio" name="options-5" id="option5-1" value="">
+                <label for="option5-1" id="labelOption5-1">option1</label><br>
+                <input type="radio" name="options-5" id="option5-2" value="">
+                <label for="option5-2" id="labelOption5-2">option2</label><br>
+                <input type="radio" name="options-5" id="option5-3" value="">
+                <label for="option5-3" id="labelOption5-3">option3</label><br>
+                <input type="radio" name="options-5" id="option5-4" value="">
+                <label for="option5-4" id="labelOption5-4">option4</label><br>
+
+                <!-- Question 6 -->
+                <p id="quest-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Delectus, soluta eaque? Vero quis aut voluptate. Architecto sequi tempore quos, 
+                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</p>
+                <input type="radio" name="options-6" id="option6-1" value="">
+                <label for="option6-1" id="labelOption6-1">option1</label><br>
+                <input type="radio" name="options-6" id="option6-2" value="">
+                <label for="option6-2" id="labelOption6-2">option2</label><br>
+                <input type="radio" name="options-6" id="option6-3" value="">
+                <label for="option6-3" id="labelOption6-3">option3</label><br>
+                <input type="radio" name="options-6" id="option6-4" value="">
+                <label for="option6-4" id="labelOption6-4">option4</label><br>
+
+                <!-- Question 7 -->
+                <p id="quest-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, 
+                    soluta eaque? Vero quis aut voluptate. Architecto sequi tempore quos, 
+                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</p>
+                <input type="radio" name="options-7" id="option7-1" value="">
+                <label for="option7-1" id="labelOption7-1">option1</label><br>
+                <input type="radio" name="options-7" id="option7-2" value="">
+                <label for="option7-2" id="labelOption7-2">option2</label><br>
+                <input type="radio" name="options-7" id="option7-3" value="">
+                <label for="option7-3" id="labelOption7-3">option3</label><br>
+                <input type="radio" name="options-7" id="option7-4" value="">
+                <label for="option7-4" id="labelOption7-4">option4</label><br>
+
                 
                 <div class="dialog-menu">
                     <div class="back-next">
@@ -227,7 +305,8 @@
         });
         let questions = []
         let current = 0
-        let answers = ['', '', '']
+        // let answers = ['', '', '']
+        let options = []
         let pos = "";
 
         const closeModal1 = () => {
@@ -251,24 +330,11 @@
                         console.log(data)
                         document.getElementById('dialog-question').showModal()
                         $('#titles').text(pos + " (" + (current + 1) + ")")
-                        console.log(data)
                         console.log(data.questions)
                         questions = data.questions[0]
                         console.log(questions[current])
-                        
-                        console.log(questions[current]['option'][1])
 
                         $('#quest').text(questions[current]['question'])
-
-                        // $('#labelOption1').text(options[current * 4]['option'])
-                        // $('#option1').val(options[current * 4]['option'])
-                        // $('#labelOption2').text(options[current * 4 + 1]['option'])
-                        // $('#option2').val(options[current * 4 + 1]['option'])
-                        // $('#labelOption3').text(options[current * 4 + 2]['option'])
-                        // $('#option3').val(options[current * 4 + 2]['option'])
-                        // $('#labelOption4').text(options[current * 4 + 3]['option'])
-                        // $('#option4').val(options[current * 4 + 3]['option'])
-
                         $('#answer').focus()
 
                     } else if (data.msg == "INVALID") {
@@ -285,9 +351,11 @@
         }
 
         const next = () => {
-            $('#answer').focus()
-            answers[current] = $('#answer').val()
+            // $('#answer').focus()
+            
+            answers[current] = $('input[name="option"]:checked').val()
 
+            console.log(answers[current])
             current += 1
             $('#answer').val(answers[current])
             $('#titles').text(pos + " (" + (current + 1) + ")")
@@ -376,7 +444,7 @@
                 },
                 success: function(data) {
                     if (data.msg == "GET") {
-                        current = 0
+                        // current = 0
                         pos = data.pos
                         alert("You are in " + pos)
                         console.log(data)
@@ -385,8 +453,35 @@
                         console.log(data.questions)
                         questions = data.questions[0]
                         console.log(questions[current])
-                        $('#quest').text(questions[current]['question'])
-                        $('#answer').focus()
+
+                        questions.forEach( function(index, question){
+                            current = index+1
+                            idQuest = '#quest'+current
+                            console.log(idQuest)
+                            $(idQuest).text(questions[current]['question'])
+
+                            labelOption1 = '#labelOption'+current+'-1'
+                            option1 = '#option'+current+'-1'
+                            $(labelOption1).text(questions[current]['option'][0]['option_text'])
+                            $('#option1').val(questions[current]['option'][0]['option_text'])
+
+                            labelOption2 = '#labelOption'+current+'-2'
+                            option2 = '#option'+current+'-2'
+                            $('#labelOption2').text(questions[current]['option'][1]['option_text'])
+                            $('#option2').val(questions[current]['option'][1]['option_text'])
+
+                            labelOption3 = '#labelOption'+current+'-3'
+                            option3 = '#option'+current+'-3'
+                            $('#labelOption3').text(questions[current]['option'][2]['option_text'])
+                            $('#option3').val(questions[current]['option'][2]['option_text'])
+
+                            labelOption4 = '#labelOption'+current+'-4'
+                            option4 = '#option'+current+'-4'
+                            $('#labelOption4').text(questions[current]['option'][3]['option_text'])
+                            $('#option4').val(questions[current]['option'][3]['option_text'])
+                        });
+                       
+                        // $('#answer').focus()
                     } else if (data.msg == "INVALID") {
                         $('#input-password').val("")
                         $('#input-password').focus()

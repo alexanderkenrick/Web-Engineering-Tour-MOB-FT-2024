@@ -1,22 +1,14 @@
+
 body {
-    background: #40128b;
+    background: #390203;
 }
 .title-depan {
-    font-family: '04b', sans-serif;
+    font-family: 'Sancreek', sans-serif;
     text-align: center;
     color: #fff;
-    font-size: 36px;
-    text-shadow: -3px 3px #dd58d6;
+    font-size: 48px;
+    text-shadow: -3px 3px #EAE2B7;
 }
-
-.title-depan {
-    font-family: '04b', sans-serif;
-    text-align: center;
-    color: #fff;
-    font-size: 36px;
-    text-shadow: -3px 3px #dd58d6;
-}
-
 
 .space{
     position: relative;
@@ -32,11 +24,11 @@ body {
 }
 
 .rotate-phone-text {
-    font-family: 'Broken Console', sans-serif;
+    font-family: 'Sancreek', sans-serif;
 }
 
 .rotate-phone-text {
-    font-family: 'Broken Console', sans-serif;
+    font-family: 'Sancreek', sans-serif;
 }
 
 .map-container {
@@ -44,7 +36,7 @@ body {
     position: relative;
     width: 400px;
     height: auto;
-    background-color: #40128b;
+    background-color: #390203;
     z-index: 0;
     overflow-x: auto;
 }
@@ -150,7 +142,8 @@ body {
 }
 
 .broken-console {
-    font-family: 'Broken Console', sans-serif !important;
+    font-family: 'Bricolage Grotesque 48pt Condensed', sans-serif !important;
+    font-size: 24px;
 }
 
 .dialog-menu {
@@ -174,10 +167,10 @@ body {
 }
 
 .nes-btn {
-    font-family: 'Broken Console', sans-serif !important;
+    font-family: 'Bricolage Grotesque 10pt Condensed', sans-serif !important;
     height: 30px;
-    font-size: 14px;
-    padding: 0 6px;
+    font-size: 16px;
+    padding: 0 12px;
 }
 
 #dialog-rounded {

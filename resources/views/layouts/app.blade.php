@@ -31,6 +31,7 @@
         @import url('https://fonts.cdnfonts.com/css/broken-console');
         @import url('https://fonts.cdnfonts.com/css/montserrat');
         @import url('https://fonts.cdnfonts.com/css/sancreek');
+        @import url('https://fonts.cdnfonts.com/css/bricolage-grotesque');
 
 
         /* font-family: '04b', sans-serif; */

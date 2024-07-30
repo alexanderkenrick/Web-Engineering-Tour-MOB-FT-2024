@@ -200,7 +200,18 @@
 
 @section('script')
     <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script type="text/javascript">
+
+        $(document).ready(function() {
+            @if(session('status')=='success')
+                showSwal('success', 'Success', '{{ session('message') }}')
+            @elseif(session('status')=='error')
+                showSwal('error', 'Error', '{{ session('message') }}')
+            @endif
+
+
+        });
 
         $(window).on('load', function() {
             count = {{ $count }};
@@ -220,10 +231,39 @@
         let options = []
         let pos = "";
 
+        function loadingState(title ,message){
+            Swal.fire({
+                icon: 'info',
+                animation: true,
+                title: title,
+                text: message,
+                timerProgressBar: true,
+                allowOutsideClick: false,
+                allowEscapeKey: false,
+                allowEnterKey: false,
+                showConfirmButton: false,
+                showDenyButton:false,
+                showCancelButton: false,
+                didOpen: () =>{
+                    Swal.showLoading();
+                },
+            });
+        }
+
+        function showSwal(icon, title, text){
+            Swal.fire({
+                icon: icon,
+                animation: true,
+                title: title,
+                text: text,
+                duration: 2000,
+                timerProgressBar: true,
+            });
+        }
+
         const closeModal1 = () => {
             document.getElementById('modal_congrats').close()
         }
-
 
         const submit = () => {
             if (!confirm("Are you sure?")) return
@@ -257,6 +297,7 @@
             // Handle on success condition with the decoded text or result.
             // console.log(`Scan result: ${decodedText}`, decodedResult);
             // let url = `/qr-scanner/detail/${decodedText}`;
+            loadingState("Checking", "Mohon ditunggu...")
             html5QrcodeScanner.clear();
             let pass = `${decodedText}`;
 
@@ -295,28 +336,32 @@
                                 `
 
                         });
-                        console.log(questions)
                         questionData += `
                             <input type="hidden" name="posId" value="${questions[0].pos_id}">
                             `
                         $(".form-question").html(questionData)
+                        Swal.close()
 
                         // $('#answer').focus()
                     } else if (data.msg == "INVALID") {
                         $('#input-password').val("")
                         $('#input-password').focus()
-                        alert("Sorry, you already finished this section")
+                        Swal.close()
+                        showSwal('error', 'Oops', 'Pertanyaan telah terjawab')
                         html5QrcodeScanner.render(onScanSuccess);
                     } else {
-                        alert("Oops, wrong password")
+                        Swal.close()
+                        showSwal('error', 'Oops', 'Password salah')
                         $('#input-password').val("")
                         $('#input-password').focus()
                         html5QrcodeScanner.render(onScanSuccess);
+
                     }
                 },
                 error: function(xhr) {
                     console.log(xhr);
                     html5QrcodeScanner.render(onScanSuccess);
+                    Swal.close()
                 }
             })
             // ^ this will stop the scanner (video feed) and clear the scan area.

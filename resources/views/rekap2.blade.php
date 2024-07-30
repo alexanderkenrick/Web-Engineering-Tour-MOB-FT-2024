@@ -57,9 +57,9 @@
                         <option value="" disabled selected>--Pilih Mahasiswa--</option>
                     </select>
                 </div>
-            </div> 
+            </div>
 
-            
+
 
         </div>
 
@@ -69,6 +69,9 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quis repudiandae iure veritatis! Tempora repellat alias veritatis ea veniam modi dolor quisquam, sit doloremque, dolore tenetur soluta quaerat molestias odit.
                 </div>
             </div> --}}
+            @foreach($userAnswer as $answer)
+                <p>{{$answer}}</p>
+            @endforeach
         </div>
     </section>
 @endsection
@@ -82,7 +85,7 @@
     const changeGroup = () => {
         let group = $('#select-team').val()
         $('#select-student').html("<option value='' disabled selected>--Pilih Mahasiswa--</option>")
-        
+
         let answers = document.getElementById('answers')
         answers.innerHTML = ''
 
@@ -136,7 +139,7 @@
                     data.answers.forEach(a => {
                         if(a.question_id == i){
                             valid = true
-                            
+
                             $("#gedung-"+Math.floor(wkwk/5)).append("<p>" + nomor + ". " + a.answer + "</p>")
                             // $("#answers").append("<p>" + nomor + ". " + a.answer + "</p>")
                         }

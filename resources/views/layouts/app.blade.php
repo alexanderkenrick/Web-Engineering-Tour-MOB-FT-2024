@@ -30,6 +30,7 @@
         @import url('https://fonts.cdnfonts.com/css/04b30');
         @import url('https://fonts.cdnfonts.com/css/broken-console');
         @import url('https://fonts.cdnfonts.com/css/montserrat');
+        @import url('https://fonts.cdnfonts.com/css/sancreek');
 
 
         /* font-family: '04b', sans-serif; */
@@ -39,15 +40,16 @@
         }
 
         body {
-            background: #120238;
+            background: #390203;
         }
 
         .title {
-            font-family: '04b', sans-serif;
+            font-family: 'Sancreek', sans-serif;
             text-align: center;
             /* color: #57c1e5; */
             color: #40128b;
             font-size: 36px;
+            margin-bottom: 8px;
         }
 
         #btn-logout{

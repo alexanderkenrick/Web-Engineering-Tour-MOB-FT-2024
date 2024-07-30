@@ -1,7 +1,6 @@
 <?php
 
 use App\User;
-use Database\Seeders\OptionSeeder;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -13,6 +12,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call([QuestionSeeder::class, OptionSeeder::class]);
+        $this->call([UserSeeder::class, PosSeeder::class, QuestionSeeder::class, OptionSeeder::class]);
     }
 }

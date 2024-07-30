@@ -15,8 +15,7 @@ class CreateQuestionsTable extends Migration
     {
         Schema::create('questions', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('pos_id');
-            $table->foreign('pos_id')->references('id')->on('pos')->onUpdate('cascade')->onDelete('cascade');
+            $table->foreignId('pos_id')->constrained('pos');
 
             $table->longText('question');
         });

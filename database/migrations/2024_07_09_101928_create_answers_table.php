@@ -21,7 +21,7 @@ class CreateAnswersTable extends Migration
             $table->foreign('question_id')->references('id')->on('questions')->onUpdate('cascade')->onDelete('cascade');
 
             $table->foreignId('pos_id');
-            $table->foreign('pos_id')->references('pos_id')->on('questions')->onUpdate('cascade')->onDelete('cascade');
+            $table->foreign('pos_id')->references('id')->on('pos')->onUpdate('cascade')->onDelete('cascade');
 
             $table->foreignId('options_id');
             $table->foreign('options_id')->references('id')->on('options')->onUpdate('cascade')->onDelete('cascade');

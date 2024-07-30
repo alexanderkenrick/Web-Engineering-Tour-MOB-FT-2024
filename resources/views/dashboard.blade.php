@@ -1,41 +1,40 @@
 @extends('layouts.app')
 
 @section('css')
-    <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet">
     <link href="{{ asset('css/dashboard.css') }}" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
     <style>
-
 .content-qr-reader{
     width: 100%;
     max-width: 500px;
-    margin: 5px;
     margin-top: auto;
     margin-bottom: auto;
 }
- 
+
 .content-qr-reader h1 {
     color: black;
 }
- 
+
 .section-qr-reader {
     background-color: #ffffff;
-    padding: 50px 30px;
+    padding: 50px 20px;
     border: 1.5px solid #b2b2b2;
     border-radius: 0.25em;
     box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+    width: 100%;
 }
- 
+
 #my-qr-reader {
     padding: 20px !important;
     border: 1.5px solid #b2b2b2 !important;
     border-radius: 8px;
 }
- 
+
 #my-qr-reader img[alt="Info icon"] {
     display: none;
 }
- 
+
 #my-qr-reader img[alt="Camera based scan"] {
     width: 100px !important;
     height: 100px !important;
@@ -44,13 +43,6 @@
 @endsection
 
 @section('content')
-    {{-- <div class="blocker">
-        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-        <lottie-player src="https://lottie.host/f0c83d85-3b47-4b77-990c-3245f810b85e/dguz1WhP5f.json" background="#000000"
-            speed="1" style="width: 250px; height: 250px" direction="1" mode="normal" loop autoplay></lottie-player>
-        <h2 class="rotate-phone-text">Please Rotate Your Phone</h2>
-    </div> --}}
-
     <section class="map-section" id="ini-map">
         <div class="space">
             <img src="{{ asset('../images/assets_spacecraft/Spacecraft' . $count . '.png') }}" id="spacecraft" alt="">
@@ -97,25 +89,25 @@
                         @endif
 
                         @if($current_pos==1)
-                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-ta" id="checkpoint" alt=""> 
+                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-ta" id="checkpoint" alt="">
                         @endif
                         @if($current_pos==2)
-                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-tb" id="checkpoint" alt=""> 
+                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-tb" id="checkpoint" alt="">
                         @endif
                         @if($current_pos==3)
-                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-tc" id="checkpoint" alt=""> 
+                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-tc" id="checkpoint" alt="">
                         @endif
                         @if($current_pos==4)
-                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-td" id="checkpoint" alt=""> 
+                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-td" id="checkpoint" alt="">
                         @endif
                         @if($current_pos==5)
-                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-te" id="checkpoint" alt=""> 
+                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-te" id="checkpoint" alt="">
                         @endif
                         @if($current_pos==6)
-                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-tf" id="checkpoint" alt=""> 
+                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-tf" id="checkpoint" alt="">
                         @endif
                         @if($current_pos==7)
-                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-tg" id="checkpoint" alt=""> 
+                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-tg" id="checkpoint" alt="">
                         @endif
                     </div>
                 </div>
@@ -154,104 +146,16 @@
             <dialog class="nes-dialog is-rounded" id="dialog-question">
                 {{-- <form method="dialog"> --}}
                 <p class="title" id="titles">Ini Judul</p>
-                <!-- Question 1 -->
-                <p id="number-question">1. <span id="quest-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Delectus, soluta eaque? Vero quis aut voluptate. Architecto sequi tempore quos, 
-                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</span></p>
-                <input type="radio" name="options-1" id="option1-1" value="">
-                <label for="option1-1" id="labelOption1-1">option1</label><br>
-                <input type="radio" name="options-1" id="option1-2" value="">
-                <label for="option1-2" id="labelOption1-2">option2</label><br>
-                <input type="radio" name="options-1" id="option1-3" value="">
-                <label for="option1-3" id="labelOption1-3">option3</label><br>
-                <input type="radio" name="options-1" id="option1-4" value="">
-                <label for="option1-4" id="labelOption1-4">option4</label><br>
-                <br>
 
-                <!-- Question 2 -->
-                <p id="number-question">2. <span id="quest-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Delectus, soluta eaque? Vero quis aut voluptate. Architecto sequi tempore quos, 
-                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</span></p>
-                <input type="radio" name="options-2" id="option2-1" value="">
-                <label for="option2-1" id="labelOption2-1">option1</label><br>
-                <input type="radio" name="options-2" id="option2-2" value="">
-                <label for="option2-2" id="labelOption2-2">option2</label><br>
-                <input type="radio" name="options-2" id="option2-3" value="">
-                <label for="option2-3" id="labelOption2-3">option3</label><br>
-                <input type="radio" name="options-2" id="option2-4" value="">
-                <label for="option2-4" id="labelOption2-4">option4</label><br>
-                <br>
+                <form action="{{route('submit.answers')}}" method="post" class="form">
+                    @csrf
+                    <div class="form-question">
 
-                <!-- Question 3 -->
-                <p id="number-question">3. <span id="quest-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Delectus, soluta eaque? Vero quis aut voluptate. Architecto sequi tempore quos, 
-                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</span></p>
-                <input type="radio" name="options-3" id="option3-1" value="">
-                <label for="option3-1" id="labelOption3-1">option1</label><br>
-                <input type="radio" name="options-3" id="option3-2" value="">
-                <label for="option3-2" id="labelOption3-2">option2</label><br>
-                <input type="radio" name="options-3" id="option3-3" value="">
-                <label for="option3-3" id="labelOption3-3">option3</label><br>
-                <input type="radio" name="options-3" id="option3-4" value="">
-                <label for="option3-4" id="labelOption3-4">option4</label><br>
-                <br>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Submit</button>
+                </form>
 
-                <!-- Question 4 -->
-                <p id="number-question">4. <span id="quest-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Delectus, soluta eaque? Vero quis aut voluptate. Architecto sequi tempore quos, 
-                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</span></p>
-                <input type="radio" name="options-4" id="option4-1" value="">
-                <label for="option4-1" id="labelOption4-1">option1</label><br>
-                <input type="radio" name="options-4" id="option4-2" value="">
-                <label for="option4-2" id="labelOption4-2">option2</label><br>
-                <input type="radio" name="options-4" id="option4-3" value="">
-                <label for="option4-3" id="labelOption4-3">option3</label><br>
-                <input type="radio" name="options-4" id="option4-4" value="">
-                <label for="option4-4" id="labelOption4-4">option4</label><br>
-                <br>
-                
-                <!-- Question 5 -->
-                <p id="number-question">5. <span id="quest-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Delectus, soluta eaque? Vero quis aut voluptate. Architecto sequi tempore quos, 
-                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</span></p>
-                <input type="radio" name="options-5" id="option5-1" value="">
-                <label for="option5-1" id="labelOption5-1">option1</label><br>
-                <input type="radio" name="options-5" id="option5-2" value="">
-                <label for="option5-2" id="labelOption5-2">option2</label><br>
-                <input type="radio" name="options-5" id="option5-3" value="">
-                <label for="option5-3" id="labelOption5-3">option3</label><br>
-                <input type="radio" name="options-5" id="option5-4" value="">
-                <label for="option5-4" id="labelOption5-4">option4</label><br>
-                <br>
 
-                <!-- Question 6 -->
-                <p id="number-question">6. <span id="quest-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Delectus, soluta eaque? Vero quis aut voluptate. Architecto sequi tempore quos, 
-                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</span></p>
-                <input type="radio" name="options-6" id="option6-1" value="">
-                <label for="option6-1" id="labelOption6-1">option1</label><br>
-                <input type="radio" name="options-6" id="option6-2" value="">
-                <label for="option6-2" id="labelOption6-2">option2</label><br>
-                <input type="radio" name="options-6" id="option6-3" value="">
-                <label for="option6-3" id="labelOption6-3">option3</label><br>
-                <input type="radio" name="options-6" id="option6-4" value="">
-                <label for="option6-4" id="labelOption6-4">option4</label><br>
-                <br>
-
-                <!-- Question 7 -->
-                <p id="number-question">7. <span id="quest-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, 
-                    soluta eaque? Vero quis aut voluptate. Architecto sequi tempore quos, 
-                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</span></p>
-                <input type="radio" name="options-7" id="option7-1" value="">
-                <label for="option7-1" id="labelOption7-1">option1</label><br>
-                <input type="radio" name="options-7" id="option7-2" value="">
-                <label for="option7-2" id="labelOption7-2">option2</label><br>
-                <input type="radio" name="options-7" id="option7-3" value="">
-                <label for="option7-3" id="labelOption7-3">option3</label><br>
-                <input type="radio" name="options-7" id="option7-4" value="">
-                <label for="option7-4" id="labelOption7-4">option4</label><br>
-                <br>
-                
                 <div class="dialog-menu">
                     <div class="back-next">
                         <button class="nes-btn hidden" id="back" onclick="back()">Back</button>
@@ -295,12 +199,13 @@
 @endsection
 
 @section('script')
+    <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
     <script type="text/javascript">
 
         $(window).on('load', function() {
-            count = {{ $count }}
+            count = {{ $count }};
 
-            if (count == 7) {
+            if (count == 7){
                 document.getElementById('modal_congrats').showModal()
                 let element = document.getElementById('ini-map')
                 party.confetti(element, {
@@ -319,92 +224,9 @@
             document.getElementById('modal_congrats').close()
         }
 
-        const checkPass = () => {
-            let pass = $('#input-password').val().toUpperCase()
-            $.ajax({
-                type: 'POST',
-                url: '{{ route('check.pass') }}',
-                data: {
-                    '_token': '<?php echo csrf_token(); ?>',
-                    'pass': pass,
-                },
-                success: function(data) {
-                    if (data.msg == "GET") {
-                        current = 0
-                        pos = data.pos
-                        alert("You are in " + pos)
-                        console.log(data)
-                        document.getElementById('dialog-question').showModal()
-                        $('#titles').text(pos + " (" + (current + 1) + ")")
-                        console.log(data.questions)
-                        questions = data.questions[0]
-                        console.log(questions[current])
-
-                        $('#quest').text(questions[current]['question'])
-                        $('#answer').focus()
-
-                    } else if (data.msg == "INVALID") {
-                        $('#input-password').val("")
-                        $('#input-password').focus()
-                        alert("Sorry, you already finished this section")
-                    } else {
-                        alert("Oops, wrong password")
-                        $('#input-password').val("")
-                        $('#input-password').focus()
-                    }
-                }
-            })
-        }
-
-        const next = () => {
-            // $('#answer').focus()
-            
-            answers[current] = $('input[name="option"]:checked').val()
-
-            console.log(answers[current])
-            current += 1
-            $('#answer').val(answers[current])
-            $('#titles').text(pos + " (" + (current + 1) + ")")
-            $('#quest').text(questions[current]['question'])
-
-            if (current == questions.length - 1) {
-                $('#next').addClass("hidden")
-                $('#confirm').removeClass("hidden")
-            }
-
-            if (current == 0) {
-                $('#back').addClass("hidden")
-            } else {
-                $('#back').removeClass("hidden")
-            }
-
-        }
-
-        const back = () => {
-            $('#answer').focus()
-            answers[current] = $('#answer').val()
-            current -= 1
-            $('#answer').val(answers[current])
-            $('#titles').text(pos + " (" + (current + 1) + ")")
-            $('#quest').text(questions[current]['question'])
-
-            if (current != (questions.length)) {
-                $('#next').removeClass("hidden")
-                $('#confirm').addClass("hidden")
-            }
-
-            if (current == 0) {
-                $('#back').addClass("hidden")
-            } else {
-                $('#back').removeClass("hidden")
-            }
-
-        }
 
         const submit = () => {
             if (!confirm("Are you sure?")) return
-
-            answers[current] = $('#answer').val()
 
             const invalid = answers.includes("");
             if (invalid) {
@@ -427,11 +249,7 @@
                 })
             }
         }
-    </script>
-{{--    <script src="https://unpkg.com/html5-qrcode"></script>--}}
-    <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
-{{--    <script src="{{ asset('js/qr-reader.js') }}"></script>--}}
-    <script>
+
         var html5QrcodeScanner = new Html5QrcodeScanner(
             "my-qr-reader", { fps: 10, qrbox: 250 }, false);
 
@@ -439,6 +257,7 @@
             // Handle on success condition with the decoded text or result.
             // console.log(`Scan result: ${decodedText}`, decodedResult);
             // let url = `/qr-scanner/detail/${decodedText}`;
+            html5QrcodeScanner.clear();
             let pass = `${decodedText}`;
 
             $.ajax({
@@ -453,58 +272,53 @@
                         // current = 0
                         pos = data.pos
                         alert("You are in " + pos)
-                        console.log(data)
                         document.getElementById('dialog-question').showModal()
                         $('#titles').text(pos + " (" + (current + 1) + ")")
-                        console.log(data.questions)
                         questions = data.questions[0]
-                        console.log(questions[current])
 
+                        var questionData = "";
                         questions.forEach( function(question, index){
-                            current = index+1
-                            idQuest = '#quest-'+current
+                            idQuest = "#quest-"+(index+1)
+                            console.log(question)
+                            $(idQuest).text(question)
+                            questionData +=
+                                `
+                                <p id="quest-${index+1}">${index+1}. ${question.question}</p>
+                                <input type="radio" name="question[${question.id}][option]" id="option${index+1}-1" value="${question.option[0].id}" required>
+                                <label for="option${index+1}-1" id="labelOption${index+1}-1">${question.option[0].option_text}</label><br>
+                                <input type="radio" name="question[${question.id}][option]" id="option${index+1}-2" value="${question.option[1].id}">
+                                <label for="option${index+1}-2" id="labelOption${index+1}-2">${question.option[1].option_text}</label><br>
+                                <input type="radio" name="question[${question.id}][option]" id="option${index+1}-3" value="${question.option[2].id}">
+                                <label for="option${index+1}-3" id="labelOption${index+1}-3">${question.option[2].option_text}</label><br>
+                                <input type="radio" name="question[${question.id}][option]" id="option${index+1}-4" value="${question.option[3].id}">
+                                <label for="option${index+1}-4" id="labelOption${index+1}-4">${question.option[3].option_text}</label><br>
+                                `
 
-                            console.log(idQuest)
-                            $(idQuest).text(questions[index]['question'])
-
-                            labelOption1 = '#labelOption'+current+'-1'
-                            option1 = '#option'+current+'-1'
-                            $(labelOption1).html(questions[index]['option'][0]['option_text'])
-                            $(option1).val(questions[index]['option'][0]['option_text'])
-
-                            labelOption2 = '#labelOption'+current+'-2'
-                            option2 = '#option'+current+'-2'
-                            $(labelOption2).html(questions[index]['option'][1]['option_text'])
-                            $(option2).val(questions[index]['option'][1]['option_text'])
-
-                            labelOption3 = '#labelOption'+current+'-3'
-                            option3 = '#option'+current+'-3'
-                            $(labelOption3).html(questions[index]['option'][2]['option_text'])
-                            $(option3).val(questions[index]['option'][2]['option_text'])
-
-                            labelOption4 = '#labelOption'+current+'-4'
-                            option4 = '#option'+current+'-4'
-                            $(labelOption4).html(questions[index]['option'][3]['option_text'])
-                            $(option4).val(questions[index]['option'][3]['option_text'])
                         });
-                       
+                        console.log(questions)
+                        questionData += `
+                            <input type="hidden" name="posId" value="${questions[0].pos_id}">
+                            `
+                        $(".form-question").html(questionData)
+
                         // $('#answer').focus()
                     } else if (data.msg == "INVALID") {
                         $('#input-password').val("")
                         $('#input-password').focus()
                         alert("Sorry, you already finished this section")
+                        html5QrcodeScanner.render(onScanSuccess);
                     } else {
                         alert("Oops, wrong password")
                         $('#input-password').val("")
                         $('#input-password').focus()
+                        html5QrcodeScanner.render(onScanSuccess);
                     }
                 },
                 error: function(xhr) {
-                console.log(xhr);
-              }
+                    console.log(xhr);
+                    html5QrcodeScanner.render(onScanSuccess);
+                }
             })
-
-            html5QrcodeScanner.clear();
             // ^ this will stop the scanner (video feed) and clear the scan area.
         }
 
@@ -515,4 +329,5 @@
 
         html5QrcodeScanner.render(onScanSuccess);
     </script>
+{{--    <script src="{{ asset('js/qr-reader.js') }}"></script>--}}
 @endsection

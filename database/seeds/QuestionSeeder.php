@@ -12,12 +12,12 @@ class QuestionSeeder extends Seeder
      */
     public function run()
     {
-        $csvFile = fopen(base_path("database/data/3-question.csv"), "r");
+        $csvFile = fopen(base_path("database/data/3-question1.csv"), "r");
 
         $firstline = true;
 
         $arrNamaColumn = [];
-        while (($data = fgetcsv($csvFile, 2000, ",")) !== FALSE) {
+        while (($data = fgetcsv($csvFile, 2000, ";")) !== FALSE) {
             if ($firstline) {
                 foreach ($data as $idx => $namaColumn) {
                     array_push($arrNamaColumn, $namaColumn);

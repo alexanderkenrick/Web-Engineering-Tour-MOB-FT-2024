@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Option;
 use App\Pos;
 use App\Question;
 use App\User;
@@ -48,7 +49,6 @@ class TourController extends Controller
     }
 
 
-
     function checkPass(Request $request) {
         $pass = $request->pass;
         $user_id = Auth::user()->id;
@@ -56,27 +56,30 @@ class TourController extends Controller
         $questions = [];
         $name = "";
         if($pos != null){
-//            $answers = DB::table('answers')->where('user_id', $user_id)->where('pos_id', $pos->id)->get();
-//            if(count($answers) == 0){
-//                $msg = "GET";
-//                $res = Question::where('pos_id', $pos->id)->get('question');
-//                foreach ($res as $value) {
-//                    array_push($questions, $value->question);
-//                }
-//                $name = $pos->name;
-//            }else{
-//                $msg = "INVALID";
-//            }
+            $answers = DB::table('answers')->where('users_id', $user_id)->where('pos_id', $pos->id)->get();
+            if(count($answers) == 0){
+                $msg = "GET";
+                $res = Question::where('pos_id', $pos->id)->get('question');
+                foreach ($res as $value) {
+                    array_push($questions, $value->question);
+                }
+                $name = $pos->name;
+            }else{
+                $msg = "INVALID";
+            }
 
             $msg = "GET";
             $cacheDuration = 300;
             $cacheKey = 'question_pos_' . $pos->id;
             $question = Cache::remember($cacheKey, $cacheDuration, function () use ($pos) {
                 return Question::with('option')->where('pos_id', $pos->id)->get();
+            $options=[];
             });
+
             // Question::with('option')->where('pos_id', 1)->get();
             array_push($questions, $question);
             $name = $pos->name;
+
         }else{
             $msg = "FALSE";
         }
@@ -88,28 +91,44 @@ class TourController extends Controller
         ), 200);
     }
 
+    function showOptions(){
+
+    }
+//    function submitAnswers(Request $request){
+//        $user = Auth::user();
+//        $pass = $request->pass;
+//        $answers = $request->answers;
+//        $pos = Pos::where("password",$pass)->first();
+//        $questions = Question::where('pos_id',$pos->id)->get();
+//
+//        foreach ($questions as $key => $value) {
+//            DB::table('answers')->insert([
+//                "user_id" => $user->id,
+//                "question_id" => $value->id,
+//                "pos_id" => $pos->id,
+//                "answer" => $answers[$key]
+//            ]);
+//        }
+//
+//        DB::table('users')->where('id', $user->id)->update(['current_pos' => $pos->id]);
+//
+//        return response()->json(array(
+//            'msg' => "Congratulations, you have finished " . $pos->name
+//        ), 200);
+//    }
+
     function submitAnswers(Request $request){
         $user = Auth::user();
         $pass = $request->pass;
         $answers = $request->answers;
         $pos = Pos::where("password",$pass)->first();
-        $questions = Question::where('pos_id',$pos->id)->get();
+        $answers = $request->get('questions');
 
-        foreach ($questions as $key => $value) {
-            DB::table('answers')->insert([
-                "user_id" => $user->id,
-                "question_id" => $value->id,
-                "pos_id" => $pos->id,
-                "answer" => $answers[$key]
-            ]);
-        }
+        foreach ($answers as $key => $answer)
 
-        DB::table('users')->where('id', $user->id)->update(['current_pos' => $pos->id]);
-
-        return response()->json(array(
-            'msg' => "Congratulations, you have finished " . $pos->name
-        ), 200);
+        return redirect()->route('dashboard')->with('success', 'Congratulations, you have finished ' . $pos->name);
     }
+
 
     function rekap2() {
         $groups = User::where('role','Student')->orderBy('group')->distinct()->get('group');

@@ -1,19 +1,48 @@
 @extends('layouts.app')
 
 @section('css')
-    <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet">
     <link href="{{ asset('css/dashboard.css') }}" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
+    <style>
+.content-qr-reader{
+    width: 100%;
+    max-width: 500px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.content-qr-reader h1 {
+    color: black;
+}
+
+.section-qr-reader {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    border: 1.5px solid #b2b2b2;
+    border-radius: 0.25em;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+    width: 100%;
+}
+
+#my-qr-reader {
+    padding: 20px !important;
+    border: 1.5px solid #b2b2b2 !important;
+    border-radius: 8px;
+}
+
+#my-qr-reader img[alt="Info icon"] {
+    display: none;
+}
+
+#my-qr-reader img[alt="Camera based scan"] {
+    width: 100px !important;
+    height: 100px !important;
+}
+    </style>
 @endsection
 
 @section('content')
-    {{-- <div class="blocker">
-        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-        <lottie-player src="https://lottie.host/f0c83d85-3b47-4b77-990c-3245f810b85e/dguz1WhP5f.json" background="#000000"
-            speed="1" style="width: 250px; height: 250px" direction="1" mode="normal" loop autoplay></lottie-player>
-        <h2 class="rotate-phone-text">Please Rotate Your Phone</h2>
-    </div> --}}
-
     <section class="map-section" id="ini-map">
         <div class="space">
             <img src="{{ asset('../images/assets_spacecraft/Spacecraft' . $count . '.png') }}" id="spacecraft" alt="">
@@ -60,25 +89,25 @@
                         @endif
 
                         @if($current_pos==1)
-                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-ta" id="checkpoint" alt=""> 
+                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-ta" id="checkpoint" alt="">
                         @endif
                         @if($current_pos==2)
-                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-tb" id="checkpoint" alt=""> 
+                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-tb" id="checkpoint" alt="">
                         @endif
                         @if($current_pos==3)
-                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-tc" id="checkpoint" alt=""> 
+                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-tc" id="checkpoint" alt="">
                         @endif
                         @if($current_pos==4)
-                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-td" id="checkpoint" alt=""> 
+                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-td" id="checkpoint" alt="">
                         @endif
                         @if($current_pos==5)
-                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-te" id="checkpoint" alt=""> 
+                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-te" id="checkpoint" alt="">
                         @endif
                         @if($current_pos==6)
-                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-tf" id="checkpoint" alt=""> 
+                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-tf" id="checkpoint" alt="">
                         @endif
                         @if($current_pos==7)
-                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-tg" id="checkpoint" alt=""> 
+                        <img src="{{ asset('../images/checkpoint.png') }}" class="check-tg" id="checkpoint" alt="">
                         @endif
                     </div>
                 </div>
@@ -86,19 +115,30 @@
 
             <div class="row  d-flex justify-content-center  my-4">
                 <div class="col d-flex justify-content-center">
-                    <div class="password-wrapper d-flex justify-content-center">
+                    {{-- <div class="password-wrapper d-flex justify-content-center">
                         <div class="nes-field">
                             <label for="input-password" class="broken-console" style="color: #fff">Password: </label>
                             <input type="text" id="input-password" class="nes-input broken-console" maxlength="7">
                         </div>
                         <div class="check-section d-flex align-items-end px-3">
                             <button type="button" class="nes-btn is-primary" style="height: " onclick="checkPass()">
-                                {{-- document.getElementById('dialog-question').showModal(); --}}
+                                document.getElementById('dialog-question').showModal();
                                 Check
                             </button>
                         </div>
 
+                    </div> --}}
+                    <!-- QR Scanner -->
+                    <div class="container-qr-reader">
+                        <div class="content-qr-reader">
+                            <h1>Scan QR Codes</h1>
+                            <div class="section-qr-reader">
+                                <div id="my-qr-reader">
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <!-- End QR Scanner -->
                 </div>
 
             </div>
@@ -106,11 +146,16 @@
             <dialog class="nes-dialog is-rounded" id="dialog-question">
                 {{-- <form method="dialog"> --}}
                 <p class="title" id="titles">Ini Judul</p>
-                <p id="quest">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, soluta eaque? Vero
-                    quis aut
-                    voluptate. Architecto sequi tempore quos, dolore delectus ipsa unde vel voluptates voluptatem
-                    dolor? Corrupti, magni expedita.</p>
-                <textarea id="answer" class="nes-textarea"></textarea>
+
+                <form action="{{route('submit.answers')}}" method="post" class="form">
+                    @csrf
+                    <div class="form-question">
+
+                    </div>
+                    <button class="btn btn-primary" type="submit">Submit</button>
+                </form>
+
+
                 <div class="dialog-menu">
                     <div class="back-next">
                         <button class="nes-btn hidden" id="back" onclick="back()">Back</button>
@@ -154,12 +199,13 @@
 @endsection
 
 @section('script')
+    <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
     <script type="text/javascript">
 
         $(window).on('load', function() {
-            count = {{ $count }}
+            count = {{ $count }};
 
-            if (count == 7) {
+            if (count == 7){
                 document.getElementById('modal_congrats').showModal()
                 let element = document.getElementById('ini-map')
                 party.confetti(element, {
@@ -170,95 +216,17 @@
         });
         let questions = []
         let current = 0
-        let answers = ['', '', '']
+        // let answers = ['', '', '']
+        let options = []
         let pos = "";
 
         const closeModal1 = () => {
             document.getElementById('modal_congrats').close()
         }
 
-        const checkPass = () => {
-            let pass = $('#input-password').val().toUpperCase()
-            $.ajax({
-                type: 'POST',
-                url: '{{ route('check.pass') }}',
-                data: {
-                    '_token': '<?php echo csrf_token(); ?>',
-                    'pass': pass,
-                },
-                success: function(data) {
-                    if (data.msg == "GET") {
-                        current = 0
-                        pos = data.pos
-                        alert("You are in " + pos)
-                        console.log(data)
-                        document.getElementById('dialog-question').showModal()
-                        $('#titles').text(pos + " (" + (current + 1) + ")")
-                        console.log(data.questions)
-                        questions = data.questions[0]
-                        console.log(questions[current])
-                        $('#quest').text(questions[current]['question'])
-                        $('#answer').focus()
-                    } else if (data.msg == "INVALID") {
-                        $('#input-password').val("")
-                        $('#input-password').focus()
-                        alert("Sorry, you already finished this section")
-                    } else {
-                        alert("Oops, wrong password")
-                        $('#input-password').val("")
-                        $('#input-password').focus()
-                    }
-                }
-            })
-        }
-
-        const next = () => {
-            $('#answer').focus()
-            answers[current] = $('#answer').val()
-
-            current += 1
-            $('#answer').val(answers[current])
-            $('#titles').text(pos + " (" + (current + 1) + ")")
-            $('#quest').text(questions[current]['question'])
-
-            if (current == questions.length - 1) {
-                $('#next').addClass("hidden")
-                $('#confirm').removeClass("hidden")
-            }
-
-            if (current == 0) {
-                $('#back').addClass("hidden")
-            } else {
-                $('#back').removeClass("hidden")
-            }
-
-        }
-
-        const back = () => {
-            $('#answer').focus()
-            answers[current] = $('#answer').val()
-            current -= 1
-            $('#answer').val(answers[current])
-            $('#titles').text(pos + " (" + (current + 1) + ")")
-            $('#quest').text(questions[current]['question'])
-
-            if (current != (questions.length)) {
-                $('#next').removeClass("hidden")
-                $('#confirm').addClass("hidden")
-            }
-
-            if (current == 0) {
-                $('#back').addClass("hidden")
-            } else {
-                $('#back').removeClass("hidden")
-            }
-
-        }
 
         const submit = () => {
             if (!confirm("Are you sure?")) return
-
-            answers[current] = $('#answer').val()
 
             const invalid = answers.includes("");
             if (invalid) {
@@ -281,5 +249,85 @@
                 })
             }
         }
+
+        var html5QrcodeScanner = new Html5QrcodeScanner(
+            "my-qr-reader", { fps: 10, qrbox: 250 }, false);
+
+        function onScanSuccess(decodedText, decodedResult) {
+            // Handle on success condition with the decoded text or result.
+            // console.log(`Scan result: ${decodedText}`, decodedResult);
+            // let url = `/qr-scanner/detail/${decodedText}`;
+            html5QrcodeScanner.clear();
+            let pass = `${decodedText}`;
+
+            $.ajax({
+                type: 'POST',
+                url: '{{ route('check.pass') }}',
+                data: {
+                    '_token': '<?php echo csrf_token(); ?>',
+                    'pass': pass,
+                },
+                success: function(data) {
+                    if (data.msg == "GET") {
+                        // current = 0
+                        pos = data.pos
+                        alert("You are in " + pos)
+                        document.getElementById('dialog-question').showModal()
+                        $('#titles').text(pos + " (" + (current + 1) + ")")
+                        questions = data.questions[0]
+
+                        var questionData = "";
+                        questions.forEach( function(question, index){
+                            idQuest = "#quest-"+(index+1)
+                            console.log(question)
+                            $(idQuest).text(question)
+                            questionData +=
+                                `
+                                <p id="quest-${index+1}">${index+1}. ${question.question}</p>
+                                <input type="radio" name="question[${question.id}][option]" id="option${index+1}-1" value="${question.option[0].id}" required>
+                                <label for="option${index+1}-1" id="labelOption${index+1}-1">${question.option[0].option_text}</label><br>
+                                <input type="radio" name="question[${question.id}][option]" id="option${index+1}-2" value="${question.option[1].id}">
+                                <label for="option${index+1}-2" id="labelOption${index+1}-2">${question.option[1].option_text}</label><br>
+                                <input type="radio" name="question[${question.id}][option]" id="option${index+1}-3" value="${question.option[2].id}">
+                                <label for="option${index+1}-3" id="labelOption${index+1}-3">${question.option[2].option_text}</label><br>
+                                <input type="radio" name="question[${question.id}][option]" id="option${index+1}-4" value="${question.option[3].id}">
+                                <label for="option${index+1}-4" id="labelOption${index+1}-4">${question.option[3].option_text}</label><br>
+                                `
+
+                        });
+                        console.log(questions)
+                        questionData += `
+                            <input type="hidden" name="posId" value="${questions[0].pos_id}">
+                            `
+                        $(".form-question").html(questionData)
+
+                        // $('#answer').focus()
+                    } else if (data.msg == "INVALID") {
+                        $('#input-password').val("")
+                        $('#input-password').focus()
+                        alert("Sorry, you already finished this section")
+                        html5QrcodeScanner.render(onScanSuccess);
+                    } else {
+                        alert("Oops, wrong password")
+                        $('#input-password').val("")
+                        $('#input-password').focus()
+                        html5QrcodeScanner.render(onScanSuccess);
+                    }
+                },
+                error: function(xhr) {
+                    console.log(xhr);
+                    html5QrcodeScanner.render(onScanSuccess);
+                }
+            })
+            // ^ this will stop the scanner (video feed) and clear the scan area.
+        }
+
+        // function onScanError(errorMessage) {
+        //     // handle on error condition, with error message
+        //     console.log(errorMessage)
+        // }
+
+        html5QrcodeScanner.render(onScanSuccess);
     </script>
+{{--    <script src="{{ asset('js/qr-reader.js') }}"></script>--}}
 @endsection

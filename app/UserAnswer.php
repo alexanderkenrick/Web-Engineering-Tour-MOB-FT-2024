@@ -12,6 +12,10 @@ class UserAnswer extends Model
     protected $table = 'user_answers';
     public $timestamps = false;
 
+    protected $fillable = [
+        'users_id', 'question_id', 'pos_id', 'options_id'
+    ];
+
     public function question()
     {
         return $this->belongsTo(Question::class,'questions_id', 'id');

@@ -88,7 +88,7 @@
                 <div class="col d-flex justify-content-center">
                     <div class="password-wrapper d-flex justify-content-center">
                         <div class="nes-field">
-                            <label for="input-password" class="broken-console" style="color: #fff">Password: </label>
+                            <label for="input-password" class="broken-console" style="color: #390203">Password: </label>
                             <input type="text" id="input-password" class="nes-input broken-console" maxlength="7">
                         </div>
                         <div class="check-section d-flex align-items-end px-3">

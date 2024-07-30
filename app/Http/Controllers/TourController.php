@@ -6,6 +6,7 @@ use App\Option;
 use App\Pos;
 use App\Question;
 use App\User;
+use App\UserAnswer;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Cache;
@@ -121,10 +122,15 @@ class TourController extends Controller
         $user = Auth::user();
         $pass = $request->pass;
         $answers = $request->answers;
-        $pos = Pos::where("password",$pass)->first();
         $answers = $request->get('questions');
 
-        foreach ($answers as $key => $answer)
+        foreach ($answers as $key => $answer){
+            $userAnswer = new UserAnswer();
+            $userAnswer->users_id = $user->id;
+            $userAnswer->question_id = $answer['question_id'];
+            $userAnswer->pos_id = $request->get('posId');
+            $userAnswer->options_id = $answer
+        }
 
         return redirect()->route('dashboard')->with('success', 'Congratulations, you have finished ' . $pos->name);
     }

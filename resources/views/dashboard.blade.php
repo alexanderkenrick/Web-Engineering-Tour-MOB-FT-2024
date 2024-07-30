@@ -155,9 +155,9 @@
                 {{-- <form method="dialog"> --}}
                 <p class="title" id="titles">Ini Judul</p>
                 <!-- Question 1 -->
-                <p id="quest-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <p id="number-question">1. <span id="quest-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Delectus, soluta eaque? Vero quis aut voluptate. Architecto sequi tempore quos, 
-                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</p>
+                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</span></p>
                 <input type="radio" name="options-1" id="option1-1" value="">
                 <label for="option1-1" id="labelOption1-1">option1</label><br>
                 <input type="radio" name="options-1" id="option1-2" value="">
@@ -166,11 +166,12 @@
                 <label for="option1-3" id="labelOption1-3">option3</label><br>
                 <input type="radio" name="options-1" id="option1-4" value="">
                 <label for="option1-4" id="labelOption1-4">option4</label><br>
+                <br>
 
                 <!-- Question 2 -->
-                <p id="quest-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <p id="number-question">2. <span id="quest-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Delectus, soluta eaque? Vero quis aut voluptate. Architecto sequi tempore quos, 
-                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</p>
+                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</span></p>
                 <input type="radio" name="options-2" id="option2-1" value="">
                 <label for="option2-1" id="labelOption2-1">option1</label><br>
                 <input type="radio" name="options-2" id="option2-2" value="">
@@ -179,11 +180,12 @@
                 <label for="option2-3" id="labelOption2-3">option3</label><br>
                 <input type="radio" name="options-2" id="option2-4" value="">
                 <label for="option2-4" id="labelOption2-4">option4</label><br>
+                <br>
 
                 <!-- Question 3 -->
-                <p id="quest-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <p id="number-question">3. <span id="quest-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Delectus, soluta eaque? Vero quis aut voluptate. Architecto sequi tempore quos, 
-                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</p>
+                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</span></p>
                 <input type="radio" name="options-3" id="option3-1" value="">
                 <label for="option3-1" id="labelOption3-1">option1</label><br>
                 <input type="radio" name="options-3" id="option3-2" value="">
@@ -192,11 +194,12 @@
                 <label for="option3-3" id="labelOption3-3">option3</label><br>
                 <input type="radio" name="options-3" id="option3-4" value="">
                 <label for="option3-4" id="labelOption3-4">option4</label><br>
+                <br>
 
                 <!-- Question 4 -->
-                <p id="quest-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <p id="number-question">4. <span id="quest-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Delectus, soluta eaque? Vero quis aut voluptate. Architecto sequi tempore quos, 
-                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</p>
+                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</span></p>
                 <input type="radio" name="options-4" id="option4-1" value="">
                 <label for="option4-1" id="labelOption4-1">option1</label><br>
                 <input type="radio" name="options-4" id="option4-2" value="">
@@ -205,11 +208,12 @@
                 <label for="option4-3" id="labelOption4-3">option3</label><br>
                 <input type="radio" name="options-4" id="option4-4" value="">
                 <label for="option4-4" id="labelOption4-4">option4</label><br>
-
+                <br>
+                
                 <!-- Question 5 -->
-                <p id="quest-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <p id="number-question">5. <span id="quest-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Delectus, soluta eaque? Vero quis aut voluptate. Architecto sequi tempore quos, 
-                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</p>
+                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</span></p>
                 <input type="radio" name="options-5" id="option5-1" value="">
                 <label for="option5-1" id="labelOption5-1">option1</label><br>
                 <input type="radio" name="options-5" id="option5-2" value="">
@@ -218,11 +222,12 @@
                 <label for="option5-3" id="labelOption5-3">option3</label><br>
                 <input type="radio" name="options-5" id="option5-4" value="">
                 <label for="option5-4" id="labelOption5-4">option4</label><br>
+                <br>
 
                 <!-- Question 6 -->
-                <p id="quest-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <p id="number-question">6. <span id="quest-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Delectus, soluta eaque? Vero quis aut voluptate. Architecto sequi tempore quos, 
-                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</p>
+                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</span></p>
                 <input type="radio" name="options-6" id="option6-1" value="">
                 <label for="option6-1" id="labelOption6-1">option1</label><br>
                 <input type="radio" name="options-6" id="option6-2" value="">
@@ -231,11 +236,12 @@
                 <label for="option6-3" id="labelOption6-3">option3</label><br>
                 <input type="radio" name="options-6" id="option6-4" value="">
                 <label for="option6-4" id="labelOption6-4">option4</label><br>
+                <br>
 
                 <!-- Question 7 -->
-                <p id="quest-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, 
+                <p id="number-question">7. <span id="quest-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, 
                     soluta eaque? Vero quis aut voluptate. Architecto sequi tempore quos, 
-                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</p>
+                    dolore delectus ipsa unde vel voluptates voluptatem dolor? Corrupti, magni expedita.</span></p>
                 <input type="radio" name="options-7" id="option7-1" value="">
                 <label for="option7-1" id="labelOption7-1">option1</label><br>
                 <input type="radio" name="options-7" id="option7-2" value="">
@@ -244,7 +250,7 @@
                 <label for="option7-3" id="labelOption7-3">option3</label><br>
                 <input type="radio" name="options-7" id="option7-4" value="">
                 <label for="option7-4" id="labelOption7-4">option4</label><br>
-
+                <br>
                 
                 <div class="dialog-menu">
                     <div class="back-next">
@@ -454,31 +460,32 @@
                         questions = data.questions[0]
                         console.log(questions[current])
 
-                        questions.forEach( function(index, question){
+                        questions.forEach( function(question, index){
                             current = index+1
-                            idQuest = '#quest'+current
+                            idQuest = '#quest-'+current
+
                             console.log(idQuest)
-                            $(idQuest).text(questions[current]['question'])
+                            $(idQuest).text(questions[index]['question'])
 
                             labelOption1 = '#labelOption'+current+'-1'
                             option1 = '#option'+current+'-1'
-                            $(labelOption1).text(questions[current]['option'][0]['option_text'])
-                            $('#option1').val(questions[current]['option'][0]['option_text'])
+                            $(labelOption1).html(questions[index]['option'][0]['option_text'])
+                            $(option1).val(questions[index]['option'][0]['option_text'])
 
                             labelOption2 = '#labelOption'+current+'-2'
                             option2 = '#option'+current+'-2'
-                            $('#labelOption2').text(questions[current]['option'][1]['option_text'])
-                            $('#option2').val(questions[current]['option'][1]['option_text'])
+                            $(labelOption2).html(questions[index]['option'][1]['option_text'])
+                            $(option2).val(questions[index]['option'][1]['option_text'])
 
                             labelOption3 = '#labelOption'+current+'-3'
                             option3 = '#option'+current+'-3'
-                            $('#labelOption3').text(questions[current]['option'][2]['option_text'])
-                            $('#option3').val(questions[current]['option'][2]['option_text'])
+                            $(labelOption3).html(questions[index]['option'][2]['option_text'])
+                            $(option3).val(questions[index]['option'][2]['option_text'])
 
                             labelOption4 = '#labelOption'+current+'-4'
                             option4 = '#option'+current+'-4'
-                            $('#labelOption4').text(questions[current]['option'][3]['option_text'])
-                            $('#option4').val(questions[current]['option'][3]['option_text'])
+                            $(labelOption4).html(questions[index]['option'][3]['option_text'])
+                            $(option4).val(questions[index]['option'][3]['option_text'])
                         });
                        
                         // $('#answer').focus()

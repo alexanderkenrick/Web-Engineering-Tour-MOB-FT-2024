@@ -125,7 +125,7 @@
         </nav> --}}
 
         @if(Auth::check())
-            <button class="nes-btn is-error" id="btn-logout" href="{{ route('logout') }}"  onclick="event.preventDefault();document.getElementById('logout-form').submit();">{{ __('Logout') }}</button>
+            <button class="" style="border-radius: 5px; background-color: #941B0C; color:white;" id="btn-logout" href="{{ route('logout') }}"  onclick="event.preventDefault();document.getElementById('logout-form').submit();">{{ __('Logout') }}</button>
 
             <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                 @csrf

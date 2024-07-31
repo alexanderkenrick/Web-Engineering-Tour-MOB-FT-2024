@@ -89,10 +89,10 @@
                     <div class="password-wrapper d-flex justify-content-center">
                         <div class="nes-field">
                             <label for="input-password" class="broken-console" style="color: #390203">Password: </label>
-                            <input type="text" id="input-password" class="nes-input broken-console" maxlength="7">
+                            <input type="text" id="input-password" class="" style="'Bricolage Grotesque 48pt Condensed', sans-serif" maxlength="7">
                         </div>
                         <div class="check-section d-flex align-items-end px-3">
-                            <button type="button" class="nes-btn is-primary" style="height: " onclick="checkPass()">
+                            <button type="button" class="" style="height: " onclick="checkPass()">
                                 {{-- document.getElementById('dialog-question').showModal(); --}}
                                 Check
                             </button>
@@ -103,9 +103,9 @@
 
             </div>
 
-            <dialog class="nes-dialog is-rounded" id="dialog-question">
+            <dialog class="is-rounded" id="dialog-question">
                 {{-- <form method="dialog"> --}}
-                <p class="title" id="titles">Ini Judul</p>
+                <p class="title" id="titles" style="color: #390203">Ini Judul</p>
                 <p id="quest">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, soluta eaque? Vero
                     quis aut
                     voluptate. Architecto sequi tempore quos, dolore delectus ipsa unde vel voluptates voluptatem

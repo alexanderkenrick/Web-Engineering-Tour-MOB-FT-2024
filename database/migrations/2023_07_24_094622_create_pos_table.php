@@ -16,7 +16,7 @@ class CreatePosTable extends Migration
         Schema::create('pos', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('password');
+            $table->ulid('password');
         });
     }
 

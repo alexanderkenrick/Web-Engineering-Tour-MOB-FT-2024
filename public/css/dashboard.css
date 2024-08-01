@@ -7,7 +7,7 @@ body {
     text-align: center;
     color: #FBC907;
     font-size: 48px;
-    text-shadow: -3px 3px #941B0C;
+    text-shadow: -3px 3px #390203;
 }
 
 .space{
@@ -55,6 +55,7 @@ body {
     height: auto;
     bottom: 84px;
     left: 190px;
+    z-index: 1;
 }
 
 #tb-bw {
@@ -74,12 +75,14 @@ body {
 #td-bw {
     width: 44px;
     height: auto;
-    top: 92px;
+    /* z-index: 1; */
+
     left: 296px;
     z-index: -1;
 }
 
 #te-bw {
+    width: 73px;
     width: 66px;
     height: auto;
     top: 78px;
@@ -96,12 +99,13 @@ body {
 }
 
 #tg-bw {
-    width: 80px;
+    width:80px;
     height: auto;
     top: 0px;
     left: 225px;
     z-index: 0;
 }
+
 
 #checkpoint{
     position: absolute;
@@ -149,6 +153,16 @@ body {
     
 }
 
+.bricolage-title{
+    font-family: 'Bricolage Grotesque 10pt Condensed', sans-serif !important;
+    font-size: 24px;
+}
+
+.bricolage{
+    font-family: 'Bricolage Grotesque 10pt Condensed', sans-serif !important;
+    font-size: 18px;
+}
+
 .dialog-menu {
     display: flex;
     flex-direction: row;
@@ -161,6 +175,10 @@ body {
     border-width: 6px !important;
     height: 30px;
 
+}
+
+.is-rounded{
+    border-radius: 5px;
 }
 
 .nes-dialog.is-rounded,
@@ -242,7 +260,7 @@ body {
     }
 
     100% {
-        transform: translateY(0, -0px);
+        transform: translateY(0);
     }
 }
 

@@ -15,8 +15,8 @@
             <div class="card">
                 <div class="card-body">
                     <div class="title-container">
-                        <img src="{{ asset('images/asset_mob24/logo.png') }}" alt="" class="image">
-                        <h2 class="title mt-3">L O G I N</h2>
+                        <img src="{{ asset('images/assets_mob24/logo.png') }}" alt="" class="image">
+                        <h2 class="title mt-3">LOGIN</h2>
                     </div>
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
@@ -62,7 +62,7 @@
                         </div> --}}
 
                         <div class="row mb-0 mt-4 d-flex justify-content-center">
-                            <div class="col-md-8">
+                            <div class="col-md-8 ">
                                 <button type="submit" class="button" style='font-family: "Sancreek", sans-serif;'>
                                     {{ __('Login') }}
                                 </button>

@@ -50,6 +50,7 @@
             /* color: #57c1e5; */
             color: #FBC907;
             font-size: 36px;
+            margin-bottom: 8px;
         }
 
         #btn-logout{

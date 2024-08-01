@@ -72,27 +72,27 @@
                                 id="ta-bw">
                         @endif
                         @if (!array_search(2, $pos))
-                            <img src="{{ asset('../images/assets_gedung/bw/TB_bw.png') }}" alt="" class="point"
+                            <img src="{{ asset('../images/asset_mob24/TB.png') }}" alt="" class="point"
                                 id="tb-bw">
                         @endif
                         @if (!array_search(3, $pos))
-                            <img src="{{ asset('../images/assets_gedung/bw/TC_bw.png') }}" alt="" class="point"
+                            <img src="{{ asset('../images/asset_mob24/TC.png') }}" alt="" class="point"
                                 id="tc-bw">
                         @endif
                         @if (!array_search(4, $pos))
-                            <img src="{{ asset('../images/assets_gedung/bw/TD_bw.png') }}" alt="" class="point"
+                            <img src="{{ asset('../images/asset_mob24/TD.png') }}" alt="" class="point"
                                 id="td-bw">
                         @endif
                         @if (!array_search(5, $pos))
-                            <img src="{{ asset('../images/assets_gedung/bw/TE_bw.png') }}" alt="" class="point"
+                            <img src="{{ asset('../images/asset_mob24/TE.png') }}" alt="" class="point"
                                 id="te-bw">
                         @endif
                         @if (!array_search(6, $pos))
-                            <img src="{{ asset('../images/assets_gedung/bw/TF_bw.png') }}" alt="" class="point"
+                            <img src="{{ asset('../images/asset_mob24/TF.png') }}" alt="" class="point"
                                 id="tf-bw">
                         @endif
                         @if (!array_search(7, $pos))
-                            <img src="{{ asset('../images/assets_gedung/bw/TG_bw.png') }}" alt="" class="point"
+                            <img src="{{ asset('../images/asset_mob24/TG.png') }}" alt="" class="point"
                                 id="tg-bw">
                         @endif
 

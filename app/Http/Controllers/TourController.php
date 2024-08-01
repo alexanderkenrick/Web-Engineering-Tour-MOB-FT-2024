@@ -147,15 +147,15 @@ class TourController extends Controller
 
         // FOR ANTON
         // Nanti ini masukkin di changeStudent dan belum ada ubah where buat group sama user nya
-        $users = User::where('group', 'TETA 19')->get();
+        $users = User::where('group', 'TETA 17')->get();
         foreach ($users as $user){
             $answers = UserAnswer::with(['option' => function ($query) {
                 $query->where('isCorrect', 1);
             }])->where('users_id', $user->id)->orderBy('pos_id')->get();
-            $tempObject = (object) [
-                'username' => $user->username,
-                'pos_id' => $answers[0]->pos_id,
-            ];
+            // $tempObject = (object) [
+            //     'username' => $user->username,
+            //     'pos_id' => $answers[0]->pos_id,
+            // ];
             $userAnswer[] = $answers;
         }
 //        for($i=1;$i<=7;$i++){
@@ -183,13 +183,21 @@ class TourController extends Controller
 
     function changeGroup(Request $request) {
         $group = $request->group;
-        $students = User::where('role','Student')->where('group',$group)->get();
 
+        
+        $nilais = DB::table('user_answers as ua')
+        ->select(DB::raw('COUNT(o.isCorrect) as nilai'),'u.username as nrp', 'u.name as nama')
+        ->join('options as o', 'ua.options_id','=','o.id')
+        ->join('users as u','ua.users_id','=','u.id')
+        ->where('u.group', $group)->get();
+
+        
         return response()->json(array(
-            'students' => $students
+            'nilais' => $nilais
         ), 200);
     }
 
+    //ga kepake
     function changeStudent(Request $request) {
         $student_id = $request->student_id;
 //        $answers = DB::table('answers')->where('user_id', $student_id)->orderBy('question_id')->get();

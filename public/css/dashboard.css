@@ -257,7 +257,7 @@ body {
     }
 
     100% {
-        transform: translateY(0, -0px);
+        transform: translateY(0);
     }
 }
 

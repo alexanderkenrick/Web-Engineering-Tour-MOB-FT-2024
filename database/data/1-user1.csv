@@ -1,415 +1,97 @@
 id;username;password;name;group;role;current_pos;created_at;updated_at
-1;160120003;$2y$10$k4dwG.VWytn32yQNoeAfzOtJSdm6pm7quLz0dagDIYLbm1bECVWSe;Ricky;TETA 1;Admin;null;now;now
-2;160122023;$2y$10$BYjxwAquyX2FdNy0DCP0XemVjcn8YrnpuMx2UXXSxgsbfBmM8r0y.;Agung;TETA 12;Student;null;now;now
-3;160123001;$2y$10$MSuVSW.SXWtfYSDCSNHBb.q8TH6r2PIAxiuE5pfRbd0/BDT.OnnPu;Jessica Phoebe Anggari;TETA 19;Student;null;now;now
-4;160123006;$2y$10$1xN2NnRnz6jIl1IsF1.usOMQNzCiQJB8YhVmWha9wtCcxU18mxh42;Nico Ali Budianto;TETA 15;Student;null;now;now
-5;160123007;$2y$10$tZZZQ13TFpu5apJlMveQJuHGgkzsAIBSHQirvzxRkPvGWKxX.tm8.;Benedictus Richards Shandova Seluta;TETA 7;Student;null;now;now
-6;160123008;$2y$10$icklf0mdgWbTId9Ms5X59edd7/VYzBMRAVvTEkENfmre0hM.NhWI2;Krishna Kuswanto;TETA 14;Student;null;now;now
-7;160123009;$2y$10$6UMsfaOSGAOfX4xolSdp9udhkmlP9RHxdhwOSiAZ4HZccChsKkjYq;Evan Nugroho;TETA 13;Student;null;now;now
-8;160123010;$2y$10$xO4pj2vBIAHZaQ9sONTaIebdHDzEslOadVB2Rg8uweyt3lYCo0dHC;Hans Joerg Gozal;TETA 6;Student;null;now;now
-9;160123011;$2y$10$/zC5wvHGmnoVEBqlKwlSGOs4mQypXUkZUPNRlDfNsClFexlsKDzay;Luthfi Hidayah;TETA 25;Student;null;now;now
-10;160123012;$2y$10$jJHfeHJqY3pgJco1l4gb/OUeKBWJHgVFo/GNttM8Me9mqqSwgPL7y;Christabel Audrey Theresya;TETA 8;Student;null;now;now
-11;160123013;$2y$10$ADyTzwHdOIBXG6Ve0PbjvOjnA5S0z/e0ohrG0hY19gepuDDlc.XTW;Filipus Thimoty Hutabarat;TETA 22;Student;null;now;now
-12;160123014;$2y$10$LCAgNROFSS9.PZP7vXA5eOSFzaUgYHUMqQ0SkGW4o/88ETuFPwQa6;Petrus Pamungkas;TETA 11;Student;null;now;now
-13;160123015;$2y$10$hnhae6fq5chS6EkB1qdZe.BwR5Jc5u7hezxLf7yrHoAswqENBQ5Sa;Josa Ayub Stefanus;TETA 21;Student;null;now;now
-14;160123016;$2y$10$ty5pH9/1yL83ZWzgQbMhte6bpBU8XBm.W0xoCx0W7fdvLWkr2z9GW;Felicia Hartono;TETA 1;Student;null;now;now
-15;160123018;$2y$10$xWjHv6t6o1qMRPrBUSJbZuvKx5y/LL3gRsbwj4ynXfBoKb1ebkp9q;Matthew Abraham Harianto;TETA 8;Student;null;now;now
-16;160123019;$2y$10$II7t1a8ERvu2.bc.CrGaiO/DaXDirIgQaUpAKMEG6zQdrK2dyQKiu;Edward Alfons Wongso;TETA 26;Student;null;now;now
-17;160123021;$2y$10$iWXqWXtSrq4ZGPZF6sewrenZdaEIgbT7dNdOfezW35VJQjqwv3rue;Fransiskus Xaverius Dwi Sambekok;TETA 1;Student;null;now;now
-18;160123022;$2y$10$1ozj2aaPAzJAvVr2fRNVdOUgYnmoJieS/5Q2TZZUrwYFoRYnGOedi;Tito Nova Al Farizi;TETA 9;Student;null;now;now
-19;160123023;$2y$10$ugF4AxhRm2E7bm6ZmijdO.hjqro1DfFPglXNDgKloStOYh2BDbc/K;Regita Nisriina Satriya Ayu;TETA 17;Student;null;now;now
-20;160123024;$2y$10$kRPZj4egoVbOxp20PB4P6u/xsTfYgy07aCuw0DTvqw.3HTzI3FNoK;Muhammad Haykal Amanullah;TETA 16;Student;null;now;now
-21;160123025;$2y$10$tsDQ87VWYuWGegT8t281oemkuJFqhHSaZR/cg8/srC566r6o9GYH.;Rozali Onggo Gunawan;TETA 23;Student;null;now;now
-22;160123026;$2y$10$y7oMA4LEWjYG8MUeVG2IauvuU7tNrKszbspLTn0QdCQDKCA7ow5lm;Novelin Gratia Baka;TETA 3;Student;null;now;now
-23;160123027;$2y$10$CNvZ/Aw.rRqJucir4LDMD.Gxb6GS/FicSBSqsXe7BP0g3kSzrBVK2;Adinda Nurfebriani La Djumali;TETA 18;Student;null;now;now
-24;160123028;$2y$10$UFyJskRdU.3Lhj0.Wy2C8.iBJv0pCRRbuBsWDgSNdQNOuUhmn4Okm;Michael Ong;TETA 10;Student;null;now;now
-25;160123029;$2y$10$7oxYb6RiejICKQDIqRG6Luw3.suwJcX58ezoU7HuCR8aHbCLAXyrq;Angelica Vienna Buditanojo;TETA 2;Student;null;now;now
-26;160123030;$2y$10$6tkORyBIlMIgFM8/F/h5Rucsj9akAdSyQd99EhghNW/0SrmJNHMO.;Ezra Gregorius Noegroho;TETA 20;Student;null;now;now
-27;160123031;$2y$10$F2EfaOLZUm/lKbFCtjO9ie/xWn7ikTlwbm2H2AZmXvHZvKwpBO12i;Rifian Nayaka;TETA 9;Student;null;now;now
-28;160123032;$2y$10$MUCkeq8OxURS1RSAjt9XbO8N3CajauQmTaj8deQpvFeJYSv9lHswm;Yulianus Satrio Kelang;TETA 24;Student;null;now;now
-29;160123033;$2y$10$ogIDaI8ZZdyrrGF/TgG6yOh53HSjElyo83A3.z9Q./JDEKNaX1Ama;Erik Donald Wee Dolo;TETA 5;Student;null;now;now
-30;160221001;$2y$10$CWVwD9IcBbmqeDxqzUV2wOpWYnrW5o751m18oEmiHaqKPcJ5YFC9O;Ariel Halim Qiu;TETA ;Admin;null;now;now
-31;160221002;$2y$10$DQY1u3HMxRfk3kUxBOSzPOhpYRwlhbwzT513DFFCIZp.iCrMTgpfa;Evelyn Wangsadharma;TETA ;Admin;null;now;now
-32;160221014;$2y$10$LwR0.xEvP3kesPXEL9INuu64NAx5OYUB58RJU4OFlEbhFOiKUWUje;Agnes Laurensia Latumeten;TETA 2;Admin;null;now;now
-33;160221019;$2y$10$CLmA/XGYEwhjgM06.tiK4uIfixEubq.WTvflWhlIoO5xs7/kMnVYS;Athalia Beatrice Molianto;TETA ;Admin;null;now;now
-34;160221026;$2y$10$BnfdWJjvTWpskgBGUqbjzu/wxr.CvZZJ5z1vEpZDYk9nJrS6FZoyG;Jericho Stevanno Budianto;TETA ;Admin;null;now;now
-35;160221029;$2y$10$kNExGhUrXCs2IxMVNhleZuY9tD3AdzXm9SGuKXyuTac16XE37AJfe;Leon Aviano Chandra;TETA ;Admin;null;now;now
-36;160221042;$2y$10$3OEvXFhaOB8txEb6vDpQsOLDTiZVnxUYNl3LgUIpF1ek68VJSnyLy;Wisnu Wardana;TETA 3;Admin;null;now;now
-37;160222011;$2y$10$phE./zY..eizPqMUC0ob8OXwQqplwEcppduvR.aTTW9ZDBejsg9Ku;Ariel Sugiono;TETA ;Admin;null;now;now
-38;160222025;$2y$10$5Ep3PIbPV9/I9/4UdqVmyO0tr4WfY8YmJoYKu9Bs5GJOejn9PAp.i;Farrel Neutrino Mohammad;TETA 17;Student;null;now;now
-39;160223001;$2y$10$U5QcUx3eTWEAfJ5/90mPjuywqpHfLVgY0b7tKS6qXzGevujIg7KKe;Samuel Humphrey Jan Ekaputra;TETA 17;Student;null;now;now
-40;160223002;$2y$10$BSLU4bUKvaAkmxCUe4bhKO5XFb4UmcniXNfyvCNM4HKEYnT4fC.BK;Amanda Grace Artajaya;TETA 7;Student;null;now;now
-41;160223003;$2y$10$7BzyfTe4Nra9cU6Lw75pfeM3FVpx9/W1W5dDJAdGkhGBVk9JQA3Gy;Franklin Theofilus Hidayat;TETA 12;Student;null;now;now
-42;160223004;$2y$10$rsUGBklcpZyxeogcacoXh.IL99EvsVt1BIWALksR5L/3m6YZnL5K6;Kevin Lius Bong;TETA 3;Student;null;now;now
-43;160223006;$2y$10$OVme2N7z.ochomXwffUjAOJ1OqDH9xhzZxltWgrmQDr3B0zblPLxK;Justin Willianto Loka;TETA 24;Student;null;now;now
-44;160223008;$2y$10$3nSGXwY4oteaQFOjpd6as.zLRq1OBb/h8KRP1JYn6S4juKLrEFrSi;Alicia Stephanie Carlene Tanto;TETA 4;Student;null;now;now
-45;160223009;$2y$10$pOIB39SNTn3sg1YiM7AU7OUgDZhhCCYgzOVx5XZfa0K65APlesVSS;Alim Sujono;TETA 2;Student;null;now;now
-46;160223010;$2y$10$PYzQ.yGD5HsawDUaEClVWu/CMYz3S0QMR1y17LBQA58qnBMo/pP4.;Patricia Nathalia Budhi Wiyono;TETA 6;Student;null;now;now
-47;160223012;$2y$10$6LvInVPs/Gh8thPg5pFBkO6MAueiPNkgcRP43NqR03Ob7B1b8DxO2;Tan Alfonsius Jason Sundoro;TETA 21;Student;null;now;now
-48;160223014;$2y$10$0TQfZCxXmErsPvjxNgYCFeiTo7odhgSX0BqMALYjs7w52oQlHnrSu;Allegra Bierley Alfeus;TETA 26;Student;null;now;now
-49;160223015;$2y$10$SedUGSIpmUXuiN/.DCh7NeLX4Li4oagzDAKCsdWrlQLrtBrjXoJM6;Vania Azzahra Nugraha;TETA 5;Student;null;now;now
-50;160223016;$2y$10$pSip8M.2Th2dC1rnXkjS/uK/9/bUfFCP.6ZoJonQqq/OV106mUByC;Robby Tantowi;TETA 18;Student;null;now;now
-51;160223017;$2y$10$EEOFoa1kP.1Stc8x5Gi7he3iYxbtcEZMMHL0S7Xy3.z7EeIgNyj6q;Habil Ibra Wahyudi;TETA 11;Student;null;now;now
-52;160223018;$2y$10$FNTc0BtrxO3TmTeSpDt3.uu8iHcjaLaNxKe21340/l/VD8ALfRmB6;Samuel Damar Arya Nugraha;TETA 19;Student;null;now;now
-53;160223019;$2y$10$ichfRe9vlGqnUWzaYEeA3.kPVvx1gLx9RSSiDskLcjwI.mJzFRKAi;Auliyah Damayanti;TETA 8;Student;null;now;now
-54;160320008;$2y$10$cA6Kz4UAvLuEIcRDsZVFnenlFoxYv8EN.FKJ9rHvzp9gRziSNrtx.;Michael Angelo;TETA 4;Admin;null;now;now
-55;160320018;$2y$10$VjpRKc.WrsMBVd/01L96oOaTr8BZbali9rHuG.DylfLCjbxQI6B1C;Daniel Febrian Tanuwijaya;TETA 5;Admin;null;now;now
-56;160320038;$2y$10$0MykbuSz8/Ht.0TReTsWcu7I4wAqqUEjaiSAE34thKhcwbk/I9B9S;Eunike Putri Permatasari;TETA ;Admin;null;now;now
-57;160320086;$2y$10$EIVb8HeABHO7nNCVj39bj.DIfrjsxMCttpjNJaurzrnKnkPK8zeCa;Ariq Al Khasyi;TETA ;Admin;null;now;now
-58;160321004;$2y$10$WY2fz2sbpZxB1TkBrVKEgOM6JXJhyTHTXyg120IeZ2.0RxTaiSu8u;Vanessa Fernanda;TETA 6;Admin;null;now;now
-59;160321007;$2y$10$tDbug3X4tnrW26o7wt0d7.mVcRIyUZ117/e9i6LUUtH/g1rxrOg7y;Erika Valentina Angkawijaya;TETA 7;Admin;null;now;now
-60;160321014;$2y$10$uGqgiUFdtQUvppn4aFl.juuJn0qfFpaOqAP.j6dEqViXle1KTl6d6;Monica Natalia;TETA ;Admin;null;now;now
-61;160321021;$2y$10$VgWnshucdsZeHXpDEZKHweBR99CL/7rbsaSzop.kp/s/4gGPZLv0C;Steven Jonathan Soecipto;TETA 8;Admin;null;now;now
-62;160321022;$2y$10$2.YoQUZBevW.Aq3rGfRo1evzbDdejB9JCp8q332cs6z2rXpGtzzy2;Evelyn Puspita Devi Thamrin;TETA 9;Admin;null;now;now
-63;160321027;$2y$10$S.B/wA49tTo8ug0hoF7aeu2JJtAIfzGPzBr..rOLlVEiUY1.cCG.e;Robby Chandra Kosasih;TETA 10;Admin;null;now;now
-64;160321043;$2y$10$ONwp5gmn8grUTMdJ43Dxh.G4ubINHbHhPxKTUcyIHAFi15nMrp7Aa;Angela Carla Viana Chrisma;TETA ;Admin;null;now;now
-65;160321075;$2y$10$zXOHEmfjFJLzh5Kfd1mRJeOA8mULjMlbreqPP.foqJfQkb38gVJvy;Aditya Saputra;TETA 11;Admin;null;now;now
-66;160322018;$2y$10$bQrNR3h1L8Ij2YofgH5k9.Q6PVmUmpv1pQgaNB36MQS7iCyu0Eaa6;Archangela Karolin;TETA ;Admin;null;now;now
-67;160322035;$2y$10$FqIa.ya5fPXBfymK0BXgq.lmAOvk9MIxTEGkqZxvWpe0EOreyX8K.;Charlotie Arliza Chelonia Frans;TETA ;Admin;null;now;now
-68;160322045;$2y$10$9oNSJAIVqs4xAFdTuKzZae/pnSc.x1qBsNKOQHWBmAmUqSkMCJsDC;Yongky Natanael Sugianto;TETA ;Admin;null;now;now
-69;160322046;$2y$10$zGI/nvXR/eoOgcGJkTd1AuiRM7dy14I/9k8T4HZaTMFib8Fzievoi;Hanif Hilmy Bahasuan;TETA 17;Student;null;now;now
-70;160322068;$2y$10$Ye58zIadhSV.zo3yTcL0TeR1CtACu2Ns9OLToqhnSg4i3B5LvfFhO;Bella Nurafni Maulidina;TETA ;Admin;null;now;now
-71;160322083;$2y$10$wcy9g/7bnu8avc1BhyNlL.IJXeOk3TscfuhqwIwY.bzdR4HlN7VE.;Bryan Nathanael Lauwuna;TETA 8;Student;null;now;now
-72;160323001;$2y$10$zxDeZjbOYFAcmybjhdVWjOKDFBKv2KnUErux99CKSg3/8sPnjIruS;Maria Margareta Sutanto;TETA 14;Student;null;now;now
-73;160323002;$2y$10$x/MXNbk3V5HRCYThXpejXOKWaQusVjGTsI/KEiqqjnoga8YUzwFC6;Nicholas Enfarin Tan;TETA 10;Student;null;now;now
-74;160323007;$2y$10$Nx5lz.tIoeRTq0nfcERHMuxmTNgOFxdEb/0HRs6CAOx4BQg/9vFCe;Yovahend Thieric Artyo;TETA 20;Student;null;now;now
-75;160323008;$2y$10$RR8rWK7yoe/84s5J8uPvnOAMxdQma46GW.MgiF2Yeu2efEPP1jYwG;Fernando Kayana Wan;TETA 22;Student;null;now;now
-76;160323009;$2y$10$tkNvu9dybO5krl9WVNhaT.bw1qlD1ilTfk7FSAklee3T9jUoycFBi;Jessica Florencia Purnomo;TETA 15;Student;null;now;now
-77;160323010;$2y$10$9gLtGv0d3MeEpSbLr6w21eWMjVZk8aTVdpvDmT9RjNb/LdABgiAvm;David Ferdinand Tjahjakamel;TETA 23;Student;null;now;now
-78;160323011;$2y$10$dVhXxxUh.haL7/87tnVCV.3C6EouKqtwpIvERkYaZg.3uO8LDw/Sy;Grace Vania Chandra;TETA 13;Student;null;now;now
-79;160323012;$2y$10$kClNkYzVA2ITk5vwE4hY7OodXkWSewvHRlXOx21Lv9VxYNRvguV8u;Khesia Agustina Joedianto;TETA 21;Student;null;now;now
-80;160323013;$2y$10$39WgVGoZ6wBiXdJTCJk8LetFjquqRUiVSwq8FFkqwZY.dbIcuBFN2;Amelia Florencia Bedu;TETA 16;Student;null;now;now
-81;160323014;$2y$10$5ZbxqntBog8DQvAIyqH1RucGYB6w7GxFhXW7RfVnugluxqiCLszpO;Wahyu Nugroho Winoto;TETA 19;Student;null;now;now
-82;160323015;$2y$10$FMZRJimjsZF0uXJf1x4S9uPp0Sq/0.TAB7lTyzQPy0hHZznl15J76;Arya Jati Kumara Chung;TETA 25;Student;null;now;now
-83;160323016;$2y$10$lKW.afyWmCIW5AYp0uPjpewjzBXFkeJloi3OUwCo5OjYZm1WFq0.K;Brandon Jaya Susanto;TETA 7;Student;null;now;now
-84;160323017;$2y$10$G6C8BfDb9VE4ARLji8LHveKP/rTdjzKaPLE0gzXg80ExGm6izkkXq;Yosia Imanuel;TETA 2;Student;null;now;now
-85;160323019;$2y$10$Ea5dehJKCW.yEisNgVh6peNQc2faRnaH0/LuP13zpTTrJPejE.jqK;Josia Bryan Nathanael The;TETA 26;Student;null;now;now
-86;160323020;$2y$10$GUEq0PCpShAXa.6yQRUCuOBw16S3yUJgPuSWSj1CDDxhXTrajywiu;Philander Lawrence;TETA 5;Student;null;now;now
-87;160323023;$2y$10$m.aVPP5S6UWtjLpJ7sdq7usTzbo8iZIOYWVc9pOM/u2kJ5mrxc35K;Valensia Angela Lay;TETA 12;Student;null;now;now
-88;160323024;$2y$10$32qnVqp92ZwPN.G.qfBtzOeEFQ42xam/zIs9u4nahaVZlSYE1XGMy;Owen Satwikadharma Sutikno;TETA 4;Student;null;now;now
-89;160323025;$2y$10$YM9JW2c5uPJYEH/Kb/HJk.gy0Q.GqLyRdHYLQLeu4dM9yTRvamZjG;Steven Arya Giovanni;TETA 15;Student;null;now;now
-90;160323027;$2y$10$hLl.LHLBjqSIIHBEj121c.8.353fL9iUo9/m.FvUzty0fKZmKq6Yq;Elisabeth Mutia Arinta Prabowo;TETA 3;Student;null;now;now
-91;160323028;$2y$10$IPaH9aJgqJ0SHPn1c1hoIesRv2cq0NQw5nYSpV1icQBCzAa8fbS8e;Chris Zephaniah Jeremiah;TETA 5;Student;null;now;now
-92;160323029;$2y$10$DOtSzgtPsDjOY8hBjWW5vOTgyJNwlawvSXOd3t4mTIyCI0hY8lEeS;Dian Fitri Fauziyyah Prasetyo;TETA 9;Student;null;now;now
-93;160323030;$2y$10$nREXUTPH2sR0vj1aXvnf..MlTMPJIRF10Y6xkUhKOOmKXeRgJz3zW;Ni Made Pinasti Srinadi;TETA 14;Student;null;now;now
-94;160323031;$2y$10$Xp5F0cGDFwP.aKmND90IAePMOy77L0kBnGVKQ2THO4OxGhvYD6SBe;Rosario Jennifer Ivy Moniaga;TETA 6;Student;null;now;now
-95;160323032;$2y$10$Opo2HW3eYzs.7sQjRXA5VuU1YaiCM02LZdYDDekOZjEv0XpWUxvoG;Bertrand Maxence Kwan;TETA 16;Student;null;now;now
-96;160323033;$2y$10$47Mw08..3YsM6vm69MR9U.OOPQ6ZtyRMfvFSpQSCIABTBKyheN3Qy;Jeremy Marcello Wijaya;TETA 13;Student;null;now;now
-97;160323034;$2y$10$ziFOssuOa2tiox84qM4//O958siTrgOwadVBDnK5OOPZ9jjbZo5VK;Bima Wijaya;TETA 1;Student;null;now;now
-98;160323035;$2y$10$gfwge8V/nSubnvi2uq4tq.VCapl/7EP/adPFyjogL8VHnQ4hzI1pG;Kimberly Callista Mindarto;TETA 25;Student;null;now;now
-99;160323036;$2y$10$p3761j8dr07Dv6nvswOIxu.8V.hjmiljh2LET2GQf69xPNZNfQOt6;Alicia Beatrice Gunawan;TETA 10;Student;null;now;now
-100;160323037;$2y$10$AZbkBCSTn1JJkdfP2TrXH.97fez13Ma9x0NRBc39sZZX79XqWQjQW;Julian Dustin Evan;TETA 18;Student;null;now;now
-101;160323039;$2y$10$EfNO9AR4RfPuoenw/vBWiuzOJPcDH6.2FxY8oSIfjQGTB7bRz2fri;Geronimo Matthew Tandipajung;TETA 22;Student;null;now;now
-102;160323043;$2y$10$zetKVsZf1jTAIc7KtxZdY.UTWbD5pHqwqKzRPIYdeeRFe8iapDU/G;Putu Ayu Ratih Wulandari;TETA 24;Student;null;now;now
-103;160323044;$2y$10$cp3NTnlgFmagsXV5GEndEex7SEgrJOSLCbQ13rFjbJ2SkC.saEzGi;Widya Artika;TETA 23;Student;null;now;now
-104;160323045;$2y$10$SomuLuno.OmBvlzVlMcv/u6za/ppENEBaNU25SbAmpRHHjj9z1uCW;Sindi Tara Cantika;TETA 20;Student;null;now;now
-105;160323047;$2y$10$XjY0.s.TyZriQONMdkNqvecd62MmY0DVeX4EyPRZHihKKKRexI/9e;Kadek Novarisna;TETA 6;Student;null;now;now
-106;160323048;$2y$10$Sepni6tbG.XHvpX2r7vm9e9YFgYeDvIbDe.dYdOxatTSw.jiF5esS;Muhammad Rizky Alea Casta;TETA 1;Student;null;now;now
-107;160323049;$2y$10$HqJAOLVl/yXfMQS9C2UzjuBbs.VP1jbLmcCp314c/zFhWiF9DBxeu;Andreas Harya Tri Pratama;TETA 19;Student;null;now;now
-108;160323050;$2y$10$CXksBWScu.z6jPHP1uWy/u8gtLGpL.MPcBlinzuO3.3OdDE.jORfa;Rachel Hedi Septianti;TETA 11;Student;null;now;now
-109;160323051;$2y$10$YfBc/POvQX3p5jA5Tjb5peYQm79aH3DEOgJeX/sVcnFNDXLMRgZ2m;Rizki Dwi Agustino;TETA 26;Student;null;now;now
-110;160323052;$2y$10$.wY5r2XCtAwkxHBdD.KRlumK.WrGQOjWiupvHxzze1a6Zqao8Q65C;Intan Puspita Wahyu Ningtyas;TETA 22;Student;null;now;now
-111;160323053;$2y$10$o1aqDasTDe3aAxp3E6J4QucpfdgESXnFUdvi3NfnRZEpAAtPN4kaC;Deryl Steward Julian;TETA 13;Student;null;now;now
-112;160323054;$2y$10$GnFH7gaqsc8oKgadqcid.eqM4mIs.MO6YkIkUpS/2t7nfyHkRkpOu;Daren Timberli Putra Nosa;TETA 7;Student;null;now;now
-113;160323055;$2y$10$4HkkGXhmQEHAAAina7yWXOuR6881YVjX0SAIDtO8a161O.M5X4m4.;Ricky Ramadhani Hidayatulloh Putra Salim;TETA 2;Student;null;now;now
-114;160323056;$2y$10$NpjpkuBaYn4ALisIQvmyr.N8EwnMb5Ay722hkMQn1Uo74P7W.6dy.;Airlangga Arya Mahendra;TETA 5;Student;null;now;now
-115;160323057;$2y$10$D4EIwZ8fBj3WVRR5VvOlaugjAWfxIIADyP8HEcJm3ymjcVVonF3Xu;Violina Nindya Azzahra;TETA 4;Student;null;now;now
-116;160323058;$2y$10$DJlRsqS2Cg7KZ9mQ5Jkqcen3Dh5UwRyyd.tBEojSCW05anbEijrXy;Felany Audi Goyanto;TETA 16;Student;null;now;now
-117;160323059;$2y$10$xyIV2azVebgjoMUBDjy8guBzkZJd65yBPf9alibE1NZI3M1JkIGdK;Keiza Nazli Zahira;TETA 24;Student;null;now;now
-118;160323060;$2y$10$gzZzExK/UlvGu64kIK.lFekKS/yOlLuanp12mKFrq41M1shEvbfze;Renaldi;TETA 3;Student;null;now;now
-119;160323061;$2y$10$hG/XzLLJEXzbS0CEwg4pp.Ti.EIQeUWyfKNr1ywBtLadJ/mRQVSr.;Muhammad Kenzie Asadel Beryl Adya;TETA 15;Student;null;now;now
-120;160323062;$2y$10$dssqlhCyBwx/bTXnCxXPbu8oS0I0pPYHR8UaXdkr694jo8cCEhEOm;M. Fahrus Salam;TETA 9;Student;null;now;now
-121;160420023;$2y$10$EvSehTZBmEUATGCsuxRUz.AJtt7SATxf62AbWDAmpg98TN5Fk72Qe;Jonathan Ryan Darmawan;TETA ;Admin;null;now;now
-122;160420024;$2y$10$BnLrz.Q9kYOMaI4hTtBope8RbDvEqbE1BltJnCkKJEGnt4X9UL3/e;Christian Yaska Natawijaya;TETA 12;Admin;null;now;now
-123;160420041;$2y$10$X6Jw7ylw/vLLRYLdCjERGeYawgBwVQLzZsivco4o.fP.zFR4NUBxm;Rony Hartono Irawan;TETA ;Admin;null;now;now
-124;160420053;$2y$10$VCmLy70TAT.bJMS0UB2es.rjHrF.c2ypPthJJTdlDBTOK2WmMe/si;Natasya Gunawan Tanjaya;TETA 13;Admin;null;now;now
-125;160420062;$2y$10$j3eKgm/rgTIEv47wVVPtLumtmtBYbcz/a3jOMYvGGyDzQ3vt1Jocm;Natanael Geraldi;TETA 14;Admin;null;now;now
-126;160420073;$2y$10$V4NTO2gJBHD/n5DM4.ORROTR0y/gnlgmtYHUIoDMsDTWUL7qK9gsq;Jonathan Adrian Chandra;TETA 15;Admin;null;now;now
-127;160421005;$2y$10$S31Ynqk3G5vqaTrNlmRB5eGKGCJpzoe2qBnj74oUflELIGacCboo6;Felicia;TETA 16;Admin;null;now;now
-128;160421023;$2y$10$vKvooejSGkEHnp5A1Jci/.kvO4LqFamNz8Fhh4pgtCoT0gyudegMe;Alexander Kenrick Duanto;TETA ;Admin;null;now;now
-129;160421029;$2y$10$FyBfRKUHfPO3f1Qguxup7ecWBH2ZLwvCMdxj4Z7wf20tG7S6tNemO;Nico Victorio;TETA ;Admin;null;now;now
-130;160421082;$2y$10$pr9bPJhfUaGwOom//RweX.o7.PbnOV5EIKUCcST8o.uLZaqUfjEym;Catherine Belindra Citra;TETA ;Admin;null;now;now
-131;160421093;$2y$10$LWP69z7D84as2Oe6t.9svOTJBQQrmcmD5ogFWGP/c9mNTBk5udh3y;Stewart Wibowo;TETA 17;Admin;null;now;now
-132;160421101;$2y$10$ea6QiFoThhUL4B39a/8Z2uFZpGsR8advdcK96BbWspfIyv6E/Z4Hy;David Bryan Christiansen;TETA ;Admin;null;now;now
-133;160421119;$2y$10$ghmwk99cZYQnyT/eLoQ/xeZgIFCjgBzq8Ht5R9DRKFDXcOYsPthla;Antonius Yabes Sieman;TETA ;Admin;null;now;now
-134;160421149;$2y$10$cs0e5caU/ZVW1yaBPbx46OPhMoZ8AStUlvmV7TovZSBKgNZ7PHvaK;Latansa Tahsya Qonitat;TETA 18;Admin;null;now;now
-135;160422005;$2y$10$ZeqO3.S8QPY3UUevCnIH4eP6odNUlg7crWNPyfAU1XPEaF5v4x0bG;Fanny Rorencia Ribowo;TETA ;Admin;null;now;now
-136;160422036;$2y$10$G90F.Pd3KselDTmQpK7wQuqOE/FDbgN/e.OMPOkuacmG3PWfKsQMm;Michelle Christabel Fidelia Siswanto;TETA ;Admin;null;now;now
-137;160422042;$2y$10$c/.XOfbyWKSA8/LlauFHO.tZ2oOyZGqh8ciYXU0eMXWbIAEBZ.hw.;Joshua Daniel Talahatu;TETA ;Admin;null;now;now
-138;160422046;$2y$10$tBTVml5RWWCSlwijjsaFI.RFAF2qXxyfc4VQywZT14D36dgeZM9w2;Axxel Nathanael Praktiknjo;TETA 15;Student;null;now;now
-139;160422114;$2y$10$SOAGafjjLlDlcsh2Lpgr0ufc3HEkEd4mdHESjljsiPOTAxYeqpju6;Angga Nanda Prasetya ;TETA 20;Student;null;now;now
-140;160422117;$2y$10$wi7JU09uYUGJZEknioCAY.sH76ayhhPAMBfvR95ewXdSN.ORLeiYq;Yehuda Phedra Sanjaya;TETA ;Admin;null;now;now
-141;160422148;$2y$10$7QH5vMalDAtMTyrc.PrEF.3uBGl98lVTmLkCj4QoGpQv1Xk2MLsFy;Cicilia Dwi Palupi;TETA ;Admin;null;now;now
-142;160422156;$2y$10$gzMVPcvM/cCRzg3H9Zm43ecWTOOUTgN1w9.UcEOTFlr9pqVOQgg/C;Muhammad Rizal;TETA 19;Student;null;now;now
-143;160422160;$2y$10$ivoodEpEEPKt35mw/Kzin.XtdfGlLGnLfCtn4.biLj85D57W0jbWG;Gavrila Ivander Mayko;TETA 17;Student;null;now;now
-144;160423002;$2y$10$TKYFR7TqisPoDqUvgklHv.BXdu41eVJ1eDDjIpXDBmZJ3uMDljfZi;Kenny Varenne Tin Setyabudi;TETA 17;Student;null;now;now
-145;160423003;$2y$10$KVudz9UY4i1TXQdLBPCylOlcw37ne1en4A0cuxLa24YVN/TTinwAK;Laurentius Deaven Geoffrey Candra;TETA 10;Student;null;now;now
-146;160423005;$2y$10$mM1FYPWV5vLBudN4NlZ7puv8eld20LqFAjCnyH/EaOc1STBnCc/6O;Louis Januardy Citra;TETA 18;Student;null;now;now
-147;160423006;$2y$10$7XT4thBk1Bh4dBHllv4PzelTxTRja211p.4LXMerU/p/bOSLxbp6m;Ignatius Jose Kurniawan;TETA 11;Student;null;now;now
-148;160423007;$2y$10$jOtc5NaisqgGw.7vK4StN.y184Z4hDwPnigyrtTEZvDTizHdqmCse;Dave Natanael Cahyono;TETA 14;Student;null;now;now
-149;160423008;$2y$10$HDbDb/Zax6vK9p4ctuXz1O4O0Jyr9b1A9X0II3XRR/Ky5I5XUUKdK;William Haryanto;TETA 21;Student;null;now;now
-150;160423011;$2y$10$EnnQ4Rg6rGiArA6v2d29OOFNQQO1maGlBC5PmPMG9EuLwuykm63rS;Aileen Averina Lau;TETA 15;Student;null;now;now
-151;160423012;$2y$10$ihAD79nSoZucuQrIwiUftu1TPTRr6qX413uTdo8lVeEqsYHY82Bcm;Garry Garcia Handi Putra;TETA 23;Student;null;now;now
-152;160423013;$2y$10$u8b3WWQQy62b8bPP.M18u.FE8d4AKCUzMRR8RX5JTS0/Ey7xGooG2;Chandra Surya Dharma Utomo;TETA 20;Student;null;now;now
-153;160423014;$2y$10$MiWSQyz7TADaDqx8KVGCkeCaxKRYxvhwE6hRQ5Rgk6XSqO4fZGzPq;Kevin Margason Winata;TETA 9;Student;null;now;now
-154;160423015;$2y$10$Gw5a8szInkJQPb3EXqMM/OaWnpsxDlWpY0T91Bk5615iy57G5jAKy;Timothy Wesutan;TETA 7;Student;null;now;now
-155;160423016;$2y$10$SIoU.TJHF6ZXY.G2VOW72eW2Au74z.4jPHdwp4lI/ZNoFpA/sQS3m;Andrew Success Cendra;TETA 13;Student;null;now;now
-156;160423018;$2y$10$IZNhZ/nRN0d306jxNHKdi.tb7amMSnmycQ0Hqqi4EjlmrTOoYnlLa;Sachiko Catalina Budiono;TETA 25;Student;null;now;now
-157;160423020;$2y$10$zwbqW..dx65AR6c11FQe/us3j5FeQqBrDiU1AMPpKLHkd54WXa5.y;Kevin Nataniel Sutopo;TETA 16;Student;null;now;now
-158;160423021;$2y$10$X0Mf6JMAJXhrOXleS48ZH.c8uIqLUGpDAI8sEZG8nU.xD7tonSrq.;Sara Tolego;TETA 3;Student;null;now;now
-159;160423022;$2y$10$rAVDZJYkmolPO7e9Pfxj4e0q3Kyeq66kFuBxhtbJeytoq6dGuGq3a;Daniel Wibisono;TETA 15;Student;null;now;now
-160;160423024;$2y$10$xga39QEsXx95RsVx9879VutnGKR/VN9esJOupIfLSojek.wnRycki;Nisa Dias Angelin;TETA 4;Student;null;now;now
-161;160423025;$2y$10$q0aJenwX6x0mQIeLtmnRJuYWCXjfRxDPLXWQl2QL17o0QSkyud82O;Selena Hans;TETA 26;Student;null;now;now
-162;160423027;$2y$10$tYO.T0jt25eZGO6R49KJieObWoPE55Yim4jjcbHTOOQWJLrh7Bmya;Merilee Alberta Florentyna Chandra;TETA 1;Student;null;now;now
-163;160423028;$2y$10$xn1tH5heTidHTL8TxjbuCOVRoLwyWRVD6uioHhVTkrd7tm07nMAp.;Vincent Marvelino Pranoto;TETA 24;Student;null;now;now
-164;160423029;$2y$10$kXB39qM.cecYRo2fjnbVVutDgDw89Rn5zj7ZgLQE13X7YkYTqDhvS;Timotius Liunata;TETA 19;Student;null;now;now
-165;160423030;$2y$10$5tqihwz.EHRDcGa9wc16XukRnWNZ3pxm8uznmnsvwSTIR.SrXgD.y;Leonardo Sanjaya;TETA 2;Student;null;now;now
-166;160423031;$2y$10$LDlJz.l1OIoXJh5pffUGvuYZDEd/PeCizWxE5butT8WSrLIl9Zu5a;Aileen Joyce David;TETA 5;Student;null;now;now
-167;160423032;$2y$10$YiXlWlkQPJS79DtTNlWAzO/JKY90KN5lwwd..7GeVJLyf2iDFLJIy;Christopher William Susilo;TETA 14;Student;null;now;now
-168;160423033;$2y$10$DvDRRX75T1WbqFxgTv.uOeIMRM4KnQ3.KBpCkNYTkNQXCmRUHPVTS;Evan Daniel Tandiawan;TETA 22;Student;null;now;now
-169;160423034;$2y$10$I..cQEtiBkXi.M0swOqKHuVwPoA1/Ws.7YM7od2nQsh2uums/H6d.;Joshua Nehemia Subagyo;TETA 9;Student;null;now;now
-170;160423035;$2y$10$McX0fRVglge5.8QCsvs/ueqDvMf2yvxWjRQVb/DvDYGDJPPS1FMI2;Rexell Stin;TETA 25;Student;null;now;now
-171;160423036;$2y$10$cleFZWneYmDxC.eBuVY6z.hVVyTpnCu0L8yFDKXpNbrwt7MQEquEm;Vanessa Mulya;TETA 8;Student;null;now;now
-172;160423037;$2y$10$kgCc6l9V76iBZZbmV6fGTesuUFE3n/AU6UjxlNyfZOPraQrB7bkWm;Aria Hansa Junior;TETA 23;Student;null;now;now
-173;160423038;$2y$10$6HoRqahyh4UXtiYvyEHGRuKn/EWbcrgbXVC1WO3Cx0dRr2KYq3.aO;Muhammad Arsyad;TETA 20;Student;null;now;now
-174;160423039;$2y$10$z66LYdJb1/xi8YATiKR9O.k3n86CoNh8OMDPj8zc3R4JK.lA0/GZy;Leonard Frederick Sutanto;TETA 6;Student;null;now;now
-175;160423040;$2y$10$mwUuHErayr6ASw9roUYUWOS9RKKalkf78lljY.A6DPpwE4IzkVUTu;Mikhael Prawira Tandjung;TETA 1;Student;null;now;now
-176;160423043;$2y$10$EBYyYDrRnpD6GGod3/0Cne1oYFF9Nv2NKvIf4KUZ4PWwvHPhVuDkq;Amos Tanael Ebenezer;TETA 7;Student;null;now;now
-177;160423044;$2y$10$oxlSllPekY/ogL0Clsw1PeID/Cop5wMlFVmAtOvsAd1sV/xYdA35W;Clarence Damario Halim;TETA 12;Student;null;now;now
-178;160423045;$2y$10$gA/6UnGRWZm/3tFwndxePOH5BdnKxMzMc2CLWw16CFRiKCnRLc6FS;Clementine Aubrey Prajitno;TETA 17;Student;null;now;now
-179;160423046;$2y$10$1WU3jG8M6zqKyYXXWFVOGOVJLnTjiFo5y/EwLxxBlMLYA6JypQ5.y;Erich Pramana Muljadi;TETA 21;Student;null;now;now
-180;160423047;$2y$10$kiWRNPhgGrRzlctsBmOlf.RS6IE7kVN1T5VNiDP02n0q6vJZ3wh5q;Jonathan Arthur Wibowo;TETA 22;Student;null;now;now
-181;160423049;$2y$10$Sw0gxvrrs1VMaHTlaC6TTO.whdyJg4VunyE/xJ4PvlGIDecSLAm8S;Vincent Brendan Soenarko;TETA 26;Student;null;now;now
-182;160423050;$2y$10$hTH.X1Pci310pVQVqyK3GOHSYl.IgiZgNlcQtmqNRXrqxkuycDYfa;Devina Bernice Sunjaya;TETA 10;Student;null;now;now
-183;160423051;$2y$10$LKFFTmqEeAio5TDKFq.zaOL.oC5UWIaalB7GXTV3n06M6AaDLJ7VW;Immanuel Richard Rahmad;TETA 16;Student;null;now;now
-184;160423052;$2y$10$1IgskAq8feoGn9UqHpzGuOuO1rvTEgKbqEay8HPscXUvPDs5xOWv.;Alexander Wibisono;TETA 4;Student;null;now;now
-185;160423053;$2y$10$siNm9dUCqXYPqIXWP.UjmeM.CbDwP0UoXkYtgyQb8CJ7w9CzQSieC;Alvin Abel Darmawan;TETA 8;Student;null;now;now
-186;160423055;$2y$10$TVxm7bvmd963UOd9sWYzwOZJv.thKqTHn4JcWohd/kSghBXMVYu3e;Alvin Kurniawan;TETA 5;Student;null;now;now
-187;160423057;$2y$10$MkKpivWleywv50BRRxKORuQ1va2D5cTuNaip4FuCw/1UIkAs6kl8a;Cliff Richard Liem;TETA 13;Student;null;now;now
-188;160423058;$2y$10$4DqBfyZ0TZsH1oD9PdAb0u.n7VJuN0X9crebWo6MOG5WuZFgMk6Ii;Febby Soenartho;TETA 11;Student;null;now;now
-189;160423059;$2y$10$.af4M/NF9k81dhcxmif7SeRPi3Av6WGyDEj8rRk7BnxLMxvGrWh1G;Ferdinand Reynaldi;TETA 3;Student;null;now;now
-190;160423060;$2y$10$/ApQile07JySdjXti0AfqOjbVX2UgWiYQM08SfysFLMdePdKQeT66;Gabrielle Marcelino Atvianto;TETA 18;Student;null;now;now
-191;160423061;$2y$10$MGcHh1Yofy4kyhEEGa2wQ.cR6NB9E.Y7H6oI7/KPVf0iej0v6EmJ.;Vincent Firdaus Kurniawan;TETA 19;Student;null;now;now
-192;160423062;$2y$10$wpSGBsWhsTonWo28SBrjN.zfADBPA3PhJ3EpbxIOwiaxtdMwmABpe;Fransiskus Hendra Setiawan Roni;TETA 6;Student;null;now;now
-193;160423063;$2y$10$FEXziqcYRm9DzX8/rs5pVOUxhBATtDBYy7nzWHGoAKEIP7YRLMUM2;Ma Patrick Javier Joelle;TETA 9;Student;null;now;now
-194;160423064;$2y$10$XXbNBgt22ZxElGGLTlns3udZvxg6BdR8Cs/mAlqI8qtuJbxcuD0qO;Hillary Kaory;TETA 1;Student;null;now;now
-195;160423065;$2y$10$ei2l.L/QLA.JsrRRZA2v8ugLvsNqYpEUd17mjhMJfzSZrf28kWzBi;Wilson Pirono;TETA 24;Student;null;now;now
-196;160423066;$2y$10$CkhG.zTj/FG/S73EzSXBU..c7NSLko9ObPX82Tj2Xc6pPJdiq.nLW;Vivian Sisca Maria;TETA 23;Student;null;now;now
-197;160423068;$2y$10$XrC5pb3jzkTCd43VpzdVhuUWp2/MqUejCKlrwCuzCbO2ELZOyTkFu;Patrick Immanuel Koesoema;TETA 21;Student;null;now;now
-198;160423069;$2y$10$PfeXgd8i1ArTSijJ/./nNutS5bdfc2soKzu50YCsuTWd/9aDqdYEa;Michelle Alicia;TETA 22;Student;null;now;now
-199;160423070;$2y$10$N8QkuHHQ8fRv9b8OVtLE2uwkTAr7lI1o34KC.8tCzST77XJryUwqW;Alethia Clarita;TETA 2;Student;null;now;now
-200;160423071;$2y$10$.RnTu1W1zXbf2ROVRjKNxe.i.t/Jtdb98LGCUvcp1weeY/dmHrl8e;Ken Keanu Tanujaya;TETA 25;Student;null;now;now
-201;160423074;$2y$10$xOPcjKn0yRxuhhyY5/auJO4YlY9MAuujeSlRMPs9HtV9wjoIFp16y;Michael Andro Nathaniel;TETA 15;Student;null;now;now
-202;160423075;$2y$10$tcs17HCq0R0Wc0mZL1xY9.sq3EAFS/JwjTnjscOxGMp0y/.69LMcq;Robby Wijaya Saputera;TETA 10;Student;null;now;now
-203;160423076;$2y$10$U7mvkcCg79kMUjfFwbpl9umDdk.qiJvsZlJ3QiWG1KAyc/yYsNTqe;Brian Kristanto Alim;TETA 12;Student;null;now;now
-204;160423077;$2y$10$G8AmzjKFwNZ.3zIMT4HQZOmfVI1.1dGXDhZjK0TUVjZNDYtk3N2Vq;Nelson Ahli;TETA 14;Student;null;now;now
-205;160423078;$2y$10$1erJUcgZ9vzAR2DOdVumNec3dtpwsSPbCvbjecXOcE06qU5EkvecS;Richie Viriyananda Hartono;TETA 18;Student;null;now;now
-206;160423079;$2y$10$FiWwBYKDYWqLSEfxztzUv.W3mshh9RduLgLi2MO28cD5.jSmqa9Dy;Richard Nathaniel Gunadi;TETA 20;Student;null;now;now
-207;160423080;$2y$10$Hfi6DNhVq6r482tlKrjpluI9jI3WGytibkyHva8tGIyfZpZcnHXv.;Vincentius William Christopher;TETA 1;Student;null;now;now
-208;160423081;$2y$10$8/ZXC8PNK9XgIcB59zLLiuUBac5y63MWzU4.NUaMd.rTmBwKKwAuu;Harren Anwar Nata Wijaya;TETA 5;Student;null;now;now
-209;160423082;$2y$10$ryQy0xZqs7WVDga3inDP6udGlgad63Uvj6ljod4PQwK64lNgnyc4G;Kartika Megan Pratiwi;TETA 3;Student;null;now;now
-210;160423083;$2y$10$KiOmlZKUYfNdFvBmhEINFOoTnjrgw0ekLpMMmUC0jOTzLSrBAo21i;Franly Budi Pramana;TETA 7;Student;null;now;now
-211;160423085;$2y$10$9XcQrww3FTJEqWtL2Qj6l.yO5Hn6K9lJZPymzFDWuNHvf00YBTKvO;Steven Gunawan;TETA 17;Student;null;now;now
-212;160423087;$2y$10$2TFxr98fLlGsbKU9vIhzN.TKSdgM9BMrTXDiww7gDrua2gznMCNAG;Muhammad Fazle Rabbani;TETA 11;Student;null;now;now
-213;160423088;$2y$10$MqMFf6QKxlKxhsR.5uH6SOY9eYtD1gqZ9YCveUxwDsmvrfbm6kNs2;Ericko Sutanto;TETA 6;Student;null;now;now
-214;160423089;$2y$10$K8MDqhDGA.q8XNUNzT0Ix.XOdK34Km1TYrEfW4/jY58IYp7tVWcey;Elifele Immanuelly Pribadi;TETA 10;Student;null;now;now
-215;160423091;$2y$10$43u0DQ0kUEWp2hY2XKrRru/Ha4t9mARk8lrDxgVYR9FcEFLwRIneC;Enrich Daniel Ong;TETA 4;Student;null;now;now
-216;160423092;$2y$10$dhN92hIfA3T2cGtsCu93yubpCT6OKXAA8U/Ytp116AVBYqAfDjnUq;Ignatius Felix Tjitradi;TETA 9;Student;null;now;now
-217;160423093;$2y$10$Oik7bKLJy2/Z7phKiiDMyun.NU4iPm2sf7c/tebF9tdDmjFUB/Lwm;Alfredo Budhiarso;TETA 16;Student;null;now;now
-218;160423094;$2y$10$hOPBoXdT/JsX2etBzIJqKuBgi0YLj9A2aBLSTLG91.QDuXqRsCoh2;Steven Anthony William Vincentius Suseno;TETA 21;Student;null;now;now
-219;160423095;$2y$10$ux14E6oKMKgZj3QpyL3AzuUWIIcM57AGsjswBUFg7zFAx.es6IvTW;Jonathan Andrian Hadinata;TETA 24;Student;null;now;now
-220;160423096;$2y$10$ujPtGHdwMlqEipcVzPWa/ufK0xEcv8hPU6rp064hMfiv16aj9mbWG;Ferdy Anggriawan;TETA 26;Student;null;now;now
-221;160423097;$2y$10$UHpmLVj2gdOtMJfRhpIOYOHRBh6W1YdxD5qy42YsjP/24s7tB82ne;Florence Angela Kuntadi;TETA 7;Student;null;now;now
-222;160423098;$2y$10$n9nFiMRFL5flLuCE9PU5iek4dvcV05EvmgwoG7iguthvzSHSq.2NK;Daniel Yang;TETA 25;Student;null;now;now
-223;160423099;$2y$10$h9BDYiuENSHP3nAzd4XXvu57l3cI8aF7OhFAx0axXE8Y5VvVoW28S;Agnesha Riby Tjoanda;TETA 2;Student;null;now;now
-224;160423101;$2y$10$Pw2dxA8v.nrh/8E8CMN./ei71HrFxhPKAX5uS9uh1Nm68UxlbB4Kq;Frederico Henri Santoso;TETA 13;Student;null;now;now
-225;160423102;$2y$10$wdMK7oph3dM8GPWD8iEDnOGIKULhkAYSgg68EHKafMuBhDQLwpT0q;Miranda Michelle Matulatan;TETA 19;Student;null;now;now
-226;160423104;$2y$10$qbshIOck0bT1U4WuGVnfW.p/GMRUx1NGhiFenYLP8qAc90L68DI6.;Aditya Suwanda;TETA 12;Student;null;now;now
-227;160423106;$2y$10$BS36xb93YPJv.Kb5tWTXRu8LQxhVb6FpoP3fkwQu3f7B9jIp9.Op6;Agung Hidayattulloh;TETA 8;Student;null;now;now
-228;160423107;$2y$10$b7hsOM2J4vD2QcUgs2nbKeCQ6ycyby0znRRwdOjcLZBzlIHNo7aQ.;Karyn Felicia Siaoman;TETA 20;Student;null;now;now
-229;160423108;$2y$10$/vSIEd1oxUmTIeL8yQ53jOLEM.6encfvySruiMm4YtU5d8S64vvuO;Heraldi Rizky Anggriawan;TETA 11;Student;null;now;now
-230;160423109;$2y$10$vSC85Ve3.nY00gvSUhH3Meq0onma15hJLa.f3/Up2AxzUoQO3wJ3O;Kelvin Letsen;TETA 14;Student;null;now;now
-231;160423110;$2y$10$AjxG7bj6iG4ijwQjfpwNauewZUzZxSCuWo99yiSVlrNw1X0rUFCNO;Raphael Ensent Pierro;TETA 18;Student;null;now;now
-232;160423112;$2y$10$QVKJ830wO9Wei5H1TW9hGOBzGCPg.fy8UZvEjAmtiSavmyuwcRFmW;Muhammad Firdausyah Rahmatullah;TETA 23;Student;null;now;now
-233;160423113;$2y$10$gSXK/qe/H1.QW2uMGaK45uOu9ANMzkkK5L1I4s6r0CgdUPPIgsLTq;Reinaldy Aubre Antonio;TETA 4;Student;null;now;now
-234;160423114;$2y$10$A/Mu3j7k574QFazgHEfdAO4lhlgWc22YZ7cWTaP8p8Lkla4nr0Yf6;Samuel Calvin Muliawan;TETA 3;Student;null;now;now
-235;160423115;$2y$10$A/bFzhtmmR6EZCt.9Vwfu.iDorT1hnDaxmbgZT7VBe7QHoIGovF5G;Chellyne Yuwono;TETA 15;Student;null;now;now
-236;160423116;$2y$10$D1etRhfPabeW9atC93H83eFW/rZBLNUyVlqw1FcAB03o8xI.ywhBS;Enrique Juan;TETA 17;Student;null;now;now
-237;160423117;$2y$10$.Gv5Vyplbs2/7.jDkeYpW.55RIVCzWsRpc7dv3qMwcrHA2zqamlP.;Michael Sheyrtio Ananda Todingbua;TETA 2;Student;null;now;now
-238;160423118;$2y$10$MehUk22/vo2lZDHjulWNz.gAJKym2E8KXKBJjC81I45AO.HD22Kvu;Adrian Devon Budiman;TETA 9;Student;null;now;now
-239;160423119;$2y$10$g1MJIKyL5HC87sVY.iltSOJJkrmxF9tvzWHqJkJAQGdmWr7E0Lz4u;Vanensia Mbiliyora;TETA 25;Student;null;now;now
-240;160423120;$2y$10$CfX2FdrCnk20w5yOmkLmfuO7LLhR95bZgJyXWDZGvTalsxdA0/FAO;Yosua Immanuel Ariyasa Lianoto;TETA 5;Student;null;now;now
-241;160423121;$2y$10$Gq2JggPyJ02J6SmQvUVg3eGv8k.vrfvohfx5AS6Tx0asz79MPZX/O;Gioshelyn Sanisa Leksono;TETA 8;Student;null;now;now
-242;160423123;$2y$10$SxGKOnBt/fg2gHMwSQcsdOGatTk1zELFOp1jM6R.I1fSBpzJbqPPq;Hillary Celine Ongels;TETA 14;Student;null;now;now
-243;160423124;$2y$10$7OsGAbVIAWfBkDHDdywo6OdP6lwyZfBezyynWTkq9b0MNmi2lXUW2;Gabriel Nicholas Saputra;TETA 18;Student;null;now;now
-244;160423125;$2y$10$XvAj0UkfHLWUYaQlWHgyquuN1nzDzOC559fbsMjuVnrtbJX1OSowW;Ariyanto Chandra;TETA 26;Student;null;now;now
-245;160423126;$2y$10$DTwE4BoBGLBEEv34rd98jefVl8ZXVuJtZCNNsN0TeLXqgQk4P66Ci;Emanuel Alvin Theodore;TETA 16;Student;null;now;now
-246;160423128;$2y$10$bRpsRiT0.f/.T5hI7iP0BO8ZL4H7C1L32ptzE5ujwWPoI/9TueHnC;Rendy Tang;TETA 6;Student;null;now;now
-247;160423129;$2y$10$pBVPb3zFnw6BjhtugKeRx.Pycb67lwDldrFuJTnjfc6ABGXQ3pQtu;Eluisa Sugiono;TETA 22;Student;null;now;now
-248;160423130;$2y$10$/mNlOcXgNABupQBKxTYiLuDztLk3bWabU4d2q98lwQ4lSsveTZlea;Galih Kirana Saputra Sandy;TETA 13;Student;null;now;now
-249;160423131;$2y$10$d67n70X2z7xwDkS0C.LuAOroMEF5rjEVMIhcJelhq7O6c7go24cJO;Hansen Garrett Firdaus;TETA 1;Student;null;now;now
-250;160423132;$2y$10$YaiZB5rAJw3wLSNkMQWdCO6rFJoBZZPIn.UMpz1LrpnuCvfiYmBbS;Kanz Faishal Hakim;TETA 24;Student;null;now;now
-251;160423133;$2y$10$4JDe/cmO3F1khKXqRtBaGeXZosoNnKUaGefY6JVQlDZhnRg0wbUQy;Michael Moreino;TETA 10;Student;null;now;now
-252;160423134;$2y$10$6i/P88Px8Sc0j5MphbXsdOrCUprVJ5O4CUSkkSN47jyeCNcWh1n.m;Dirga Firmansyah;TETA 7;Student;null;now;now
-253;160423135;$2y$10$ocKFqnmvnw43c7HE.hYbdeSNwaLBruDdeKhOxJp7EjhsN7tJ2dIyq;Hon Felix Edward;TETA 21;Student;null;now;now
-254;160423136;$2y$10$5l25yH6syhEjQeDBMZx5VuqDlyp2S.ipiicfiqUMQV9M2dAayiDOq;Samuel Erlangga;TETA 2;Student;null;now;now
-255;160423137;$2y$10$Jdnp9gMGDNYSCOwzlgSt1eNmH9LoJ/lBnfZfevqpEdBRs5FB/wvX6;Angelline Clara Fongiman;TETA 12;Student;null;now;now
-256;160423138;$2y$10$/NMq4OzcZd0OTFTRf50lU.wFGACjm.ERNGmqzYFTR3gHgtk8v7rtu;Ferdinan Rafael Kinanta;TETA 20;Student;null;now;now
-257;160423140;$2y$10$ZLztFh9SXUuDrWk4l/Ufhu.fNti.P4FHXLx0zWPzA0Tzos/Lnpome;Luh Ketut Pasek Aristya Pradnyandari Sedana;TETA 19;Student;null;now;now
-258;160423143;$2y$10$PEqosGeSWSwF60JhRrohCeNhACMKnClltoZSw22KpfrU/pHjlI9um;Rasty Maharani Savitri;TETA 23;Student;null;now;now
-259;160423145;$2y$10$rtMJ59Nj/frqdmNwjrgbbu3jLVrGQyOwh0DK77ISbVU5mKZnIP6va;Devlin Natalnael Gunawan;TETA 8;Student;null;now;now
-260;160423146;$2y$10$UKPssTBP8mQUSBF607pWPeLBATa.fLwkvJni/Cwu9b6JZ/Oe/wIlu;Jordy Reynard Kwando;TETA 11;Student;null;now;now
-261;160423149;$2y$10$/wCPDmm59JF7BbEQIRmxw.qqdqrfztwxuuvffBD5dtZlykXxAZtqe;Jonathan Petra Fradana;TETA 18;Student;null;now;now
-262;160423150;$2y$10$NefM79ldkLkQE11smK.gBOzsdztmSsdmBfHAqreD/fxePyHW83NxO;May Eliza Hasyati;TETA 17;Student;null;now;now
-263;160423151;$2y$10$pT55Vg78.HC5CVuJ151ttOsieoYVOy3J0iJErQkHJ8OoKjaBUgxXS;Fiona Kathleen;TETA 13;Student;null;now;now
-264;160423152;$2y$10$8f1UgtzJ656TZRtGcNKJJeFyRPOvX/LN2vRGwCkMLfT3EOmw5TGRm;Jagad Satria Putra Tunavarny;TETA 22;Student;null;now;now
-265;160423153;$2y$10$OyaeUfufbuQpqu7sbf2q1OVHBksXVx6fh1xvffc.O7QXZNX20MHL6;Rafa Rezka Kurniawan;TETA 5;Student;null;now;now
-266;160423154;$2y$10$mkGtZtvtZtfdUdEhTHG8cOxRT.NdB/X05aMxiXK8MR5IHLjT/pEHu;Rency Zefanya Dhavier;TETA 16;Student;null;now;now
-267;160423155;$2y$10$Z27yAWe1t3P8PL8SlgDof.Hat5jCs7yESPQQi5vzR7SCPGNHxWkQy;Hansen Eduardo Handoyo;TETA 10;Student;null;now;now
-268;160423156;$2y$10$EOmpfEf0VWNHa5pN9ZclAeNJflsrDV/iXqyg5/9EIo64iO4OOO0fC;Nicholas Andrew Surya;TETA 7;Student;null;now;now
-269;160423157;$2y$10$B7TL724vCpSiLvmDAHf60.Rhog3yMwoxOXjY4u8Q41IUyQ/ISMrna;Nicole Olivia Tranggono;TETA 9;Student;null;now;now
-270;160423158;$2y$10$KuplHEYPvChAjy39MhUFYeVy79BY0t38a7nlJZ5Kpml5tPGQPo/9y;Sharon Felicia Sutrisno;TETA 3;Student;null;now;now
-271;160423159;$2y$10$dhz8ZwZZPFn0QvjctAmzm.3GRNpUFKHgoJWcYBaASQG43jO/4lQ4C;Olivia;TETA 11;Student;null;now;now
-272;160423160;$2y$10$GmT/WhpdDRkvyS3c1X7N5..HenplewnFzXZuSQgFv0Ycjllv01B56;Claudius Neville;TETA 15;Student;null;now;now
-273;160423161;$2y$10$XXbhuTN8/JkXTSxoziw4ceK7FM.mzmdH/EAyKReWxB2YwNREtf9Ki;Herlina Octavia Therry;TETA 9;Student;null;now;now
-274;160423163;$2y$10$7skLiZ4x1WngD.nF3leEBeSmSd6fUcFK26lKBytUmuQeOOtCvfMdi;Patricius Tresnadi Bramoro;TETA 24;Student;null;now;now
-275;160423164;$2y$10$4UtgO6wz1Uw2dJ14YAGFB.U4K8LDgZBESOCaVMAAWIiAE3arLF3JG;Delon Villarel Agnanta;TETA 14;Student;null;now;now
-276;160423165;$2y$10$r0j5AFMQMEO6u6pofJQl8uHyNYcXBqBb0yYouSgaF/vbbX66Fzxq.;Angela Michelle Stephanie Wardoyo;TETA 23;Student;null;now;now
-277;160423166;$2y$10$GMQdVTwa4cFWhTQSC6wT5uD8wRKYdXHzqNxWloHupJMHrEsmC6mP6;Shane Malvin Harsono;TETA 12;Student;null;now;now
-278;160423167;$2y$10$VZK5QdA1W2GlnTr6WEExMuWQLTU0wInbfT8XHb3hs2oY2H/DMsgQq;Yangsen Virrenko Halim;TETA 8;Student;null;now;now
-279;160423168;$2y$10$4VMjVCMwhgMeWgXxxSKSDeZHpgs4athVysSMnmb7rtZZjOD0zerrC;William Dennis Samiadji;TETA 4;Student;null;now;now
-280;160423169;$2y$10$qhI5wZJw1W.msV.SN/0xcOgibioeHfpHATFApPakuK0k/NdL2Wai6;Raka Maulana Akbar;TETA 12;Student;null;now;now
-281;160423170;$2y$10$vb6QH/Q6aQYRSVRo48t5HO4Mkmc.2i5Cfb4hXs06osrendIbAe0QG;Alain Jason Widjanarko;TETA 20;Student;null;now;now
-282;160423171;$2y$10$GIoMOWI2ejItYIdidqScRuao7uce8A0NE9YgfSmg2ODOu4cpZTJTC;Yujiro Cokro;TETA 22;Student;null;now;now
-283;160423172;$2y$10$uD.Y8NtbTKSWi5gksV4MCeK0Y2ifzGw3HqxTcmRmsJZ9sx5Y.z0ZC;Henry Hilton Howandhy;TETA 20;Student;null;now;now
-284;160423173;$2y$10$WuPRZZ.dOGM/uf4G1dLS2eRBQk8K4Dciq3fd.MN9sz7/QyL7XDvi.;Sahputra Meliala;TETA 25;Student;null;now;now
-285;160423174;$2y$10$oxVpW2YTNc5MZ0bGpCkglumisLQ9ivhjH2tg0gb/w7R.PJ.s.lq4u;Victor Christian Suteja;TETA 13;Student;null;now;now
-286;160423176;$2y$10$foJRPuOXIvrGuIAleMp8FuYmX5jbXtQDAHRqObnsLfxgkLfagR.4q;Benedictus Leonardo Edward Stephen Sugianto;TETA 19;Student;null;now;now
-287;160423177;$2y$10$6hW6ioq7zjcYgtvzqcytrerMO9f08759c4W97VVDJoioZfIDk2fA6;Cheryl Felicia Langkay;TETA 21;Student;null;now;now
-288;160423178;$2y$10$W.uytRoW4P4gbD1vr6dhaOOv/3ZF9d0ZPIH9vhbfIOv4hX0AW.TQO;Ahmad Fathan;TETA 23;Student;null;now;now
-289;160423179;$2y$10$RtcH8AGToh1jR5U.QKfrPu6I/afxVIzv.Rfsw8coOdl6fAi878vvS;Daniel Octavian Hariyanto Wiryo;TETA 21;Student;null;now;now
-290;160423180;$2y$10$xc5ZhDIsfz85jnR0cj7l8e1HK/6n3mAjGCMZh/Ow1gw3joNLciBSK;Irgi Pratama Frizzy Darjito;TETA 18;Student;null;now;now
-291;160423181;$2y$10$DliPFlZqGvIDpJZ21BBuxOHyAiHs4GYTg7DPkRq956bva3wQAnKRK;Hilmi Hariyono Prastowo;TETA 26;Student;null;now;now
-292;160423182;$2y$10$AOL5JF6JV5nsgGNGAGnbo.X2F3Zagh4trxEA/KipRkoWM9GsJd3L.;Angga Hadi Ristanto;TETA 24;Student;null;now;now
-293;160423183;$2y$10$abyp4Q2aCJeUtSdPRwpDu.PbySAhtJR2PC8gtZmQ4FKR1luhkjxpK;Hans Aristo Cavell;TETA 12;Student;null;now;now
-294;160423184;$2y$10$D/Kzni2DzsLWwC1ZqPx1yOQuRjz9VOKVL6H9fzMPnd68DVtR2CGJa;Putri Diantha Hetharia;TETA 11;Student;null;now;now
-295;160423185;$2y$10$5onAN5Nnj0Kp0Zpg2O.Aiu2W.ESzTqZcRFwqkSyiVtd3lJpNTKqzi;Bobby Satria;TETA 19;Student;null;now;now
-296;160423186;$2y$10$MPu82onz9DSjHSIMFcHzKOyiqjSB6DX4G8w7clsuj6DxN.TvRG78C;Brandon Ferdinand Imam;TETA 17;Student;null;now;now
-297;160423187;$2y$10$fwmQjlzCG.coKevbPrZ/r.Nm3KVX5.lSToPnxaTttnH5Kc0ObvYQi;Bernediktus Yulfan Lay;TETA 4;Student;null;now;now
-298;160423188;$2y$10$/fYQlFAc4lPnBLTWF9jD4eJqm7i.I7JZVc/NC1MaiqPfTGhAMUrI2;Robert Glenn Wunawan;TETA 1;Student;null;now;now
-299;160423189;$2y$10$De56oaJBi2K2OT5s4InOOONSotjMUUMBXTa4RSEmRakOx0CdkGWR2;Ivan Leonardo;TETA 6;Student;null;now;now
-300;160423190;$2y$10$A4ZwVYtQCADTHzSap87ZG.7w1QWhQQgZqB7/VVzfzzRhStVpgrjLi;Fernanda Rizki Darmawan;TETA 10;Student;null;now;now
-301;160423191;$2y$10$1e9JZ69D92Erjk//QH1W1OmZkO76oEbiRtFMQCv/gmxxrFfa//3LK;Ricky Cahyadi;TETA 14;Student;null;now;now
-302;160423193;$2y$10$AJ4Kl4svDUEZ4FzPsqHPHuE79SgJReiggAD5ah/.ceS2fvh9mpGTW;Jimmy Rompies;TETA 3;Student;null;now;now
-303;160423194;$2y$10$54FrZgCeMOQjSEBmCBfZgOiqtJGV6bvbMVkBEtegH2kNqFDUmUuQa;Muhammad Rafa Izzuddin Nugroho;TETA 5;Student;null;now;now
-304;160423195;$2y$10$IgsztvoDz41VZ9xXX3wv9Oc9CaWuO57yzbBz0gYuNvUeLBe7M91Lm;Januarius Mari Jawa;TETA 25;Student;null;now;now
-305;160423196;$2y$10$sWMU2eXb5f1nydV5aimoEO4xfsTYGyENhrJPSXowudByMCkmBUyN2;Peter Aji Sentosa;TETA 22;Student;null;now;now
-306;160423197;$2y$10$poL3wQC0jfo9FAOzGZJeEe0edc9VHKS7suwEyZ.EAkNj15LQJGnCW;Valentio Juan Aribowo;TETA 7;Student;null;now;now
-307;160423198;$2y$10$/21a.7vvQ83zB5bEmYJI0.ZSmBP7LVxgyDF5OJCkECc/hEz.hoSF.;Edric Tjandra;TETA 6;Student;null;now;now
-308;160423199;$2y$10$r2/QMGZ0zUJdK1pJ5tqC.eLd78HW/ppLX.VgtveIRYqPB9Ie5zQge;Alexander Darren Sulistio;TETA 2;Student;null;now;now
-309;160423200;$2y$10$cWMvFaatljGZkTLes5/pEeuIKiRpZKOsScRA44JzGgBfmCWwRCrn.;Dewi Malik Anggraini;TETA 26;Student;null;now;now
-310;160423201;$2y$10$AfwWWgmA5CQx31JGaXnvC.FeAzOgnzJcoBzB2qoBp9HCWOSuer.Uy;Celine Felica Widjanarko;TETA 16;Student;null;now;now
-311;160423202;$2y$10$DQ70HJkk/Y0unsNPnvfFAuxpzU/P9VLgAOWlriMniQmb12vrTG7nS;Najwa Shafa Adellia;TETA 8;Student;null;now;now
-312;160423203;$2y$10$c3D0GOODMpTYS0k/DEsyTOlXjO4mBy8BJzGsWWpEM9f1fhJcv.uJ2;Rasyadan Virendra Alkahfy;TETA 23;Student;null;now;now
-313;160423204;$2y$10$N7jlQCYr4kq2/YbxK2wwj.Jz3/7UQugBpzygaespfoaIHw3eeuMgW;Aryoseno Priadjie Nurwahid;TETA 25;Student;null;now;now
-314;160423205;$2y$10$SmOMkOD9S16I63UgriNdmeqdx922uJ.n9WG0SOO9tt3KFWNik/1F2;Don Gabriel Benedictos Amaral Kau Ro;TETA 15;Student;null;now;now
-315;160423206;$2y$10$k/xVK7T/iHnJxQl2c4sTD.ds8H8o3oS7my2iWwO/5lfeSRh3bOcka;Rafli Afqar Siregar;TETA 26;Student;null;now;now
-316;160423207;$2y$10$DeV6/NL.pyG0xMFgeh2ztOIjt/dSH8ev8YZActOuLbwZJQZtuPpv2;Aziz Firnanda Firgo Putra;TETA 9;Student;null;now;now
-317;160423208;$2y$10$54Y9JScP0eDfnmOELv7dpOEtEQZFgVqZqJXovjYfgdfq7DRPx1fY2;Muhamad Rizky Pratama Hamid;TETA 12;Student;null;now;now
-318;160423209;$2y$10$mchFbRBDYzQ0hUI9lpijNOzIFHVwQaaURmRJyY2YlBjOFX33l2.W2;Kenneth Gilbert Katiandagho;TETA 24;Student;null;now;now
-319;160423210;$2y$10$y9oCkPhhZ.9b8t7zV93r3eJgMSzytWc.YuHfKgXVM8QaXoUQH6J/q;Chrissatya Abel Cellonata;TETA 18;Student;null;now;now
-320;160423211;$2y$10$gICV1D8Qw7XF9FenYFiTNOsKMK6E/4i7fy595jxvf/yAej///rBza;Joseph Xela Wirasena Pangau;TETA 4;Student;null;now;now
-321;160423212;$2y$10$CYeBThmmFBT5BrmElFb5q.A5MUgeQyemk75yo.kLKomSqBYBK/Xia;Tio Nauli Nadya Hutagalung;TETA 2;Student;null;now;now
-322;160423213;$2y$10$fvPjrV5QrJKfDw50gG/ove8EwgbzAjT2AnGPhm/K1PALTV7v94Q2m;Amalia Zahra Zaafira;TETA 6;Student;null;now;now
-323;160423214;$2y$10$yTK/X7t3C34lnNYhkrP.Be8mm.3GqCBjE9Wpn6mr0ik.d6p.5QZsm;Ferdinand Otniel Lundju;TETA 11;Student;null;now;now
-324;160423215;$2y$10$5ma0kAZFJkDHIRXUxXArIuHUnCfEUaZ6s0wmUf5WG/gmIeLKnRuG.;Kevin Audric Hendrarto;TETA 13;Student;null;now;now
-325;160423216;$2y$10$VFMGV8yVDYRMqsmQzY8WWeHlj6FNsKcZdlftMYLb7TcuP4lJxIanC;Christian Jordan Pareira;TETA 3;Student;null;now;now
-326;160423217;$2y$10$kd./7SnnANuu6PChmHIWgewry9DwBzEcyVpH6N.woWHghV67037kS;Muhammad Sultan Gymnastiar;TETA 5;Student;null;now;now
-327;160423218;$2y$10$Db4Gho0jZnwF7.0jX0JpPe0sCprvks.YXZQMhEuJh0.BI6cShp1vK;Naura Syifa Syahbania;TETA 21;Student;null;now;now
-328;160423219;$2y$10$CK5kCrptkpcmggUJsCp1dOXF30Tkl4jst/FjRAhRIR.VXZI32TcXS;Willem Gideoni Bimantara Laras Sakti Yudha;TETA 14;Student;null;now;now
-329;160423220;$2y$10$465qTG3v9Wdli7jt65GjUeZb9oZLFUDgCDl3uBlm2OOv8EhLVxgEK;Ibra Firmanda Setiawan;TETA 10;Student;null;now;now
-330;160423221;$2y$10$EL6aCzcShkamIJTJgrejzea.iBQ8dEXEaO/fmwOTsBgdGaSshdaSq;Novalindo Tri Putra;TETA 1;Student;null;now;now
-331;160423222;$2y$10$xBx5riVfpAFf8LiIMGNmFOdLPr1CELfKWhk/Gu7TC.PbtVSxYqvZK;Pattrik Vallentino Leander;TETA 17;Student;null;now;now
-332;160423223;$2y$10$Om1FwMuPpEscftkFYXeuk.dPqY/N.Gow3.yc5vDh6FUIVq4sy1aEO;Alwi Ba'agil;TETA 12;Student;null;now;now
-333;160423224;$2y$10$cZf/tuaT6u1P7PS5spMKZeYYCIhIkZlXjgJZKhABufdEvpT66tz0i;Arsenio Nathan Khalfani;TETA 10;Student;null;now;now
-334;160423225;$2y$10$gznr6CD5tqLCOnuEroWBvOu9ZnfTG8xS9c1QnhwsxGZbFst/dNptK;Hardimas Hamid Suarjana;TETA 18;Student;null;now;now
-335;160423226;$2y$10$JO05u56FagsLOHxxodjkDudRltkWjtMC3wYhkbvf8sjwpJ57wkNdS;Vario Christian Ghaneza Ibo;TETA 16;Student;null;now;now
-336;160423227;$2y$10$Iv7k1h1U0u.mz112quGBke/spwfG98TT6K8PFulHxm62oy9JfYxpm;Josephany Angelina Tue;TETA 23;Student;null;now;now
-337;160720001;$2y$10$17lix/rabYoLbiiWBVsYT.PW3nbXcsUGVKIyqSQL/o7CV67GprT96;Ezra Putra Sulistyono;TETA 19;Admin;null;now;now
-338;160720014;$2y$10$8kBG0oARhUrwaEcse8l5QOCsgI30nsZUbVP9iLHMMHAkTJAlQRaIS;Andrew Christian Juangta;TETA 20;Admin;null;now;now
-339;160720035;$2y$10$I2XVEdYnchxyTvnlmA3dye3sShmk6H2oVfyNEs/6kEwe7UWuGdIMy;Reinaldo;TETA 21;Admin;null;now;now
-340;160720039;$2y$10$gdB39IFMFuEngZDL0RQbROKUCIIT/nMSkd8YvbyQhOAsiGWMwKslW;Michael Travis Prayugo;TETA 22;Admin;null;now;now
-341;160720063;$2y$10$/633LAcu1hJkaEjvqoHGSepU8P.QBTeeWqw2LAnCpZNXHleZodqoK;Gusti Ferdyanshah;TETA 23;Admin;null;now;now
-342;160721002;$2y$10$CLYqJlauxYjN5h/w9nU/TO0L968wkaTxH3MCU4vzexI.evWfyXNE2;Aji Lukas Kristanto;TETA ;Admin;null;now;now
-343;160721004;$2y$10$5OUbnLES1MFQOsk1XZJroOb9yvxwXEpEGBu8G65/Vk5N9gnSG0Be.;Fenny Cahyawati;TETA ;Admin;null;now;now
-344;160721014;$2y$10$DpFvnLCrZqMiZvIakkc/UO1jlD1hOZ1OigY0hLw1mgseX/1lbOUYq;Rivaldo Dwijayanto Tan;TETA ;Admin;null;now;now
-345;160721023;$2y$10$VSl4.JIcWliW7U6oF4mhmOe9GiufTwAdqQAcVMDd1L/HUt35GSFvG;Christin Gunawan;TETA ;Admin;null;now;now
-346;160722042;$2y$10$Coh.5gdMHhjYHiRdSlw5yOk79p1gWGlEx.Nux91ft/XPFpidAJaM.;Safira Rahmaditha;TETA ;Admin;null;now;now
-347;160723002;$2y$10$5j8dqJ6wqruyiJlj5kVsjOG00Ev4Yol.H1FpdzpXFQ.54ng3cycGq;Sieny Angelina;TETA 19;Student;null;now;now
-348;160723003;$2y$10$GnwoFDuK3vktMC2nESvOyOXUiK0SfVOd0kIyG96jFzFPro3eZoCre;Christopher Kayne;TETA 22;Student;null;now;now
-349;160723004;$2y$10$3XduYNJFZK9JG7B9Z4V4QeQVdr7PgOzncMye13VRoG2Io9zy4Xb5.;Joshua Halim;TETA 5;Student;null;now;now
-350;160723005;$2y$10$mPT4EJnitJp4dHj3nJV2/ufblLyJm0FE0h96Idqm0kuI9R9Gk8zJC;Richie Wahyudi Santoso;TETA 20;Student;null;now;now
-351;160723006;$2y$10$j3VoTEQ2fUybRv16tYk1POiCPqg8JFdp41zbB6S5PagIkMLIcbfEu;Jonathan Chandra;TETA 16;Student;null;now;now
-352;160723007;$2y$10$eZcP1cmpo90qIE6Hu88FlekI/LWqHOYJpYC5hltFZa8B6Iq0EGR/W;Antonio Sirilus De Asisi;TETA 8;Student;null;now;now
-353;160723008;$2y$10$Lk9g1G7odzVkhQrYp2xiX.jF.pyCGCJWHZ8XQmhItD6k7/KmwScv6;Felix Suwondo;TETA 4;Student;null;now;now
-354;160723009;$2y$10$.dX/0MQOikniOh8v.J8abOKVUJ3Tg13aQiz5Z3JFSFzq9XXaIQtFq;Tadeo Laudatte;TETA 3;Student;null;now;now
-355;160723010;$2y$10$92dveEpy4ahurg8Ad.6c4uS56j4NdoLcbFxbcCKRUjZp92u90VPaW;Pricillia Jennifer Sutjiadi;TETA 23;Student;null;now;now
-356;160723011;$2y$10$eT8cwQOw4NVHo7Y8LZd2JO.AnZg6wKHJdtkHiDXc3z37kVouetNCm;Ryan Dhammaviriya Christy;TETA 25;Student;null;now;now
-357;160723012;$2y$10$HYOlofJKzsc2kTVlwni6tuGdLid96VJJH45P8ARww6GBSkB3PuTLW;Justin Xavier Romano Gunawan;TETA 9;Student;null;now;now
-358;160723013;$2y$10$TgeM2kt.51vvVThHargzhuAW1kzLo.LZwCW2NshaSWeBEIOv6qkEe;Samuel Resmana;TETA 6;Student;null;now;now
-359;160723014;$2y$10$TxO22oLKiRx.dNhoj1B2PO0Htig3rcX5mcm3ir/Rk9Nr79WusXm46;Valentino Bima Lomanto;TETA 2;Student;null;now;now
-360;160723015;$2y$10$bqNOJrM82m0hL7o/zaJ8.eIsorni.YE5wXlwWpYqK7Wgn3CkZ4fX.;Mayor Hosea Steve Fanya;TETA 7;Student;null;now;now
-361;160723016;$2y$10$NUuEO2FyrHtBqLFqFCmnj.WSsPRU8fqN9xf.MKTlnK6WdJTC627JK;Alfonsus Blythe Limantara;TETA 12;Student;null;now;now
-362;160723017;$2y$10$Fw.vJ/D0Uu2qW/lD77YpQudK0YFzo2hB.f3JLNE.B.qWW8rHQ5dFK;Felix Lauwrentsio;TETA 10;Student;null;now;now
-363;160723018;$2y$10$GJAH6A1enSgUiNzSvJRNz.rcsyMSAF0dgOxo9dFcm8OmP1Iyq83gy;Catharina Maria;TETA 1;Student;null;now;now
-364;160723019;$2y$10$D2a03x9VVoU.4UerdeC9Q.ySRUaEt6j8QU7z67HaJhqlQOmqTeeg2;Vito Rafael Wisesa;TETA 11;Student;null;now;now
-365;160723023;$2y$10$g3jJ3GhL1N7o5p46QWgCmOs1tZ7akz8RIglnLQzwvP71c1QLu/kzS;Jordan Tanadi;TETA 13;Student;null;now;now
-366;160723024;$2y$10$VsrUnoIAo3Onm03Y0eSt..Wow2qwrXhuikZRDrfQEBdZDuFgVOUAS;Devina Wongkar;TETA 15;Student;null;now;now
-367;160723025;$2y$10$ht4UyjYDW0pgaRhlMfDn/.z993U44Yh67pDSr0zbU5EruieOs3xWa;A Fahrezi Abdi Pratama;TETA 19;Student;null;now;now
-368;160723026;$2y$10$ZlB4TFfOA8L7OmBbP8T0heD/O98Y6ARQo0WLBm7iINHGgvQuxX2Pq;Enrico Fery;TETA 17;Student;null;now;now
-369;160723027;$2y$10$dSNPFX34kGOBraRS5le6Wu7QQ.cnHqtKk3Z13hCdMtOeZiswMtn8q;Grefarrel Leonard Novril Saputra;TETA 18;Student;null;now;now
-370;160723028;$2y$10$ODXkakqv/Y54cIaeJLtV/uabLyMTo8AXaGL5r4250JrnPcbitteIe;Aland Putra Prasetyanto;TETA 16;Student;null;now;now
-371;160723029;$2y$10$IxUoebivdvLJZog/8dv4wOFP8PFq/tPqyO8zLjoAFu.YP0jgPQmYu;Muhammad Dicky Firmansyah;TETA 14;Student;null;now;now
-372;160723030;$2y$10$kH2FzScXUf7LceCrjUROq.DIaMpvIpPwL3vB5zxW3k/ob.2vQz.fu;Nathaniel Rayner;TETA 21;Student;null;now;now
-373;160723031;$2y$10$EPEx97ma.zDzzyuCq/kTfu.lFTAtEXCs2XfklxrAvY8LnEifdjriC;Mikael Dawson Wijaya;TETA 20;Student;null;now;now
-374;160723033;$2y$10$Bo/kRXAAWM0b4Jft3MquKehQ.hNrCr3joLIOop4V7pz3rkidspvQe;Rachel Rosalind Arief;TETA 24;Student;null;now;now
-375;160723034;$2y$10$N6ED8aHaWY.4SGK3puWzT.y.3n3D/Y8FhFMhu1q3fuNSPyLDQZvIO;Titus Albert Kristian;TETA 26;Student;null;now;now
-376;160723035;$2y$10$suWQKQVx6Vze44mUVPn3PebuY3sSTy3Y4Cfr82Yr3QfA4bOmmB1e2;Rauf Teguh Maheswara;TETA 13;Student;null;now;now
-377;160723036;$2y$10$776OofjQdk3sVJ48wUU7Je4a0rD5JZl09X4a6zNXmwiTxI3NrfQ3a;Ardo Leo Haliliantoro;TETA 11;Student;null;now;now
-378;160723037;$2y$10$/NB3GsfnEK.HAnXfheUlCeuxnlVKnmoOkkij1a2NP4p6TRIphd2Jy;Nazlyna Azzavira;TETA 9;Student;null;now;now
-379;160723038;$2y$10$EYqs/8cZ/vGvY5jn0xfex.zvgBbdnuMpTIF52fMN/MbNWNYJd0wbm;Ilham Zahri Sugino Putra;TETA 5;Student;null;now;now
-380;160723039;$2y$10$pJt4.bOO1rdN7At0RZXHVO.3XjljR8iOUt3eeRW8OI/mY6kXeGc2G;Raditya Nauval Ramadhan Putra Wibowo;TETA 3;Student;null;now;now
-381;160723040;$2y$10$/r8jvxVayPQwuwKO8ghWyuIymzQjfNEZQEzvTZ2bxofJLU5adHal6;Davina Seviola Santoso;TETA 17;Student;null;now;now
-382;160723042;$2y$10$Ibk1oEpGGXoy1uFlf0eHO.5SgRHbKXwavJFLyfQoidWm3Tx.wuOjK;Muhammad Iqbal Kholid;TETA 24;Student;null;now;now
-383;160723043;$2y$10$u.FL0pczyfwvT1nGp6RO5OD8g/X0Y4LbMCZ2LhA2fFOQ24Iqw6WAG;Adelia Triani;TETA 19;Student;null;now;now
-384;160723044;$2y$10$H92eXRkB.rdtc.efhJc2N.ZsKECKUcJ/h2kGtF/lK3u7nS1kanuTe;Kelvin Reinhard Imanuel;TETA 21;Student;null;now;now
-385;160723045;$2y$10$8ChMx.v58w/7hbOndXRiEOx2heGEY/gVUn6yUZN5xPdzypuQwddNm;Rafli Irsyaddhin Ikhsan;TETA 22;Student;null;now;now
-386;160723046;$2y$10$/Pe5BmtfCEAd8QxdnwflsO/UhUXWhx.ltv5SWHAXo/.nOtlXO0re2;Fachri Elfreda Pradoto;TETA 18;Student;null;now;now
-387;160920007;$2y$10$tzEgJvkJah73bjhDOLSEvetOXB.GU/2YGCwTjkXwSCKtDaPSO9SDu;Gabriel Darma Prasetya Agisucida;TETA 24;Admin;null;now;now
-388;160921011;$2y$10$pOjH7J8CJ0oEieSh1lZWdu88krhxYcZr6ebmmXVs7.TP7tJfXWm0O;Gilbert Lavensky Chan;TETA 25;Admin;null;now;now
-389;160922014;$2y$10$5/QqEG5x6oVY0i9ZIf24k.uy6c73du.r2Qii6lXui41Fbbh3FULzy;Kevin Joan Putra Tanjung;TETA 3;Student;null;now;now
-390;160923001;$2y$10$AHjU1srCERvun99OOp6TherGBkIojw5aj3hU4o7VulcOsxvM8/GFK;Darren Stanford Soputra;TETA 25;Student;null;now;now
-391;160923008;$2y$10$Wh61MvVygCfJb6tZy55dkOY37Wu1eU8lqKxsRRRJgTNsYb3Wo4.G6;Rui Yandi Ananda;TETA 4;Student;null;now;now
-392;160923009;$2y$10$QSciPnl2uwlyigbyZ95Ax.lVQ07qv8pNUkxYFTz7gZEv61PgzP4HG;Alexander Fabiano Joynard Lapod;TETA 2;Student;null;now;now
-393;160923010;$2y$10$abiLGjdjHKwSaXn5j9UkueKkQKhoexXBwvQV/zOq5.k.F63q2oHge;Naura Syifa Syahbania;TETA 13;Student;null;now;now
-394;160923011;$2y$10$mS4DGhAPkm0x/fFSwpf0hu855KBZpj6wPbUgdYyt8O8/Iqi.63u8i;Bonaventura Satya Hernanda;TETA 6;Student;null;now;now
-395;160923014;$2y$10$1qGyxm7QsHciSI/MHa2g6OJ/hn/j2YzHVSY3jeLVPqFuZfXWaf/NG;Liu Ya Umaya;TETA 1;Student;null;now;now
-396;160923015;$2y$10$1QENbGkKJmzNnUaXknJo..xJx.mEgJoV1mBGYL.3EDf4Tvtx.Kgk2;Aprianto;TETA 15;Student;null;now;now
-397;160923016;$2y$10$XZ/LVKIv85EkbvrWaZs25eiBr7PSqISDSWqnVnXNyWEhZTIwzn8am;Reva Achmad Ikmal Razzaq;TETA 14;Student;null;now;now
-398;161021008;$2y$10$1p8PKXXaJ/oLnT9JysP8TeyTTFbbbyVeWh0hwt7c9QQy7JkC5V5vm;Angelo Franklyn;TETA 26;Admin;null;now;now
-399;161023001;$2y$10$ddcXVaPL4i7nZw3AXQ7.9uiJHycr29AXQJOKRL.Twa6RfM2OZsKmy;Maximiliano Nugroho;TETA 7;Student;null;now;now
-400;161023002;$2y$10$bQdOqUmTzg7bkXz/WKyuT.DLwAf4NsIoCzlzxkrLgJNzcZghr61ym;Filbert Amerigo Ardenlie;TETA 12;Student;null;now;now
-401;161023003;$2y$10$ZzTudwqDQtLEunYe.l.if.aLPzkG1.IJw8WwEYVgH.VJi5yp3ixWe;Aren Pangestu;TETA 14;Student;null;now;now
-402;161023004;$2y$10$ZaLHG1shdYCebyxzQ.MZjuIc.m7RnNhUJtHyeZXutpVK6yZA2NHBq;Cornelius Valen Defrino;TETA 8;Student;null;now;now
-403;161023005;$2y$10$7IfGS69mfs/r/kSjXaPMs.USrNb7WCF/4JNRyPhFHEKv.CrcOB68i;Sylvester Noor Salim;TETA 16;Student;null;now;now
-404;161023007;$2y$10$V3lmCEgdp12halhsrhesTu5GFdZi4YNhejgVOAMpUV62G3V79iS8W;Octvilcio Jezua Dimitri Paat;TETA 20;Student;null;now;now
-405;161023008;$2y$10$.qmgJ/c1qPFGqDyp2i3RoukwXU7PD/NFrh9OyK5CBlO2rjBw3td8i;Gunawan Hartanto;TETA 15;Student;null;now;now
-406;161023009;$2y$10$xxIjnh67LLUTRsl0mzwj1.2a/Xjx51dGjeIiyYVR39fQxucevB7kG;Steven Verando;TETA 26;Student;null;now;now
-407;161023010;$2y$10$3fDOcat9FJ.F7XMjgEA9E.rv5mWw82lEv5vl0XtTMtkqUagCzpova;Lisan Shidqi Aziz;TETA 1;Student;null;now;now
-408;161023011;$2y$10$/BpyP7MlNQuikVX86nU5lud.G7wrmGDgoPw8P4kRaHbWyjEZVNwJe;Rayandra Aghns Syafaatullah;TETA 4;Student;null;now;now
-409;161023013;$2y$10$qXIkm5QXXznSTWS.m6gWHews7tH6u17mw/2jIXm3F2mHGSKwFHLzK;Anissa Kimi Nila Prameswari;TETA 6;Student;null;now;now
-410;161023014;$2y$10$K0SGKs6gva3nFsZI9BYBH.Y8si0lDzCF3h4IyGB3fIWUSY4ap9ZV.;Gilbert Eryandes Octavianus;TETA 2;Student;null;now;now
-411;161023015;$2y$10$MS12nlIPtcPnoyG805V2n.qNagjDb6DS.QUUQJ.XFQ0/JbrbedtlG;Shendy Satya Pratama;TETA 5;Student;null;now;now
-412;161023016;$2y$10$CD.deqjhH0HejwlGcJV0m.YEkN7b2byXpoQvEfYNdUD5p3ObQIvKC;Sandy Kusuma Triandy;TETA 7;Student;null;now;now
-413;161023017;$2y$10$IU09q6FFxhbIkSHH9pPZYu4TQ9wvWAjFB/vJymj1r.hM/M080gE52;Chris Jhonat Defron;TETA 10;Student;null;now;now
-414;161023018;$2y$10$iNfKUUJjafaDA3x/rFUhH.kKPc.dP5vpGPh9vkoqxubbKaD1klh8C;Maulana Surya Zaki Ramadhani;TETA 11;Student;null;now;now
+1;160120003;160120003;Ricky;TETA 1;Admin;null;now;now
+2;160122023;160122023;Agung;TETA 12;Student;null;now;now
+3;160222016;160222016;Trenadi Pramudia;7;Student;null;now;now
+4;160221001;160221001;Ariel Halim Qiu;0;Student;null;now;now
+5;160321014;160321014;Monica Natalia;9;Student;null;now;now
+6;160722044;160722044;Natasya Aulia Kristya Regita;5;Student;null;now;now
+7;160322006;160322006;Timothy Alfason Karnisa;10;Student;null;now;now
+8;160422036;160422036;Michelle Christabel F. S.;13;Student;null;now;now
+9;160322018;160322018;Archangela Karolin;13;Student;null;now;now
+10;160422142;160422142;Aulia Novianty Lamanasa ;0;Student;null;now;now
+11;160422127;160422127;Audry Verly;0;Student;null;now;now
+12;160423076;160423076;Brian Kristanto Alim;0;Student;null;now;now
+13;160323009;160323009;Jessica Florencia Purnomo;0;Student;null;now;now
+14;160423233;160423233;Darren Stanford Soputra;0;Student;null;now;now
+15;160723040;160723040;Davina Seviola Santoso ;0;Student;null;now;now
+16;160323050;160323050;Rachel Hedi S ;0;Student;null;now;now
+17;160423062;160423062;Fransiskus Hendra Setiawan Roni;0;Student;null;now;now
+18;160422148;160422148;Cicilia Dwi Palupi;4;Student;null;now;now
+19;160422117;160422117;Yehuda Phedra Sanjaya;2;Student;null;now;now
+20;160222011;160222011;Ariel Sugiono;10;Student;null;now;now
+21;160423002;160423002;Kenny Varenne Tin Setyabudi ;9;Student;null;now;now
+22;160423007;160423007;Dave Natanael Cahyono ;14;Student;null;now;now
+23;160423121;160423121;Gioshelyn Sanisa Leksono;12;Student;null;now;now
+24;160323001;160323001;Maria Margareta Sutanto;8;Student;null;now;now
+25;160423201;160423201;Celine Felica Widjanarko;11;Student;null;now;now
+26;160323028;160323028;Chris Zephaniah Jeremiah;10;Student;null;now;now
+27;160423131;160423131;Hansen Garrett Firdaus ;11;Student;null;now;now
+28;160323017;160323017;Yosia Imanuel;1;Student;null;now;now
+29;160323015;160323015;Arya Jati;6;Student;null;now;now
+30;160322011;160322011;Decky Hausiyah;0;Student;null;now;now
+31;160422134;160422134;Kevin Hendrawan Wijaya;0;Student;null;now;now
+32;160323007;160323007;Yovahend Thieric Artyo;0;Student;null;now;now
+33;160423032;160423032;Christopher William Susilo;0;Student;null;now;now
+34;160722019;160722019;Kelvien Fareska H;0;Student;null;now;now
+35;160423135;160423135;Hon Felix Edward ;0;Student;null;now;now
+36;160423095;160423095;Jonathan Andrian;0;Student;null;now;now
+37;160423114;160423114;Samuel Calvin Muliawan;0;Student;null;now;now
+38;160722047;160722047;Gregorius Rangga Putra Nalendra;0;Student;null;now;now
+39;160423176;160423176;Benedictus Leonardo Edward Stephen Sugianto;0;Student;null;now;now
+40;160722042;160722042;Safira Rahmaditha;9;Student;null;now;now
+41;160222026;160222026;Bagas Habib Wardana;8;Student;null;now;now
+42;160323012;160323012;Khesia Agustina Joedianto ;3;Student;null;now;now
+43;160423021;160423021;Sara Tolego;13;Student;null;now;now
+44;160423059;160423059;Ferdinand Reynaldi ;8;Student;null;now;now
+45;160423012;160423012;Garry garcia;11;Student;null;now;now
+46;160422118;160422118;Natan Sintua Tarigan;2;Student;null;now;now
+47;160422150;160422150;Cecilia Zefanya Ingkiriwang;4;Student;null;now;now
+48;160422126;160422126;Trianda Zevania Yulianica Ambouw;4;Student;null;now;now
+49;160422107;160422107;Yovanlie Hagai Yohanmar;1;Student;null;now;now
+50;160422059;160422059;Arnold Jerome Candra;6;Student;null;now;now
+51;160123012;160123012;Christabel Audrey Theresya;0;Student;null;now;now
+52;160423227;160423227;Josephany Angelina Tue;1;Student;null;now;now
+53;160423070;160423070;Alethia Clarita ;3;Student;null;now;now
+54;160423156;160423156;Nicholas Andrew Surya;8;Student;null;now;now
+55;160422174;160422174;M. Rizqullah N.A.S.;3;Student;null;now;now
+56;160421023;160421023;Alexander Kenrick Duanto;7;Student;null;now;now
+57;160422041;160422041;Nathan Garzya Santoso;5;Student;null;now;now
+58;160422005;160422005;Fanny Rorencia Ribowo;14;Student;null;now;now
+59;160422070;160422070;Fransiscus Xaverius Petrus Jonathan Suhargo;6;Student;null;now;now
+60;160422057;160422057;Alexander Kent So;12;Student;null;now;now
+61;160422020;160422020;Darren Gideon Sutanto;0;Student;null;now;now
+62;160422007;160422007;Edward Leonardo;2;Student;null;now;now
+63;160422065;160422065;Antonius Kustiono Putra;2;Student;null;now;now
+64;160422015;160422015;Sarah Laura Sianipar;6;Student;null;now;now
+65;160422073;160422073;Christopher Pengalilla;5;Student;null;now;now
+66;160922011;160922011;Marcella Ratna Dewanti Tanujaya;3;Student;null;now;now
+67;160323016;160323016;Brandon Jaya Susanto;0;Student;null;now;now
+68;160423099;160423099;Agnesha Riby Tjoanda;7;Student;null;now;now
+69;160423125;160423125;Ariyanto Chandra;0;Student;null;now;now
+70;160422016;160422016;Michele M. Angkiriwang;1;Student;null;now;now
+71;160422101;160422101;Fiorello Austin Ardianto ;5;Student;null;now;now
+72;160223019;160223019;Auliyah Damayanti ;4;Student;null;now;now
+73;160423027;160423027;Merilee Alberta Florentyna Chandra;12;Student;null;now;now
+74;160423014;160423014;Kevin Margason Winata;14;Student;null;now;now
+75;160321075;160321075;Aditya Saputra;0;Student;null;now;now
+76;160321021;160321021;Steven Jonathan Soecito;0;Student;null;now;now
+77;160321040;160321040;Muhammad Rafanda Alfasya;0;Student;null;now;now
+78;160322024;160322024;Michael Jun;0;Student;null;now;now
+79;161022011;161022011;Christoforus Rafael;0;Student;null;now;now
+80;160322001;160322001;Ken;0;Student;null;now;now
+81;160222020;160222020;Laurensia Kayla Ofira;0;Student;null;now;now
+82;160422056;160422056;Marchella Permatasari;0;Student;null;now;now
+83;160422033;160422033;Jason Nathaniel Kosely;0;Student;null;now;now
+84;160322077;160322077;Callista Jaya Aurellia;0;Student;null;now;now
+85;160322014;160322014;David Serafino ;0;Student;null;now;now
+86;160422031;160422031;Angeline Aurelia Arifianto;0;Student;null;now;now
+87;160722045;160722045;I Made Krishna Dewangga Putra;0;Student;null;now;now
+88;160721009;160721009;Alvin Pratama Salim;0;Student;null;now;now
+89;160321004;160321004;Vanessa Fernanda;0;Student;null;now;now
+90;160321043;160321043;Angela Carla Viana Chrisma;0;Student;null;now;now
+91;160321050;160321050;Ivan Andika Dharma Pratama;0;Student;null;now;now
+92;160422082;160422082;Juan Kody Leondro;0;Student;null;now;now
+93;160421068;160421068;Maahirah Nasywa Elfiana Putri;0;Student;null;now;now
+94;160721014;160721014;Rivaldo Dwijayanto Tan;0;Student;null;now;now
+95;160722016;160722016;Nico Ferrarel;7;Student;null;now;now
+96;160321013;160321013;Aaron Jordan Christensen;0;Student;null;now;now

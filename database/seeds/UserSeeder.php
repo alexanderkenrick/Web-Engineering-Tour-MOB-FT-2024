@@ -15,7 +15,7 @@ class UserSeeder extends Seeder
 
     public function run()
     {
-       
+
 
         $csvFile = fopen(base_path("database/data/1-user1.csv"), "r");
 
@@ -33,7 +33,11 @@ class UserSeeder extends Seeder
 
             $arrCreate = [];
             foreach ($arrNamaColumn as $idx => $namaColumn) {
-                $arrCreate[$namaColumn] = $data[$idx] == 'null' ? null : $data[$idx];
+                if($namaColumn == 'password'){
+                    $arrCreate[$namaColumn] = $data[$idx] = \Illuminate\Support\Facades\Hash::make($data[$idx]);
+                }else{
+                    $arrCreate[$namaColumn] = $data[$idx] == 'null' ? null : $data[$idx];
+                }
             }
 
             User::create($arrCreate);

@@ -76,7 +76,7 @@ body {
     width: 44px;
     height: auto;
     /* z-index: 1; */
-
+    top: 92px;
     left: 296px;
     z-index: -1;
 }
@@ -150,7 +150,7 @@ body {
 .broken-console {
     font-family: 'Bricolage Grotesque 48pt Condensed', sans-serif !important;
     font-size: 24px;
-    
+
 }
 
 .bricolage-title{

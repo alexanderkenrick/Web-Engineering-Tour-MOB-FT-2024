@@ -63,15 +63,51 @@
 
         </div>
 
+        <div class="col-12">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title secondary-font">Rekap Nilai<span class="secondary-font" style="font-style: italic; font-weight: normal"> (Success, Pending, Failed)</span></h4>
+                <div class="table-responsive">
+                  <div id="zero_config_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4">
+                    <div class="row">
+                      <div class="col-sm-12 table-responsive">
+                        <table id="zero_config" class="table table-striped table-bordered no-wrap dataTable" role="grid" aria-describedby="zero_config_info">
+                          <thead>
+                            <tr role="row">
+                              <th class="sorting_asc" tabindex="0" aria-controls="zero_config" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 0px;">NRP</th>
+                              <th class="sorting" tabindex="0" aria-controls="zero_config" rowspan="1" colspan="1" aria-label="Position: activate to sort column ascending" style="width: 0px;">Nama</th>
+                              <th class="sorting" tabindex="0" aria-controls="zero_config" rowspan="1" colspan="1" aria-label="Salary: activate to sort column ascending" style="width: 0px;">Jawaban Benar</th>
+                            </tr>
+                          </thead>
+                          <tbody id="nilaiTable">
+                            {{-- @foreach ($nilais as $nilai)
+                                <tr role='row' class="text-center">
+                                <td>{{ $nilai->nrp }}</td>
+                                <td>{{ $nilai->name }}</td>
+                                <td>
+                                    {{$nilai->nilai}}
+                                </td>
+                                </tr>
+                            @endforeach --}}
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="m-5" id="answers">
             {{-- <div class="card">
                 <div class="card-body">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quis repudiandae iure veritatis! Tempora repellat alias veritatis ea veniam modi dolor quisquam, sit doloremque, dolore tenetur soluta quaerat molestias odit.
                 </div>
             </div> --}}
-            @foreach($userAnswer as $answer)
+            {{-- @foreach($userAnswer as $answer)
                 <p>{{$answer}}</p>
-            @endforeach
+            @endforeach --}}
         </div>
     </section>
 @endsection
@@ -97,9 +133,22 @@
                 'group': group,
             },
             success: function(data) {
-                data.students.forEach(student => {
-                    $("#select-student").append(new Option(student.username + ' - ' + student.name, student.id));
-                })
+                console.log(data.nilais);
+                
+                // Menghapus konten lama
+                let tbody = document.getElementById('dataTable').getElementsByTagName('tbody')[0];
+                tbody.innerHTML = ""; 
+
+                data.nilais.forEach(nilai => {
+                    // Tambahkan baris baru ke tabel
+                    $("#nilaiTable").append(`
+                        <tr role="row" class="text-center">
+                            <td>${nilai.nrp}</td>
+                            <td>${nilai.nama}</td>
+                            <td>${nilai.nilai}</td>
+                        </tr>
+                    `);
+                });
             }
         })
     }
@@ -141,7 +190,7 @@
                             valid = true
 
                             $("#gedung-"+Math.floor(wkwk/5)).append("<p>" + nomor + ". " + a.answer + "</p>")
-                            // $("#answers").append("<p>" + nomor + ". " + a.answer + "</p>")
+                            $("#answers").append("<p>" + nomor + ". " + a.answer + "</p>")
                         }
                     })
 

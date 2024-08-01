@@ -55,20 +55,29 @@ body {
     height: auto;
     bottom: 74px;
     left: 188px;
+    bottom: 84px;
+    left: 190px;
+    z-index: 1;
 }
 
 #tb-bw {
     width: 58px;
+    width: 50px;
     height: auto;
     bottom: 96px;
     left: 232px;
+    bottom: 109px;
+    left: 236px;
 }
 
 #tc-bw {
     width: 95px;
+    width: 82px;
     height: auto;
     top: 98px;
     left: 297px;
+    top: 102px;
+    left: 290px;
 }
 
 #td-bw {
@@ -77,29 +86,40 @@ body {
     top: 92px;
     left: 312px;
     /* z-index: 1; */
+    left: 296px;
+    z-index: -1;
 }
 
 #te-bw {
     width: 73px;
+    width: 66px;
     height: auto;
     top: 75px;
     left: 203px;
+    top: 78px;
+    left: 209px;
     z-index: 1;
 }
 
 #tf-bw {
     width: 95px;
+    width: 86px;
     height: auto;
     bottom: 116px;
     left: 123px;
+    bottom: 124px;
+    left: 142px;
+    z-index: 2;
 }
 
 #tg-bw {
-    width: 80px;
+    width:80px;
     height: auto;
     top: 0px;
     left: 225px;
+    z-index: 0;
 }
+
 
 #checkpoint{
     position: absolute;

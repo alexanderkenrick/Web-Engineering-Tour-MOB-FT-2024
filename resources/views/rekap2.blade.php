@@ -26,7 +26,7 @@
         </div>
         <div class="container-fluid px-5">
             <div class="row">
-                <div class="col-5 text-end col-sm-6">
+                <div class="col-5 text-end col-sm-2">
                     <label for="select-team">Kelompok :</label>
                 </div>
                 <div class="col-7 col-sm-6">
@@ -48,7 +48,7 @@
                 </div>
             </div>
             <div class="row my-2">
-                <div class="col-5 text-end col-sm-6">
+                <div class="col-5 text-end col-sm-2">
                     <label for="select-student">Mahasiswa :</label>
 
                 </div>

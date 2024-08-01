@@ -16,6 +16,14 @@
     color: black;
 }
 
+.form-question{
+    font-size: 12pt;
+}
+.form-question p{
+    font-weight: bold;
+    margin: 0 !important;
+}
+
 .section-qr-reader {
     background-color: #ffffff;
     padding: 50px 20px;
@@ -44,9 +52,9 @@
 
 @section('content')
     <section class="map-section" id="ini-map">
-        <div class="space">
+        {{-- <div class="space">
             <img src="{{ asset('../images/assets_spacecraft/Spacecraft' . $count . '.png') }}" id="spacecraft" alt="">
-        </div>
+        </div> --}}
         {{-- <img src="{{ asset('../images/assets_gedung/awan-1.png') }}" id="awan-1" alt="">
         <img src="{{ asset('../images/assets_gedung/awan-3.png') }}" id="awan-3" alt="">
         <img src="{{ asset('../images/assets_gedung/awan-5.png') }}" id="awan-5" alt=""> --}}
@@ -57,34 +65,34 @@
                 <div class="col  d-flex justify-content-center">
 
                     <div class="map-container">
-                        <img src="{{ asset('../images/assets_gedung/map_rgb_cropped.png') }}" class="map_image"
+                        <img src="{{ asset('../images/assets_mob24/Maps.png') }}" class="map_image"
                             alt="">
                         @if (!array_search(1, $pos))
-                            <img src="{{ asset('../images/assets_gedung/bw/TA_bw.png') }}" alt="" class="point"
+                            <img src="{{ asset('../images/assets_mob24/TA.png') }}" alt="" class="point"
                                 id="ta-bw">
                         @endif
                         @if (!array_search(2, $pos))
-                            <img src="{{ asset('../images/assets_gedung/bw/TB_bw.png') }}" alt="" class="point"
+                            <img src="{{ asset('../images/asset_mob24/TB.png') }}" alt="" class="point"
                                 id="tb-bw">
                         @endif
                         @if (!array_search(3, $pos))
-                            <img src="{{ asset('../images/assets_gedung/bw/TC_bw.png') }}" alt="" class="point"
+                            <img src="{{ asset('../images/asset_mob24/TC.png') }}" alt="" class="point"
                                 id="tc-bw">
                         @endif
                         @if (!array_search(4, $pos))
-                            <img src="{{ asset('../images/assets_gedung/bw/TD_bw.png') }}" alt="" class="point"
+                            <img src="{{ asset('../images/asset_mob24/TD.png') }}" alt="" class="point"
                                 id="td-bw">
                         @endif
                         @if (!array_search(5, $pos))
-                            <img src="{{ asset('../images/assets_gedung/bw/TE_bw.png') }}" alt="" class="point"
+                            <img src="{{ asset('../images/asset_mob24/TE.png') }}" alt="" class="point"
                                 id="te-bw">
                         @endif
                         @if (!array_search(6, $pos))
-                            <img src="{{ asset('../images/assets_gedung/bw/TF_bw.png') }}" alt="" class="point"
+                            <img src="{{ asset('../images/asset_mob24/TF.png') }}" alt="" class="point"
                                 id="tf-bw">
                         @endif
                         @if (!array_search(7, $pos))
-                            <img src="{{ asset('../images/assets_gedung/bw/TG_bw.png') }}" alt="" class="point"
+                            <img src="{{ asset('../images/asset_mob24/TG.png') }}" alt="" class="point"
                                 id="tg-bw">
                         @endif
 
@@ -113,25 +121,13 @@
                 </div>
             </div>
 
+            GAMBARNYA BELUM SIAP YA, NANTI DIGANTI HARAP BERSABAR 😉!!!
             <div class="row  d-flex justify-content-center  my-4">
                 <div class="col d-flex justify-content-center">
-                    {{-- <div class="password-wrapper d-flex justify-content-center">
-                        <div class="nes-field">
-                            <label for="input-password" class="broken-console" style="color: #fff">Password: </label>
-                            <input type="text" id="input-password" class="nes-input broken-console" maxlength="7">
-                        </div>
-                        <div class="check-section d-flex align-items-end px-3">
-                            <button type="button" class="nes-btn is-primary" style="height: " onclick="checkPass()">
-                                document.getElementById('dialog-question').showModal();
-                                Check
-                            </button>
-                        </div>
-
-                    </div> --}}
                     <!-- QR Scanner -->
                     <div class="container-qr-reader">
                         <div class="content-qr-reader">
-                            <h1>Scan QR Codes</h1>
+                            <h1 class="title-depan" style="color: #FBC907;">Scan QR Codes</h1>
                             <div class="section-qr-reader">
                                 <div id="my-qr-reader">
                                 </div>
@@ -143,29 +139,21 @@
 
             </div>
 
-            <dialog class="nes-dialog is-rounded" id="dialog-question">
+            <dialog class="is-rounded" id="dialog-question">
                 {{-- <form method="dialog"> --}}
-                <p class="title" id="titles">Ini Judul</p>
+                <p class="title" id="titles" style="color: #390203;">Ini Judul</p>
 
                 <form action="{{route('submit.answers')}}" method="post" class="form">
                     @csrf
                     <div class="form-question">
 
                     </div>
-                    <button class="btn btn-primary" type="submit">Submit</button>
+
+                    <div class="dialog-menu">
+                        <button class="btn btn-primary bricolage" style="background-color: #390203; color: white;" type="submit">Submit</button>
+                    </div>
                 </form>
 
-
-                <div class="dialog-menu">
-                    <div class="back-next">
-                        <button class="nes-btn hidden" id="back" onclick="back()">Back</button>
-                        <button class="nes-btn" id="next" onclick="next()">Next</button>
-                    </div>
-                    <div class="confirm-section">
-                        <button class="nes-btn is-primary hidden" id="confirm" onclick="submit()">Confirm</button>
-                    </div>
-
-                </div>
                 {{-- </form> --}}
             </dialog>
 
@@ -290,8 +278,13 @@
             }
         }
 
+        let qrConfig = {
+            fps:10,
+            qrbox:250,
+            supportedScanTypes: [Html5QrcodeScanType.SCAN_TYPE_CAMERA, Html5QrcodeScanType.SCAN_TYPE_FILE],
+        }
         var html5QrcodeScanner = new Html5QrcodeScanner(
-            "my-qr-reader", { fps: 10, qrbox: 250 }, false);
+            "my-qr-reader", qrConfig, false);
 
         function onScanSuccess(decodedText, decodedResult) {
             // Handle on success condition with the decoded text or result.
@@ -314,27 +307,33 @@
                         pos = data.pos
                         alert("You are in " + pos)
                         document.getElementById('dialog-question').showModal()
-                        $('#titles').text(pos + " (" + (current + 1) + ")")
+                        $('#titles').text(pos)
                         questions = data.questions[0]
 
                         var questionData = "";
                         questions.forEach( function(question, index){
                             idQuest = "#quest-"+(index+1)
-                            console.log(question)
                             $(idQuest).text(question)
                             questionData +=
                                 `
-                                <p id="quest-${index+1}">${index+1}. ${question.question}</p>
-                                <input type="radio" name="question[${question.id}][option]" id="option${index+1}-1" value="${question.option[0].id}" required>
-                                <label for="option${index+1}-1" id="labelOption${index+1}-1">${question.option[0].option_text}</label><br>
-                                <input type="radio" name="question[${question.id}][option]" id="option${index+1}-2" value="${question.option[1].id}">
-                                <label for="option${index+1}-2" id="labelOption${index+1}-2">${question.option[1].option_text}</label><br>
-                                <input type="radio" name="question[${question.id}][option]" id="option${index+1}-3" value="${question.option[2].id}">
-                                <label for="option${index+1}-3" id="labelOption${index+1}-3">${question.option[2].option_text}</label><br>
-                                <input type="radio" name="question[${question.id}][option]" id="option${index+1}-4" value="${question.option[3].id}">
-                                <label for="option${index+1}-4" id="labelOption${index+1}-4">${question.option[3].option_text}</label><br>
-                                `
-
+                                    <p id="quest-${index+1}">${index+1}. ${question.question}</p>
+                                    <div class="d-flex">
+                                        <div class="mx-2"> <input type="radio" name="question[${question.id}][option]" id="option${index+1}-1" value="${question.option[0].id}" required></div>
+                                        <div class="flex-grow-1"> <label for="option${index+1}-1" id="labelOption${index+1}-1">${question.option[0].option_text}</label></div>
+                                    </div>
+                                   <div class="d-flex">
+                                        <div class="mx-2"><input type="radio" name="question[${question.id}][option]" id="option${index+1}-2" value="${question.option[1].id}"></div>
+                                        <div class="flex-grow-1"> <label for="option${index+1}-2" id="labelOption${index+1}-2">${question.option[1].option_text}</label></div>
+                                    </div>
+                                     <div class="d-flex">
+                                        <div class="mx-2"><input type="radio" name="question[${question.id}][option]" id="option${index+1}-3" value="${question.option[2].id}"></div>
+                                        <div class="flex-grow-1"><label for="option${index+1}-3" id="labelOption${index+1}-3">${question.option[2].option_text}</label></div>
+                                    </div>
+                                     <div class="d-flex">
+                                        <div class="mx-2"><input type="radio" name="question[${question.id}][option]" id="option${index+1}-4" value="${question.option[3].id}"></div>
+                                        <div class="flex-grow-1"><label for="option${index+1}-4" id="labelOption${index+1}-4">${question.option[3].option_text}</label></div>
+                                    </div>
+                                    `
                         });
                         questionData += `
                             <input type="hidden" name="posId" value="${questions[0].pos_id}">

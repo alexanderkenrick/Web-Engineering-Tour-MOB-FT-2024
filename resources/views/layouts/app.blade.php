@@ -9,8 +9,8 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Engineering Tour MOB FT 2023</title>
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('images/logo.png')}}">
+    <title>Engineering Tour MOB FT 2024</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('images/assets_mob24/logo.png')}}">
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -30,6 +30,8 @@
         @import url('https://fonts.cdnfonts.com/css/04b30');
         @import url('https://fonts.cdnfonts.com/css/broken-console');
         @import url('https://fonts.cdnfonts.com/css/montserrat');
+        @import url('https://fonts.cdnfonts.com/css/sancreek');
+        @import url('https://fonts.cdnfonts.com/css/bricolage-grotesque');
 
 
         /* font-family: '04b', sans-serif; */
@@ -39,15 +41,16 @@
         }
 
         body {
-            background: #120238;
+            background: #F6F7D7;
         }
 
         .title {
-            font-family: '04b', sans-serif;
+            font-family: 'Sancreek', sans-serif;
             text-align: center;
             /* color: #57c1e5; */
-            color: #40128b;
+            color: #FBC907;
             font-size: 36px;
+            margin-bottom: 8px;
         }
 
         #btn-logout{
@@ -55,6 +58,11 @@
             top: 10px;
             right: 10px;
             z-index: 2;
+            background-color: #941B0C;
+            color: white;
+            border-radius: 5px;
+            font-family:'Bricolage Grotesque 10pt Condensed', sans-serif;
+            font-size: 20px;
         }
     </style>
     
@@ -122,7 +130,7 @@
         </nav> --}}
 
         @if(Auth::check())
-            <button class="nes-btn is-error" id="btn-logout" href="{{ route('logout') }}"  onclick="event.preventDefault();document.getElementById('logout-form').submit();">{{ __('Logout') }}</button>
+            <button class="" id="btn-logout" href="{{ route('logout') }}"  onclick="event.preventDefault();document.getElementById('logout-form').submit();">{{ __('Logout') }}</button>
 
             <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                 @csrf

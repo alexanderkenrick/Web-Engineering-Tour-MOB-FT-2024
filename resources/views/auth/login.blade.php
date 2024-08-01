@@ -15,7 +15,7 @@
             <div class="card">
                 <div class="card-body">
                     <div class="title-container">
-                        <img src="{{ asset('images/logo.png') }}" alt="" class="image">
+                        <img src="{{ asset('images/assets_mob24/logo.png') }}" alt="" class="image">
                         <h2 class="title mt-3">LOGIN</h2>
                     </div>
                     <form method="POST" action="{{ route('login') }}">
@@ -63,7 +63,7 @@
 
                         <div class="row mb-0 mt-4 d-flex justify-content-center">
                             <div class="col-md-8 ">
-                                <button type="submit" class="nes-btn is-primary w-100" style='font-family: "04b", sans-serif;'>
+                                <button type="submit" class="button" style='font-family: "Sancreek", sans-serif;'>
                                     {{ __('Login') }}
                                 </button>
 

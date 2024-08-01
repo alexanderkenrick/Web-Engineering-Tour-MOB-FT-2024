@@ -31,6 +31,7 @@
         @import url('https://fonts.cdnfonts.com/css/broken-console');
         @import url('https://fonts.cdnfonts.com/css/montserrat');
         @import url('https://fonts.cdnfonts.com/css/sancreek');
+        @import url('https://fonts.cdnfonts.com/css/bricolage-grotesque');
 
 
         /* font-family: '04b', sans-serif; */
@@ -56,6 +57,11 @@
             top: 10px;
             right: 10px;
             z-index: 2;
+            background-color: #941B0C;
+            color: white;
+            border-radius: 5px;
+            font-family:'Bricolage Grotesque 10pt Condensed', sans-serif;
+            font-size: 20px;
         }
     </style>
     
@@ -123,7 +129,7 @@
         </nav> --}}
 
         @if(Auth::check())
-            <button class="nes-btn is-error" id="btn-logout" href="{{ route('logout') }}"  onclick="event.preventDefault();document.getElementById('logout-form').submit();">{{ __('Logout') }}</button>
+            <button class="" id="btn-logout" href="{{ route('logout') }}"  onclick="event.preventDefault();document.getElementById('logout-form').submit();">{{ __('Logout') }}</button>
 
             <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                 @csrf

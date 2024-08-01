@@ -1,23 +1,14 @@
 body {
-    background: #40128b;
+    background: #F6F7D7;
 }
 
 .title-depan {
-    font-family: '04b', sans-serif;
+    font-family: 'Sancreek', sans-serif;
     text-align: center;
-    color: #fff;
-    font-size: 36px;
-    text-shadow: -3px 3px #dd58d6;
+    color: #FBC907;
+    font-size: 48px;
+    text-shadow: -3px 3px #390203;
 }
-
-.title-depan {
-    font-family: '04b', sans-serif;
-    text-align: center;
-    color: #fff;
-    font-size: 36px;
-    text-shadow: -3px 3px #dd58d6;
-}
-
 
 .space{
     position: relative;
@@ -45,7 +36,7 @@ body {
     position: relative;
     width: 400px;
     height: auto;
-    background-color: #40128b;
+    background-color: #F6F7D7;
     z-index: 0;
     overflow-x: auto;
 }

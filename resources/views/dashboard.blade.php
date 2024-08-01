@@ -44,9 +44,9 @@
 
 @section('content')
     <section class="map-section" id="ini-map">
-        <div class="space">
+        {{-- <div class="space">
             <img src="{{ asset('../images/assets_spacecraft/Spacecraft' . $count . '.png') }}" id="spacecraft" alt="">
-        </div>
+        </div> --}}
         {{-- <img src="{{ asset('../images/assets_gedung/awan-1.png') }}" id="awan-1" alt="">
         <img src="{{ asset('../images/assets_gedung/awan-3.png') }}" id="awan-3" alt="">
         <img src="{{ asset('../images/assets_gedung/awan-5.png') }}" id="awan-5" alt=""> --}}
@@ -57,10 +57,10 @@
                 <div class="col  d-flex justify-content-center">
 
                     <div class="map-container">
-                        <img src="{{ asset('../images/assets_gedung/map_rgb_cropped.png') }}" class="map_image"
+                        <img src="{{ asset('../images/assets_mob24/Maps.png') }}" class="map_image"
                             alt="">
                         @if (!array_search(1, $pos))
-                            <img src="{{ asset('../images/assets_gedung/bw/TA_bw.png') }}" alt="" class="point"
+                            <img src="{{ asset('../images/assets_mob24/TA.png') }}" alt="" class="point"
                                 id="ta-bw">
                         @endif
                         @if (!array_search(2, $pos))

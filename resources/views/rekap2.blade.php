@@ -133,19 +133,17 @@
                 'group': group,
             },
             success: function(data) {
-                console.log(data.nilais);
-                
                 // Menghapus konten lama
-                let tbody = document.getElementById('dataTable').getElementsByTagName('tbody')[0];
-                tbody.innerHTML = ""; 
 
-                data.nilais.forEach(nilai => {
+                $('#nilaiTable').html('');
+
+                data.nilais.forEach( nilai => {
                     // Tambahkan baris baru ke tabel
                     $("#nilaiTable").append(`
                         <tr role="row" class="text-center">
-                            <td>${nilai.nrp}</td>
-                            <td>${nilai.nama}</td>
-                            <td>${nilai.nilai}</td>
+                            <td>${nilai.username}</td>
+                            <td>${nilai.name}</td>
+                            <td>${nilai.total_correct_answers}</td>
                         </tr>
                     `);
                 });

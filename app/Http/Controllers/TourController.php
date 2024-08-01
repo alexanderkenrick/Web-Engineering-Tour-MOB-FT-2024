@@ -184,14 +184,16 @@ class TourController extends Controller
     function changeGroup(Request $request) {
         $group = $request->group;
 
-        
-        $nilais = DB::table('user_answers as ua')
-        ->select(DB::raw('COUNT(o.isCorrect) as nilai'),'u.username as nrp', 'u.name as nama')
-        ->join('options as o', 'ua.options_id','=','o.id')
-        ->join('users as u','ua.users_id','=','u.id')
-        ->where('u.group', $group)->get();
 
-        
+        $nilais = DB::table('users as u')
+            ->select('u.username', 'u.name', DB::raw('COUNT(CASE WHEN o.isCorrect = 1 THEN 1 END) as total_correct_answers'))
+            ->leftJoin('user_answers as ua', 'ua.users_id', '=', 'u.id')
+            ->leftJoin('options as o', 'o.id', '=', 'ua.options_id')
+            ->where('u.group', $group)
+            ->groupBy('u.username', 'u.name')
+            ->get();
+
+
         return response()->json(array(
             'nilais' => $nilais
         ), 200);

@@ -277,21 +277,32 @@
                 })
             }
         }
+        const html5QrCode = new Html5Qrcode(
+            "my-qr-reader", { formatsToSupport: [ Html5QrcodeSupportedFormats.QR_CODE ] });
 
         let qrConfig = {
             fps:10,
             qrbox:250,
             supportedScanTypes: [Html5QrcodeScanType.SCAN_TYPE_CAMERA, Html5QrcodeScanType.SCAN_TYPE_FILE],
         }
-        var html5QrcodeScanner = new Html5QrcodeScanner(
-            "my-qr-reader", qrConfig, false);
+        // var html5QrcodeScanner = new Html5QrcodeSc   anner(
+        //     "my-qr-reader", qrConfig, false);
+
+        // html5QrcodeScanner.start(onScanSuccess);
+
+        var cameraId;
+        Html5Qrcode.getCameras().then(devices => {
+            cameraId = devices[0].id
+        })
+
+        html5QrCode.start({ deviceId: {exact  : cameraId} }, qrConfig, onScanSuccess);
 
         function onScanSuccess(decodedText, decodedResult) {
             // Handle on success condition with the decoded text or result.
             // console.log(`Scan result: ${decodedText}`, decodedResult);
             // let url = `/qr-scanner/detail/${decodedText}`;
             loadingState("Checking", "Mohon ditunggu...")
-            html5QrcodeScanner.clear();
+            html5QrCode.stop();
             let pass = `${decodedText}`;
 
             $.ajax({
@@ -347,19 +358,19 @@
                         $('#input-password').focus()
                         Swal.close()
                         showSwal('error', 'Oops', 'Pertanyaan telah terjawab')
-                        html5QrcodeScanner.render(onScanSuccess);
+                        html5QrCode.start({ deviceId: {exact  : cameraId} }, qrConfig, onScanSuccess);
                     } else {
                         Swal.close()
                         showSwal('error', 'Oops', 'Password salah')
                         $('#input-password').val("")
                         $('#input-password').focus()
-                        html5QrcodeScanner.render(onScanSuccess);
+                        html5QrCode.start({ deviceId: {exact  : cameraId} }, qrConfig, onScanSuccess);
 
                     }
                 },
                 error: function(xhr) {
                     console.log(xhr);
-                    html5QrcodeScanner.render(onScanSuccess);
+                    html5QrCode.start({ deviceId: {exact  : cameraId} }, qrConfig, onScanSuccess);
                     Swal.close()
                 }
             })
@@ -370,8 +381,7 @@
         //     // handle on error condition, with error message
         //     console.log(errorMessage)
         // }
-
-        html5QrcodeScanner.render(onScanSuccess);
+    
     </script>
 {{--    <script src="{{ asset('js/qr-reader.js') }}"></script>--}}
 @endsection

@@ -47,7 +47,7 @@
                     </select> --}}
                 </div>
             </div>
-            <div class="row my-2">
+            {{-- <div class="row my-2">
                 <div class="col-5 text-end col-sm-2">
                     <label for="select-student">Mahasiswa :</label>
 
@@ -57,7 +57,7 @@
                         <option value="" disabled selected>--Pilih Mahasiswa--</option>
                     </select>
                 </div>
-            </div>
+            </div> --}}
 
 
 
@@ -66,7 +66,7 @@
         <div class="col-12">
             <div class="card">
               <div class="card-body">
-                <h4 class="card-title secondary-font">Rekap Nilai<span class="secondary-font" style="font-style: italic; font-weight: normal"> (Success, Pending, Failed)</span></h4>
+                <h4 class="card-title secondary-font">Rekap Nilai</h4>
                 <div class="table-responsive">
                   <div id="zero_config_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4">
                     <div class="row">
@@ -143,7 +143,7 @@
                         <tr role="row" class="text-center">
                             <td>${nilai.username}</td>
                             <td>${nilai.name}</td>
-                            <td>${nilai.total_correct_answers}</td>
+                            <td>${Math.round((nilai.total_correct_answers/49)*100)}/100</td>
                         </tr>
                     `);
                 });

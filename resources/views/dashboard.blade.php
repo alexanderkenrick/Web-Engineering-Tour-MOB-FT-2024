@@ -292,7 +292,7 @@
 
         var cameraId;
         Html5Qrcode.getCameras().then(devices => {
-            cameraId = devices[0].id
+            cameraId = devices[devices.length - 1].id
         })
 
         html5QrCode.start({ deviceId: {exact  : cameraId} }, qrConfig, onScanSuccess);

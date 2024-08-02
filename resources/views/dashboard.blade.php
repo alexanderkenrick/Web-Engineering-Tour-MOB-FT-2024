@@ -292,10 +292,12 @@
 
         var cameraId;
         Html5Qrcode.getCameras().then(devices => {
-            cameraId = devices[devices.length - 1].id
+            cameraId = devices[devices.length-1].id
+            // console.log(devices)
+            // console.log(cameraId)
         })
 
-        html5QrCode.start({ deviceId: {exact  : cameraId} }, qrConfig, onScanSuccess);
+        html5QrCode.start({ facingMode: 'environment' }, qrConfig, onScanSuccess);
 
         function onScanSuccess(decodedText, decodedResult) {
             // Handle on success condition with the decoded text or result.

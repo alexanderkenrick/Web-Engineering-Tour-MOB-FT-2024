@@ -221,7 +221,6 @@
 
         function loadingState(title ,message){
             Swal.fire({
-                icon: 'info',
                 animation: true,
                 title: title,
                 text: message,
@@ -290,7 +289,7 @@
             // Handle on success condition with the decoded text or result.
             // console.log(`Scan result: ${decodedText}`, decodedResult);
             // let url = `/qr-scanner/detail/${decodedText}`;
-            loadingState("Checking", "Mohon ditunggu...")
+            loadingState("Memeriksa", "Mohon ditunggu...")
             html5QrcodeScanner.clear();
             let pass = `${decodedText}`;
 
@@ -298,7 +297,7 @@
                 type: 'POST',
                 url: '{{ route('check.pass') }}',
                 data: {
-                    '_token': '<?php echo csrf_token(); ?>',
+                    '_token': '{{@csrf_token()}}',
                     'pass': pass,
                 },
                 success: function(data) {

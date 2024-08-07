@@ -6,7 +6,7 @@ id;pos_id;question
 5;1;Ruangan siapakah yang terletak di TA 200?
 6;1;Apa fungsi dari TA 200?
 7;1; Siapa nama Dekan Fakultas Teknik?
-8;2;PAJ jurusan apa yang terletak di TB dan terletak di lantai berapa?
+8;2;Ruang dosen & petugas administrasi prodi apa yang terletak di TB dan terletak di lantai berapa?
 9;2;Siapakah laboran dari laboratorium Teknik Elektro?
 10;2;Lab. Biomedis terletak di lantai berapa?
 11;2;Siapakah ketua jurusan Teknik Elektro?
@@ -15,9 +15,9 @@ id;pos_id;question
 14;2;Fungsi Robotic Centre adalah
 15;3;Laboratorium apa saja yang digunakan oleh Teknik Industri yang terdapat di gedung TC?
 16;3;Siapakah ketua jurusan Teknik Informatika?
-17;3;Berikut adalah daftar jurusan yang memiliki laboratorium di TC, kecuali
+17;3;Berikut adalah daftar program studi yang memiliki laboratorium di TC, kecuali
 18;3;Siapakah laboran dari laboratorium lantai 4 Teknik Informatika yang digunakan oleh mahasiswa Teknik Informatika?
-19;3;PAJ Teknik Informatika terletak di lantai berapa?
+19;3;Ruang dosen & petugas administrasi prodi Teknik Informatika terletak di lantai berapa?
 20;3;Dimanakah letak Lab. Telkom?
 21;3;Berapa lantai yang terdapat di TC yang digunakan untuk perkuliahan?
 22;4;Jurusan apa yang menggunakan Lab CAD/CAM/CAE?
@@ -29,22 +29,22 @@ id;pos_id;question
 28;4;Dimana letak Lab CAD/CAM/CAE?
 29;5;Apa nama dari laboratorium yang terdapat pada gedung TE ?
 30;5;Terdapat ruangan apalagi selain Laboratorium pada gedung TE, kecuali ?
-31;5;Siapa pengguna dari Laboratorium yang terdapat pada gedung TE ?
+31;5;Siapa pengguna dari Lab. SOTPK yang terdapat pada gedung TE ?
 32;5;Terdapat berapa lantai pada Laboratorium pada gedung TE ?
-33;5;Siapa kepala lab SOTPK ?
-34;5;Apa fungsi dari Laboratorium yang terdapat pada gedung TE , kecuali ?
+33;5;Apa nama dari ruangan yang terdapat pada Lab.  di gedung TE ?
+34;5;Berikut adalah fungsi dari Lab. yang terdapat pada gedung TE , kecuali ?
 35;5;Siapa laboran dari Laboratorium pada gedung TE ini?
-36;6;Terdapat berapa lantai & kelas pada gedung TF?
+36;6;Terdapat berapa tingkatan lantai & kelas pada gedung TF?
 37;6;Terdapat KSM apa saja yang ruangan nya terletak pada gedung TF ?
 38;6;Dimana letak ruangan dari KSM Foto dan Media ?
 39;6;Apa fungsi dari gedung TF, kecuali ?
-40;6;Siapa ketua jurusan dari Teknik Industri ?
+40;6;Siapa ketua program studi dari Teknik Industri ?
 41;6;Pusat administrasi jurusan apa yang terletak pada gedung TF ?
 42;6;Dimana letak ruangan dari KSM Teknik Industri ?
-43;7;Apa saja laboratorium yang tidak terdapat pada gedung TG ?
-44;7;Terdapat ruang KSM apa saja yang terletak pada gedung TG ?
-45;7;Terdapat PAJ apa saja yang terletak pada gedung TG ?
-46;7;Apa kegunaan dari Bengkel Gelas ?
-47;7;Manakah yang benar dari pertanyaan di bawah ini, kecuali ?
+43;7;Berikut adalah Lab. yang ada pada gedung TG, kecuali ?
+44;7;Ruangan KSM apa saja yang terletak pada gedung TG ?
+45;7;Terdapat ruang dosen & petugas administrasi prodi apa saja yang terletak pada gedung TG ?
+46;7;Apa kegunaan dari Lab. Bengkel Gelas ?
+47;7;Berikut adalah pernyataan yang benar di bawah ini, kecuali ?
 48;7;Apa kepanjangan dari ruang PUSLET pada gedung TG ?
-49;7;Laboratorium Desain Produk pada gedung TG adalah milik jurusan ?
+49;7;Laboratorium Desain Produk pada gedung TG adalah milik program studi ?

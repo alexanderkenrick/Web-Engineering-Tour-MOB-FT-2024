@@ -7,10 +7,10 @@ id;questions_id;option_text;isCorrect
 6;2;B. Ruang diskusi mahasiswa ITDD dan menunggu jadwal kuliah;1
 7;2;C. Ruang diskusi mahasiswa TI dan menunggu jadwal kuliah;0
 8;2;D. Ruang diskusi mahasiswa ITDD dengan dosen pembimbing;0
-9;3;A. TA 2.1;1
-10;3;B. TA 1.1;0
-11;3;C. TA 1.2;0
-12;3;D. TA 2.2;0
+9;3;A. TA 200;1
+10;3;B. TA 230;0
+11;3;C. TA 240;0
+12;3;D. TA 260;0
 13;4;A. mengurus segala bentuk perancangan administrasi;0
 14;4;B. pengurusan absensi;0
 15;4;C. peminjaman ruangan;0
@@ -127,10 +127,10 @@ id;questions_id;option_text;isCorrect
 126;32;B. 3 Lantai;0
 127;32;C. 4 Lantai;0
 128;32;D. 2 Lantai;1
-129;33;A. Prof. Putu Doddy Sutrisna, Ph.D.;1
-130;33;B. Gunawan Ph.D.;0
-131;33;C. Sunardi Tjandra, S.T., M.T.;0
-132;33;D. Prof. Ir. Lieke Riadi Ph.D;0
+129;33;A. Ruang OVO;1
+130;33;B. Ruang TBPL;0
+131;33;C. Ruang TRK;0
+132;33;D. Ruang PUSLET;0
 133;34;A. Praktikum Unit Operasi I Dan II;0
 134;34;B. Demonstrasi Pada Anak SMA;0
 135;34;C. Penelitian Dosen Dan Mahasiswa;0
@@ -175,10 +175,10 @@ id;questions_id;option_text;isCorrect
 174;44;B. KSM Teknik Mesin & Manufaktur & KSM Teknik Informatika;0
 175;44;C. KSM Teknik Informatika & KSM Teknik Kimia;0
 176;44;D. KSM Teknik Industri & KSM Teknik Mesin & Manufaktur;0
-177;45;A. PAJ Teknik Kimia & PAJ Teknik Informatika;0
-178;45;B. PAJ Teknik Industri & PAJ Teknik Kimia;0
-179;45;C. PAJ Teknik Informatika & PAJ Teknik Industri;0
-180;45;D. PAJ Teknik Mesin & Manufaktur & PAJ Teknik Kimia;1
+177;45;A. Ruang dosen & petugas administrasi prodi program studi Teknik Kimia & ruang dosen & petugas administrasi prodi Teknik Informatika;0
+178;45;B. Ruang dosen & petugas administrasi prodi Teknik Industri & ruang dosen & petugas administrasi prodi Teknik Kimia;0
+179;45;C. Ruang dosen & petugas administrasi prodi program studi Teknik Informatika & ruang dosen & petugas administrasi prodi Teknik Industri;0
+180;45;D. Ruang dosen & petugas administrasi prodi Teknik Mesin & Manufaktur & ruang dosen & petugas administrasi prodi Teknik Kimia;1
 181;46;A. Berfungsi untuk kegiatan praktikum;0
 182;46;"B. Berfungsi untuk mereparasi apabila saat praktikum ada barang yang terbuat dari sejenis gelas
  atau kaca retak";1

@@ -65,34 +65,34 @@
                 <div class="col  d-flex justify-content-center">
 
                     <div class="map-container">
-                        <img src="{{ asset('../images/assets_mob24/Maps.png') }}" class="map_image"
+                        <img src="{{ asset('../images/asset_mob24/Maps.png') }}" class="map_image"
                             alt="">
                         @if (!array_search(1, $pos))
-                            <img src="{{ asset('../images/assets_mob24/TA.png') }}" alt="" class="point"
+                            <img src="{{ asset('../images/asset_mob24/TA_BW.png') }}" alt="" class="point"
                                 id="ta-bw">
                         @endif
                         @if (!array_search(2, $pos))
-                            <img src="{{ asset('../images/asset_mob24/TB.png') }}" alt="" class="point"
+                            <img src="{{ asset('../images/asset_mob24/TB_BW.png') }}" alt="" class="point"
                                 id="tb-bw">
                         @endif
                         @if (!array_search(3, $pos))
-                            <img src="{{ asset('../images/asset_mob24/TC.png') }}" alt="" class="point"
+                            <img src="{{ asset('../images/asset_mob24/TC_BW.png') }}" alt="" class="point"
                                 id="tc-bw">
                         @endif
                         @if (!array_search(4, $pos))
-                            <img src="{{ asset('../images/asset_mob24/TD.png') }}" alt="" class="point"
+                            <img src="{{ asset('../images/asset_mob24/TD_BW.png') }}" alt="" class="point"
                                 id="td-bw">
                         @endif
                         @if (!array_search(5, $pos))
-                            <img src="{{ asset('../images/asset_mob24/TE.png') }}" alt="" class="point"
+                            <img src="{{ asset('../images/asset_mob24/TE_BW.png') }}" alt="" class="point"
                                 id="te-bw">
                         @endif
                         @if (!array_search(6, $pos))
-                            <img src="{{ asset('../images/asset_mob24/TF.png') }}" alt="" class="point"
+                            <img src="{{ asset('../images/asset_mob24/TF_BW.png') }}" alt="" class="point"
                                 id="tf-bw">
                         @endif
                         @if (!array_search(7, $pos))
-                            <img src="{{ asset('../images/asset_mob24/TG.png') }}" alt="" class="point"
+                            <img src="{{ asset('../images/asset_mob24/TG_BW.png') }}" alt="" class="point"
                                 id="tg-bw">
                         @endif
 
@@ -121,7 +121,7 @@
                 </div>
             </div>
 
-            GAMBARNYA BELUM SIAP YA, NANTI DIGANTI HARAP BERSABAR 😉!!!
+            {{-- GAMBARNYA BELUM SIAP YA, NANTI DIGANTI HARAP BERSABAR 😉!!! --}}
             <div class="row  d-flex justify-content-center  my-4">
                 <div class="col d-flex justify-content-center">
                     <!-- QR Scanner -->

@@ -70,6 +70,7 @@ body {
     height: auto;
     top: 102px;
     left: 290px;
+    z-index: 2;
 }
 
 #td-bw {
@@ -78,7 +79,7 @@ body {
     /* z-index: 1; */
     top: 92px;
     left: 296px;
-    z-index: -1;
+    z-index: 1;
 }
 
 #te-bw {

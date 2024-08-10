@@ -17,7 +17,7 @@ class UserSeeder extends Seeder
     {
 
 
-        $csvFile = fopen(base_path("database/data/1-user1.csv"), "r");
+        $csvFile = fopen(base_path("database/data/1-user2.csv"), "r");
 
         $firstline = true;
 

@@ -130,7 +130,7 @@ id;username;password;name;group;role;current_pos;created_at;updated_at
 129;160424008;TIyPFWq2;SAMUEL CHRISTIAN WIBISONO;6;Student;null;now;now
 130;160424009;M29OliIN;MAYSIAH EUGINIA LIMAN;8;Student;null;now;now
 131;160424011;2VArAaaL;VALENTINO FITTIVALDI SANTOSO;4;Student;null;now;now
-132;160424012;1ZkTP1q2;DANIEL ANGGORO;9;Student;null;now;now
+132;161124034;1ZkTP1q2;DANIEL ANGGORO;9;Student;null;now;now
 133;160424013;Myl6wze6;CHRISTOPHER FERREL KEANE;14;Student;null;now;now
 134;160424014;Aak3xKdQ;DANIEL NATHANAEL TANUDJAJA;17;Student;null;now;now
 135;160424015;U5P91GQJ;MICHAEL KEVIN;19;Student;null;now;now
@@ -364,3 +364,4 @@ id;username;password;name;group;role;current_pos;created_at;updated_at
 363;160723040;edmobft24!@#$;Davina Seviola Santoso;25;Student;null;now;now
 364;160323050;edmobft24!@#$;Rachel Hedi S;25;Student;null;now;now
 365;160423062;edmobft24!@#$;Fransiskus Hendra Setiawan Roni;25;Student;null;now;now
+366;160424198;gzksOuD8;JAMES ANTONIO;20;Student;null;now;now

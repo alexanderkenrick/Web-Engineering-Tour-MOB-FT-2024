@@ -62,7 +62,7 @@ id;questions_id;option_text;isCorrect
 61;16;A. Dr. Joko Siswantoro S.Si., M.Si.;1
 62;16;B. Ir. Hudiyo Firmanto, M.Sc., Ph.D;0
 63;16;C. Gunawan Ph.D.;0
-64;16;D. Dr. Aloysius Yuli Widianto S.T., M.Sc.;0
+64;16;D. Dr. Aloisiyus Yuli Widianto S.T., M.Sc.;0
 65;17;A. Teknik Elektro;0
 66;17;B. Teknik Industri;0
 67;17;C. Teknik Informatika;0
@@ -98,7 +98,7 @@ id;questions_id;option_text;isCorrect
 97;25;A. Ir. Hudiyo Firmanto, M.Sc., Ph.D;1
 98;25;B. Misdi, S.T.;0
 99;25;C. Thomas Widyamoko, S.T.;0
-100;25;D. Dr. Aloysius Yuli Widianto S.T., M.Sc.;0
+100;25;D. Dr. Aloisiyus Yuli Widianto S.T., M.Sc.;0
 101;26;A. Computer Network Communication;0
 102;26;B. Common Network Configuration;0
 103;26;C. Computer Numerical Control;1
@@ -135,13 +135,13 @@ id;questions_id;option_text;isCorrect
 134;34;B. Demonstrasi Pada Anak SMA;0
 135;34;C. Penelitian Dosen Dan Mahasiswa;0
 136;34;D. Praktikum Ergonomi;1
-137;35;A. Sukris Purwanti, S.Si;1
+137;35;A. Sukris Purwanto, S.Si;1
 138;35;B. Kristina Puji Setiawan;0
 139;35;C. Sunardi Tjandra, S.T., M.T.;0
 140;35;D. Dyah Ayu Ambarsari, S.T.;0
 141;36;A. 4 Lantai & 11 Kelas;0
 142;36;B. 3 Lantai & 12 Kelas;0
-143;36;C. 4 Lantai & 12 Kelas;1
+143;36;C. 4 Lantai & 10 Kelas;1
 144;36;D. 4 Lantai & 13 Kelas;0
 145;37;A. KSM Teknik Industri;0
 146;37;B. KSM Teknik Informatika;0

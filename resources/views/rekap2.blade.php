@@ -3,6 +3,10 @@
 @section('css')
 
     <style type="text/css">
+        body{
+            background-color: #390203;  
+        }
+
         #rekap-section {
             color: #ffffff;
         }
@@ -26,10 +30,10 @@
         </div>
         <div class="container-fluid px-5">
             <div class="row">
-                <div class="col-5 text-end col-sm-2">
+                <div class="col-5 text-end col-sm-3">
                     <label for="select-team">Kelompok :</label>
                 </div>
-                <div class="col-7 col-sm-6">
+                <div class="col-7 col-sm-6" style="margin-bottom: 12px;" >
                      {{-- Team Select --}}
                      <div class="team-select-section">
                         <select name="select-team" id="select-team" class="select2 w-100" onchange="changeGroup()">

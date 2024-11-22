@@ -121,14 +121,24 @@ class TourController extends Controller
             return redirect()->route('dashboard')->with('status', 'error')->with('message', 'Anda sudah menjawab soal ini');
         }
 
-        foreach ($answers as $key => $answer){
-            $userAnswer = new UserAnswer();
-            $userAnswer->users_id = $user->id;
-            $userAnswer->question_id = $key;
-            $userAnswer->pos_id = $request->get('posId');
-            $userAnswer->options_id = $answer['option'];
-            $userAnswer->save();
+        try{
+            DB::beginTransaction();
+            $userAnswers = [];
+            foreach ($answers as $key => $answer){
+                $userAnswers[] = [
+                    "users_id" => $user->id,
+                    "question_id" => $key,
+                    "pos_id" => $request->get('posId'),
+                    "options_id" => $answer['option']
+                ];
+            }
+            UserAnswer::insert($userAnswers);
+            DB::commit();
+        }catch (\PDOException $e){
+            DB::rollBack();
+            return redirect()->route('dashboard')->with('status', 'error')->with('message', 'Gagal menyimpan jawaban');
         }
+
 
         return redirect()->route('dashboard')->with('status', 'success')->with('message', 'Berhasil menyimpan jawaban');
     }
